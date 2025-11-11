@@ -1949,7 +1949,7 @@
       "useDecimalTerminology": true,
       "atisVoice": {
         "useTextToSpeech": true,
-        "voice": "Default",
+        "voice": "UK Male",
         "speechRate": 180
       },
       "presets": [
@@ -6534,6 +6534,7 @@
           "id": "b8f96dda-e1cc-4225-94c3-78c1f8969d86",
           "ordinal": 1,
           "name": "DEP11ARR11 (RNP)",
+          "airportConditions": "",
           "template": "@EBAW @ATIS [ATIS_CODE] \r\n[TIME]\r\n@VOR @ARR @RWY11\r\n@DEP @RWY11\r\n[ARPT_COND]\r\n[TL]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX][CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
@@ -15171,3 +15172,4 @@
   "version": 4
 
 }
+
