@@ -2,7 +2,7 @@
   "name": "EBBU",
   "id": "6e87b213-e74a-4b85-bf17-616b9dbb5129",
   "updateUrl": "https://raw.githubusercontent.com/NichoAir/vAtis-EBBU-Profile/refs/heads/main/vATIS%20Profile%20-%20EBBU.json",
-  "updateSerial": 2025110101,
+  "updateSerial": 2025110102,
   "stations": [
     {
       "id": "5a7b83ed-7c42-4462-b25e-3f8a890434b2",
@@ -14943,7 +14943,38 @@
           "template": {}
         },
         "transitionLevel": {
-          "values": [],
+          "values": [
+            {
+              "low": 900,
+              "high": 959,
+              "altitude": 80
+            },
+            {
+              "low": 960,
+              "high": 977,
+              "altitude": 75
+            },
+            {
+              "low": 978,
+              "high": 995,
+              "altitude": 70
+            },
+            {
+              "low": 996,
+              "high": 1013,
+              "altitude": 65
+            },
+            {
+              "low": 1014,
+              "high": 1031,
+              "altitude": 60
+            },
+            {
+              "low": 1032,
+              "high": 1100,
+              "altitude": 55
+            }
+          ],
           "template": {
             "text": "TRL {trl}",
             "voice": "TRANSITION LEVEL {trl}."
@@ -15138,4 +15169,5 @@
     }
   ],
   "version": 4
+
 }
