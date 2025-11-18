@@ -2,7 +2,7 @@
   "name": "EBBU",
   "id": "6e87b213-e74a-4b85-bf17-616b9dbb5129",
   "updateUrl": "https://raw.githubusercontent.com/NichoAir/vAtis-EBBU-Profile/refs/heads/main/vATIS%20Profile%20-%20EBBU.json",
-  "updateSerial": 2025110103,
+  "updateSerial": 2025111801,
   "stations": [
     {
       "id": "5a7b83ed-7c42-4462-b25e-3f8a890434b2",
@@ -1931,8 +1931,8 @@
         },
         "notams": {
           "template": {
-            "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "text": "{notams}",
+            "voice": "Notice to Airmen: {notams}."
           }
         },
         "closingStatement": {
@@ -6670,18 +6670,18 @@
         },
         {
           "variableName": "ILS",
-          "text": "EXP ILS APP",
-          "voice": "EXPECT ILS APPROACH."
+          "text": "EXP STD ILS APP",
+          "voice": "EXPECT STANDARD ILS APPROACH."
         },
         {
           "variableName": "VOR",
-          "text": "EXP VOR APP",
-          "voice": "EXPECT VOR APPROACH."
+          "text": "EXP STD VOR APP",
+          "voice": "EXPECT STANDARD VOR APPROACH."
         },
         {
           "variableName": "RNP",
-          "text": "EXP RNP APP",
-          "voice": "EXPECT RNP APPROACH"
+          "text": "EXP STD RNP APP",
+          "voice": "EXPECT STANDARD RNP APPROACH"
         },
         {
           "variableName": "RWY11",
@@ -15039,6 +15039,8 @@
           "id": "b3dd662d-3a99-4d42-a25b-7db2de7b038c",
           "ordinal": 2,
           "name": "24 (ILS)",
+          "airportConditions": "",
+          "notams": "",
           "template": "@ELLX @ATIS [ATIS_CODE] \r\n[TIME]\r\n@ILS \r\n@RWY24\r\n[TL]\r\n[ARPT_COND]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX][CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[NOTAMS]\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
@@ -15132,12 +15134,12 @@
         {
           "text": "DELIVERY CLOSED.",
           "ordinal": 1,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "DELIVERY OPEN.",
           "ordinal": 2,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "LOW VISIBILITY PROCEDURES IN OPERATION. DEPARTING AIRCRAFT, USE CAT TWO THREE HOLDING POINTS. ARRIVING AIRCRAFT, LATEST RVR WILL BE GIVEN ON THE ATC FREQUENCY. CHECK YOUR MINIMA",
@@ -15170,7 +15172,4 @@
     }
   ],
   "version": 4
-
 }
-
-
