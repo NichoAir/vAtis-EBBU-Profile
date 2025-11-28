@@ -2,7 +2,7 @@
   "name": "EBBU",
   "id": "6e87b213-e74a-4b85-bf17-616b9dbb5129",
   "updateUrl": "https://raw.githubusercontent.com/NichoAir/vAtis-EBBU-Profile/refs/heads/main/vATIS%20Profile%20-%20EBBU.json",
-  "updateSerial": 2025111801,
+  "updateSerial": 2025112801,
   "stations": [
     {
       "id": "5a7b83ed-7c42-4462-b25e-3f8a890434b2",
@@ -13069,7 +13069,7 @@
       "atisFormat": {
         "observationTime": {
           "template": {
-            "text": "{time}Z",
+            "text": "{time}",
             "voice": "{time} ZULU {special}"
           }
         },
@@ -13081,39 +13081,39 @@
           },
           "standard": {
             "template": {
-              "text": "{wind_dir}/{wind_spd}KT",
-              "voice": "WIND {wind_dir} degrees {wind_spd} knots"
+              "text": "WIND {wind_dir} Degrees {wind_spd} Knots.",
+              "voice": "WIND {wind_dir} degrees {wind_spd} knots."
             }
           },
           "standardGust": {
             "template": {
-              "text": "{wind_dir}/{wind_spd}G{wind_gust}KT",
-              "voice": "WIND {wind_dir} Degress {wind_spd} Knots, Gusting {wind_gust} Knots"
+              "text": "WIND {wind_dir} Degress {wind_spd} Knots, Gusting {wind_gust} Knots",
+              "voice": "WIND {wind_dir} Degress {wind_spd} Knots, Gusting {wind_gust} Knots."
             }
           },
           "variable": {
             "template": {
-              "text": "VRB{wind_spd}KT",
-              "voice": "WIND VARIABLE {wind_spd} Knots"
+              "text": "WIND VARIABLE {wind_spd} Knots",
+              "voice": "WIND VARIABLE {wind_spd} Knots."
             }
           },
           "variableGust": {
             "template": {
-              "text": "VRB{wind_spd}G{wind_gust}KT",
-              "voice": "WIND VARIABLE {wind_spd} Knots Gusting {wind_gust} Knots"
+              "text": "WIND VARIABLE {wind_spd} Knots Gusting {wind_gust} Knots",
+              "voice": "WIND VARIABLE {wind_spd} Knots Gusting {wind_gust} Knots."
             }
           },
           "variableDirection": {
             "template": {
-              "text": "{wind_vmin}V{wind_vmax}",
-              "voice": "WIND VARIABLE BETWEEN {wind_vmin} AND {wind_vmax} Degrees"
+              "text": "WIND VARIABLE BETWEEN {wind_vmin} AND {wind_vmax} Degrees",
+              "voice": "WIND VARIABLE BETWEEN {wind_vmin} AND {wind_vmax} Degrees."
             }
           },
           "calm": {
             "calmWindSpeed": 2,
             "template": {
-              "text": "{wind}",
-              "voice": "WIND CALM"
+              "text": "WIND CALM",
+              "voice": "WIND CALM."
             }
           }
         },
@@ -13127,11 +13127,11 @@
           "west": "to the west",
           "northWest": "to the north-west",
           "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
-          "unlimitedVisibilityText": "VIS ABV 10KM",
+          "unlimitedVisibilityText": "visibility 10 kilometers or more",
           "includeVisibilitySuffix": true,
           "metersCutoff": 5000,
           "template": {
-            "text": "{visibility}",
+            "text": "VISIBILITY {visibility} meters",
             "voice": "VISIBILITY {visibility}"
           }
         },
@@ -14908,7 +14908,7 @@
           "usePlusPrefix": false,
           "speakLeadingZero": false,
           "template": {
-            "text": "T{temp}",
+            "text": "TEMPERATURE {temp}",
             "voice": "TEMPERATURE {temp}"
           }
         },
@@ -14916,7 +14916,7 @@
           "usePlusPrefix": false,
           "speakLeadingZero": false,
           "template": {
-            "text": "D{dewpoint}",
+            "text": "DEWPOINT {dewpoint}",
             "voice": "DEWPOINT {dewpoint}"
           }
         },
@@ -14937,9 +14937,9 @@
           "template": {}
         },
         "windShear": {
-          "runwayText": "WS R{Runway}",
+          "runwayText": "Wind Shear Runway {Runway}",
           "runwayVoice": "Wind Shear Runway {Runway}",
-          "allRunwayText": "WS ALL RWY",
+          "allRunwayText": "Wind Shear All Runways",
           "allRunwayVoice": "Wind Shear All Runways",
           "template": {}
         },
@@ -14977,20 +14977,20 @@
             }
           ],
           "template": {
-            "text": "TRL {trl}",
+            "text": "TRANSITION LEVEL {trl}.",
             "voice": "TRANSITION LEVEL {trl}."
           }
         },
         "notams": {
           "template": {
-            "text": "{notams}",
+            "text": "{notams}.",
             "voice": "{notams}."
           }
         },
         "closingStatement": {
           "autoIncludeClosingStatement": true,
           "template": {
-            "text": "CFM ATIS {letter}.",
+            "text": "CONFIRM INFORMATION {letter} ON FIRST CONTACT",
             "voice": "CONFIRM INFORMATION {letter|word} ON FIRST CONTACT"
           }
         }
@@ -15002,7 +15002,7 @@
       "atisVoice": {
         "useTextToSpeech": true,
         "voice": "UK Male",
-        "speechRate": 170
+        "speechRate": 180
       },
       "presets": [
         {
@@ -15041,7 +15041,7 @@
           "name": "24 (ILS)",
           "airportConditions": "",
           "notams": "",
-          "template": "@ELLX @ATIS [ATIS_CODE] \r\n[TIME]\r\n@ILS \r\n@RWY24\r\n[TL]\r\n[ARPT_COND]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX][CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[NOTAMS]\r\n[CLOSING]",
+          "template": "@ELLX @ATIS [ATIS_CODE] [TIME] @ILS @RWY24 [TL] [ARPT_COND] [WIND] [VIS] [RVR] [PRESENT_WX][CLOUDS] [TEMP] [DEW] [PRESSURE] [RECENT_WX] [TREND] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -15056,7 +15056,7 @@
           "id": "317e36ba-6b0f-45dc-9e8e-46f048645bc8",
           "ordinal": 3,
           "name": "24 (RNP)",
-          "template": "@ELLX @ATIS [ATIS_CODE] \r\n[TIME]\r\n@RNP \r\n@RWY24\r\n[TL]\r\n[ARPT_COND]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX][CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[NOTAMS]\r\n[CLOSING]",
+          "template": "@ELLX @ATIS [ATIS_CODE] [TIME] @RNP @RWY24 [TL] [ARPT_COND] [WIND] [VIS] [RVR] [PRESENT_WX][CLOUDS] [TEMP] [DEW] [PRESSURE] [RECENT_WX] [TREND] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -15071,7 +15071,7 @@
           "id": "b920531a-ab08-473f-87e1-e5c2a32ea919",
           "ordinal": 4,
           "name": "06 (ILS)",
-          "template": "@ELLX @ATIS [ATIS_CODE] \r\n[TIME]\r\n@ILS \r\n@RWY06\r\n[TL]\r\n[ARPT_COND]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX][CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[NOTAMS]\r\n[CLOSING]",
+          "template": "@ELLX @ATIS [ATIS_CODE] [TIME] @ILS @RWY06 [TL] [ARPT_COND] [WIND] [VIS] [RVR] [PRESENT_WX][CLOUDS] [TEMP] [DEW] [PRESSURE] [RECENT_WX] [TREND] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -15086,7 +15086,7 @@
           "id": "950a3043-d45e-46b3-9ef4-f316b1cee13e",
           "ordinal": 5,
           "name": "06 (RNP)",
-          "template": "@ELLX @ATIS [ATIS_CODE] \r\n[TIME]\r\n@RNP \r\n@RWY06\r\n[TL]\r\n[ARPT_COND]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX][CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[NOTAMS]\r\n[CLOSING]",
+          "template": "@ELLX @ATIS [ATIS_CODE] [TIME] @RNP @RWY06 [TL] [ARPT_COND] [WIND] [VIS] [RVR] [PRESENT_WX][CLOUDS] [TEMP] [DEW] [PRESSURE] [RECENT_WX] [TREND] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -15101,32 +15101,32 @@
       "contractions": [
         {
           "variableName": "ELLX",
-          "text": "ELLX",
+          "text": "LUXEMBOURG",
           "voice": "LUXEMBURG"
         },
         {
           "variableName": "ILS",
-          "text": "EXP VECT FOR ILS APP",
+          "text": "EXPECT VECTORS FOR ILS APPROACH",
           "voice": "EXPECT VECTORS FOR ILS APPROACH."
         },
         {
           "variableName": "RNP",
-          "text": "EXP RNP APP",
+          "text": "EXPECT RNP APPROACH",
           "voice": "EXPECT RNP APPROACH."
         },
         {
           "variableName": "RWY24",
-          "text": "RWY24",
+          "text": "RWY IN USE 24.",
           "voice": "RWY IN USE ^24."
         },
         {
           "variableName": "RWY06",
-          "text": "RWY06",
+          "text": "RWY IN USE 06.",
           "voice": "RWY IN USE ^06."
         },
         {
           "variableName": "ATIS",
-          "text": "ATIS",
+          "text": "ARRIVAL AND DEPARTURE INFORMATION",
           "voice": "ARRIVAL AND DEPARTURE INFORMATION"
         }
       ],
@@ -15134,15 +15134,15 @@
         {
           "text": "DELIVERY CLOSED.",
           "ordinal": 1,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "DELIVERY OPEN.",
           "ordinal": 2,
-          "enabled": false
+          "enabled": true
         },
         {
-          "text": "LOW VISIBILITY PROCEDURES IN OPERATION. DEPARTING AIRCRAFT, USE CAT TWO THREE HOLDING POINTS. ARRIVING AIRCRAFT, LATEST RVR WILL BE GIVEN ON THE ATC FREQUENCY. CHECK YOUR MINIMA",
+          "text": "LOW VISIBILITY PROCEDURES IN OPERATION. DEPARTING AIRCRAFT, USE CAT TWO THREE HOLDING POINTS. ARRIVING AIRCRAFT, LATEST RVR WILL BE GIVEN ON THE ATC FREQUENCY. CHECK YOUR MINIMA.",
           "ordinal": 3,
           "enabled": false
         }
@@ -15173,3 +15173,4 @@
   ],
   "version": 4
 }
+
