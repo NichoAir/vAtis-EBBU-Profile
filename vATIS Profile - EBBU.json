@@ -2,7 +2,7 @@
   "name": "EBBU",
   "id": "6e87b213-e74a-4b85-bf17-616b9dbb5129",
   "updateUrl": "https://raw.githubusercontent.com/NichoAir/vAtis-EBBU-Profile/refs/heads/main/vATIS%20Profile%20-%20EBBU.json",
-  "updateSerial": 2025112902,
+  "updateSerial": 2025112903,
   "stations": [
     {
       "id": "5a7b83ed-7c42-4462-b25e-3f8a890434b2",
@@ -1957,7 +1957,7 @@
           "id": "c3547bde-7716-4996-bad6-0603316639a2",
           "ordinal": 0,
           "name": "25RDEP25LARR",
-          "template": "@EBBR_DEP [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@DEP @RWY25R. @ARR @RWY25L [TL]\r\n[ARPT_COND]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX][CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_DEP [ATIS_CODE]",
+          "template": "@EBBR_DEP [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@DEP @RWY25R. @ARR @RWY25L [TL]\r\n[ARPT_COND]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_DEP [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -1972,7 +1972,7 @@
           "id": "0a8a1247-6bac-4377-a35f-7948504ffe96",
           "ordinal": 1,
           "name": "25RDEP25L25RARR",
-          "template": "@EBBR_DEP [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@DEP @RWY25R. \r\n@ARR @RWY25L25R [TL]\r\n[ARPT_COND]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX][CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_DEP [ATIS_CODE]",
+          "template": "@EBBR_DEP [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@DEP @RWY25R. \r\n@ARR @RWY25L25R [TL]\r\n[ARPT_COND]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_DEP [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -1987,7 +1987,7 @@
           "id": "db949ced-a588-46f8-8e11-d18c9f6346a5",
           "ordinal": 2,
           "name": "25R19DEP25RARR",
-          "template": "@EBBR_DEP [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@DEP @RWY25R19. @ARR @RWY25R [TL]\r\n[ARPT_COND]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX][CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_DEP [ATIS_CODE]",
+          "template": "@EBBR_DEP [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@DEP @RWY25R19. @ARR @RWY25R [TL]\r\n[ARPT_COND]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_DEP [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -2002,7 +2002,7 @@
           "id": "7f550d04-a0c5-4771-bac7-55075384e18d",
           "ordinal": 3,
           "name": "19_SRO",
-          "template": "@EBBR_DEP [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@DEP @RWY19. @ARR @RWY19 [TL]\r\n[ARPT_COND]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX][CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_DEP [ATIS_CODE]",
+          "template": "@EBBR_DEP [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@DEP @RWY19. @ARR @RWY19 [TL]\r\n[ARPT_COND]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_DEP [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -2017,7 +2017,7 @@
           "id": "6f38068f-03f9-4e36-a477-2e30ff74188d",
           "ordinal": 4,
           "name": "07RDEP01ARR",
-          "template": "@EBBR_DEP [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@DEP @RWY07R. @ARR @RWY01 [TL]\r\n[ARPT_COND]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX][CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_DEP [ATIS_CODE]",
+          "template": "@EBBR_DEP [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@DEP @RWY07R. @ARR @RWY01 [TL]\r\n[ARPT_COND]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_DEP [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -2032,7 +2032,7 @@
           "id": "bedf4f0f-f8dd-406e-b402-24922a323fd7",
           "ordinal": 5,
           "name": "07R_SRO",
-          "template": "@EBBR_DEP [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@DEP @RWY07R. @ARR @RWY07R [TL]\r\n[ARPT_COND]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX][CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_DEP [ATIS_CODE]",
+          "template": "@EBBR_DEP [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@DEP @RWY07R. @ARR @RWY07R [TL]\r\n[ARPT_COND]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_DEP [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -2047,7 +2047,7 @@
           "id": "1e54b544-6c07-41d2-955c-fb2677219ff8",
           "ordinal": 6,
           "name": "07L_SRO",
-          "template": "@EBBR_DEP [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@DEP @RWY07L. @ARR @RWY07L [TL]\r\n[ARPT_COND]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX][CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_DEP [ATIS_CODE]",
+          "template": "@EBBR_DEP [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@DEP @RWY07L. @ARR @RWY07L [TL]\r\n[ARPT_COND]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_DEP [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -2062,7 +2062,7 @@
           "id": "9dc3f00f-3d2f-44a9-b3f2-643c612631ba",
           "ordinal": 7,
           "name": "01_SRO",
-          "template": "@EBBR_DEP [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@DEP @RWY01. @ARR @RWY01 [TL]\r\n[ARPT_COND]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX][CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_DEP [ATIS_CODE]",
+          "template": "@EBBR_DEP [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@DEP @RWY01. @ARR @RWY01 [TL]\r\n[ARPT_COND]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_DEP [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -2077,7 +2077,7 @@
           "id": "eccf4148-2245-4181-8dd2-0f6942f4b475",
           "ordinal": 8,
           "name": "25R_SRO",
-          "template": "@EBBR_DEP [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@DEP @RWY25R. @ARR @RWY25R [TL]\r\n[ARPT_COND]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX][CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_DEP [ATIS_CODE]",
+          "template": "@EBBR_DEP [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@DEP @RWY25R. @ARR @RWY25R [TL]\r\n[ARPT_COND]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_DEP [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -2092,7 +2092,7 @@
           "id": "c0431d32-0d73-4b7b-b18f-3823480c8a7f",
           "ordinal": 9,
           "name": "25L_SRO",
-          "template": "@EBBR_DEP [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@DEP @RWY25L. @ARR @RWY25L [TL]\r\n[ARPT_COND]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX][CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_DEP [ATIS_CODE]",
+          "template": "@EBBR_DEP [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@DEP @RWY25L. @ARR @RWY25L [TL]\r\n[ARPT_COND]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_DEP [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -2107,7 +2107,7 @@
           "id": "3de8e1e4-781c-45e8-849f-94634c2fc309",
           "ordinal": 10,
           "name": "25R19DEP25L25RARR",
-          "template": "@EBBR_DEP [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@DEP @RWY25R19. \r\n@ARR @RWY25L25R [TL] @XNG\r\n[ARPT_COND]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX][CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_DEP [ATIS_CODE]",
+          "template": "@EBBR_DEP [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@DEP @RWY25R19. \r\n@ARR @RWY25L25R [TL] @XNG\r\n[ARPT_COND]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_DEP [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -4153,7 +4153,7 @@
           "id": "d8e1cfd5-8bd9-484e-b913-881085a8af1f",
           "ordinal": 1,
           "name": "25RDEP25LARR (ILS)",
-          "template": "@EBBR_ARR [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@ILS @ARR @RWY25L\r\n@DEP @RWY25R [TL]\r\n[ARPT_COND]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX][CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_ARR [ATIS_CODE]",
+          "template": "@EBBR_ARR [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@ILS @ARR @RWY25L\r\n@DEP @RWY25R [TL]\r\n[ARPT_COND]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_ARR [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -4168,7 +4168,7 @@
           "id": "f719a772-0495-4e4d-b78a-75e244d2ffc0",
           "ordinal": 2,
           "name": "25RDEP25L25RARR (ILS) (INDEP)",
-          "template": "@EBBR_ARR [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@ILS_INDEP @ARR @RWY25L25R \r\n@DEP @RWY25R [TL]\r\n[ARPT_COND]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX][CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_ARR [ATIS_CODE]",
+          "template": "@EBBR_ARR [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@ILS_INDEP @ARR @RWY25L25R \r\n@DEP @RWY25R [TL]\r\n[ARPT_COND]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_ARR [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -4183,7 +4183,7 @@
           "id": "686b02e7-83d6-489a-b49d-e2fdd140ec32",
           "ordinal": 2,
           "name": "25RDEP25L25RARR (ILS) (DEP)",
-          "template": "@EBBR_ARR [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@ILS_DEP @ARR @RWY25L25R \r\n@DEP @RWY25R [TL]\r\n[ARPT_COND]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX][CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_ARR [ATIS_CODE]",
+          "template": "@EBBR_ARR [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@ILS_DEP @ARR @RWY25L25R \r\n@DEP @RWY25R [TL]\r\n[ARPT_COND]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_ARR [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -4198,7 +4198,7 @@
           "id": "5907604a-7576-433c-adb0-7d5e71e82910",
           "ordinal": 4,
           "name": "25R19DEP25RARR (ILS)",
-          "template": "@EBBR_ARR [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@ILS @ARR @RWY25R \r\n@DEP @RWY25R19 [TL]\r\n[ARPT_COND]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX][CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_ARR [ATIS_CODE]",
+          "template": "@EBBR_ARR [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@ILS @ARR @RWY25R \r\n@DEP @RWY25R19 [TL]\r\n[ARPT_COND]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_ARR [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -4213,7 +4213,7 @@
           "id": "7571caa3-c002-4576-8ff6-79355ad883f2",
           "ordinal": 5,
           "name": "19_SRO (ILS)",
-          "template": "@EBBR_ARR [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@ILS @ARR @RWY19 \r\n@DEP @RWY19 [TL]\r\n[ARPT_COND]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX][CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_ARR [ATIS_CODE]",
+          "template": "@EBBR_ARR [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@ILS @ARR @RWY19 \r\n@DEP @RWY19 [TL]\r\n[ARPT_COND]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_ARR [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -4228,7 +4228,7 @@
           "id": "e3aaee35-bc8b-4479-9064-ce3aabadf3c6",
           "ordinal": 6,
           "name": "07RDEP01ARR (ILS)",
-          "template": "@EBBR_ARR [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@ILS @ARR @RWY01 \r\n@DEP @RWY07R [TL]\r\n[ARPT_COND]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX][CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_ARR [ATIS_CODE]",
+          "template": "@EBBR_ARR [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@ILS @ARR @RWY01 \r\n@DEP @RWY07R [TL]\r\n[ARPT_COND]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_ARR [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -4243,7 +4243,7 @@
           "id": "d3753dec-f108-499d-b3e0-137b01dd4766",
           "ordinal": 7,
           "name": "07R_SRO (VOR)",
-          "template": "@EBBR_ARR [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@VOR @ARR @RWY07R \r\n@DEP @RWY07R [TL]\r\n[ARPT_COND]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX][CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_ARR [ATIS_CODE]",
+          "template": "@EBBR_ARR [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@VOR @ARR @RWY07R \r\n@DEP @RWY07R [TL]\r\n[ARPT_COND]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_ARR [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -4258,7 +4258,7 @@
           "id": "4d3e07e9-0f6d-4360-b9be-f2eb12a0dc44",
           "ordinal": 8,
           "name": "07L_SRO (RNP)",
-          "template": "@EBBR_ARR [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@RNP @ARR @RWY07L \r\n@DEP @RWY07L [TL]\r\n[ARPT_COND]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX][CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_ARR [ATIS_CODE]",
+          "template": "@EBBR_ARR [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@RNP @ARR @RWY07L \r\n@DEP @RWY07L [TL]\r\n[ARPT_COND]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_ARR [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -4273,7 +4273,7 @@
           "id": "3973f79f-2bf6-4b8d-80d3-32dbeb5a9e65",
           "ordinal": 9,
           "name": "01_SRO (ILS)",
-          "template": "@EBBR_ARR [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@ILS @ARR @RWY01 \r\n@DEP @RWY01 [TL]\r\n[ARPT_COND]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX][CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_ARR [ATIS_CODE]",
+          "template": "@EBBR_ARR [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@ILS @ARR @RWY01 \r\n@DEP @RWY01 [TL]\r\n[ARPT_COND]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_ARR [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -4288,7 +4288,7 @@
           "id": "6738a2eb-b1a0-430b-9515-3c673eaded75",
           "ordinal": 10,
           "name": "25R_SRO (ILS)",
-          "template": "@EBBR_ARR [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@ILS @ARR @RWY25R \r\n@DEP @RWY25R [TL]\r\n[ARPT_COND]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX][CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_ARR [ATIS_CODE]",
+          "template": "@EBBR_ARR [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@ILS @ARR @RWY25R \r\n@DEP @RWY25R [TL]\r\n[ARPT_COND]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_ARR [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -4303,7 +4303,7 @@
           "id": "e8387592-bc61-4bbb-a698-fb56e4326c02",
           "ordinal": 11,
           "name": "25L_SRO (ILS)",
-          "template": "@EBBR_ARR [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@ILS @ARR @RWY25L \r\n@DEP @RWY25L [TL]\r\n[ARPT_COND]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX][CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_ARR [ATIS_CODE]",
+          "template": "@EBBR_ARR [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@ILS @ARR @RWY25L \r\n@DEP @RWY25L [TL]\r\n[ARPT_COND]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_ARR [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -4318,7 +4318,7 @@
           "id": "a977d533-2f8f-4659-b5bb-87aa98b47c10",
           "ordinal": 12,
           "name": "25RDEP25LARR (VOR)",
-          "template": "@EBBR_ARR [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@VOR @ARR @RWY25L\r\n@DEP @RWY25R [TL]\r\n[ARPT_COND]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX][CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_ARR [ATIS_CODE]",
+          "template": "@EBBR_ARR [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@VOR @ARR @RWY25L\r\n@DEP @RWY25R [TL]\r\n[ARPT_COND]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_ARR [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -4333,7 +4333,7 @@
           "id": "768d8904-68a1-4319-9e9a-c36cc6baa5e7",
           "ordinal": 13,
           "name": "19_SRO (RNP)",
-          "template": "@EBBR_ARR [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@RNP @ARR @RWY19 \r\n@DEP @RWY19 [TL]\r\n[ARPT_COND]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX][CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_ARR [ATIS_CODE]",
+          "template": "@EBBR_ARR [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@RNP @ARR @RWY19 \r\n@DEP @RWY19 [TL]\r\n[ARPT_COND]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_ARR [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -4348,7 +4348,7 @@
           "id": "1cbad313-e6f5-45cc-aa72-05059b2593fd",
           "ordinal": 14,
           "name": "25RDEP25LARR (RNP)",
-          "template": "@EBBR_ARR [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@RNP @ARR @RWY25L\r\n@DEP @RWY25R [TL]\r\n[ARPT_COND]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX][CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_ARR [ATIS_CODE]",
+          "template": "@EBBR_ARR [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@RNP @ARR @RWY25L\r\n@DEP @RWY25R [TL]\r\n[ARPT_COND]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_ARR [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -4363,7 +4363,7 @@
           "id": "0d40462f-74ed-4252-8871-5a3a57d5e24f",
           "ordinal": 15,
           "name": "07RDEP01ARR (RNP)",
-          "template": "@EBBR_ARR [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@RNP @ARR @RWY01 \r\n@DEP @RWY07R [TL]\r\n[ARPT_COND]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX][CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_ARR [ATIS_CODE]",
+          "template": "@EBBR_ARR [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@RNP @ARR @RWY01 \r\n@DEP @RWY07R [TL]\r\n[ARPT_COND]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_ARR [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -4378,7 +4378,7 @@
           "id": "54b41229-9caf-43d8-83eb-ee628bc27b1b",
           "ordinal": 16,
           "name": "01_SRO (RNP)",
-          "template": "@EBBR_ARR [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@RNP @ARR @RWY01 \r\n@DEP @RWY01 [TL]\r\n[ARPT_COND]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX][CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_ARR [ATIS_CODE]",
+          "template": "@EBBR_ARR [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@RNP @ARR @RWY01 \r\n@DEP @RWY01 [TL]\r\n[ARPT_COND]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_ARR [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -4393,7 +4393,7 @@
           "id": "0cb17828-0437-4614-a04b-0d3a9e802f07",
           "ordinal": 17,
           "name": "25R_SRO (RNP)",
-          "template": "@EBBR_ARR [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@RNP @ARR @RWY25R \r\n@DEP @RWY25R [TL]\r\n[ARPT_COND]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX][CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_ARR [ATIS_CODE]",
+          "template": "@EBBR_ARR [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@RNP @ARR @RWY25R \r\n@DEP @RWY25R [TL]\r\n[ARPT_COND]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_ARR [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -4408,7 +4408,7 @@
           "id": "6ed8a788-a56d-4d3a-8101-02d1c019038a",
           "ordinal": 18,
           "name": "25L_SRO (RNP)",
-          "template": "@EBBR_ARR [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@RNP @ARR @RWY25L \r\n@DEP @RWY25L [TL]\r\n[ARPT_COND]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX][CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_ARR [ATIS_CODE]",
+          "template": "@EBBR_ARR [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@RNP @ARR @RWY25L \r\n@DEP @RWY25L [TL]\r\n[ARPT_COND]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_ARR [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -4423,7 +4423,7 @@
           "id": "a010d0c3-2f61-4446-81d2-43b129a09d47",
           "ordinal": 19,
           "name": "25L_SRO (VOR)",
-          "template": "@EBBR_ARR [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@VOR @ARR @RWY25L \r\n@DEP @RWY25L [TL]\r\n[ARPT_COND]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX][CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_ARR [ATIS_CODE]",
+          "template": "@EBBR_ARR [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@VOR @ARR @RWY25L \r\n@DEP @RWY25L [TL]\r\n[ARPT_COND]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_ARR [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -4438,7 +4438,7 @@
           "id": "9cbe5c84-a45c-4c35-95a9-a496c3c8c7a9",
           "ordinal": 20,
           "name": "25R19DEP25RARR (RNP)",
-          "template": "@EBBR_ARR [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@RNP @ARR @RWY25R \r\n@DEP @RWY25R19 [TL]\r\n[ARPT_COND]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX][CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_ARR [ATIS_CODE]",
+          "template": "@EBBR_ARR [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@RNP @ARR @RWY25R \r\n@DEP @RWY25R19 [TL]\r\n[ARPT_COND]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_ARR [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -4453,7 +4453,7 @@
           "id": "f2b75c94-5695-4b5a-833a-fd4b1802ba5a",
           "ordinal": 21,
           "name": "25R19DEP25L25RARR (ILS)",
-          "template": "@EBBR_ARR [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@ILS @ARR @RWY25L25R\r\n@DEP @RWY25R19 [TL] @XNG\r\n[ARPT_COND]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX][CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_ARR [ATIS_CODE]",
+          "template": "@EBBR_ARR [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@ILS @ARR @RWY25L25R\r\n@DEP @RWY25R19 [TL] @XNG\r\n[ARPT_COND]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_ARR [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -6535,7 +6535,7 @@
           "ordinal": 1,
           "name": "DEP11ARR11 (RNP)",
           "airportConditions": "",
-          "template": "@EBAW @ATIS [ATIS_CODE] \r\n[TIME]\r\n@VOR @ARR @RWY11\r\n@DEP @RWY11\r\n[ARPT_COND]\r\n[TL]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX][CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM [ATIS_CODE]",
+          "template": "@EBAW @ATIS [ATIS_CODE] \r\n[TIME]\r\n@VOR @ARR @RWY11\r\n@DEP @RWY11\r\n[ARPT_COND]\r\n[TL]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -6550,7 +6550,7 @@
           "id": "0c4bf607-9496-463e-9e51-66c69fbf8ee5",
           "ordinal": 2,
           "name": "DEP11ARR11 (VOR)",
-          "template": "@EBAW @ATIS [ATIS_CODE] \r\n[TIME]\r\n@VOR @ARR @RWY11\r\n@DEP @RWY11\r\n[ARPT_COND]\r\n[TL]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX][CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM [ATIS_CODE]",
+          "template": "@EBAW @ATIS [ATIS_CODE] \r\n[TIME]\r\n@VOR @ARR @RWY11\r\n@DEP @RWY11\r\n[ARPT_COND]\r\n[TL]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -6565,7 +6565,7 @@
           "id": "28dcd442-878e-451e-b32d-a542c63b7d78",
           "ordinal": 3,
           "name": "DEP11ARR29 (ILS)",
-          "template": "@EBAW @ATIS [ATIS_CODE] \r\n[TIME]\r\n@ILS @ARR @RWY29\r\n@DEP @RWY11\r\n[ARPT_COND]\r\n[TL]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX][CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM [ATIS_CODE]",
+          "template": "@EBAW @ATIS [ATIS_CODE] \r\n[TIME]\r\n@ILS @ARR @RWY29\r\n@DEP @RWY11\r\n[ARPT_COND]\r\n[TL]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -6580,7 +6580,7 @@
           "id": "05302e4a-a867-4823-a34b-f16eeb2c0b70",
           "ordinal": 4,
           "name": "DEP11ARR29 (RNP)",
-          "template": "@EBAW @ATIS [ATIS_CODE] \r\n[TIME]\r\n@RNP @ARR @RWY29\r\n@DEP @RWY11\r\n[ARPT_COND]\r\n[TL]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX][CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM [ATIS_CODE]",
+          "template": "@EBAW @ATIS [ATIS_CODE] \r\n[TIME]\r\n@RNP @ARR @RWY29\r\n@DEP @RWY11\r\n[ARPT_COND]\r\n[TL]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -6595,7 +6595,7 @@
           "id": "d5a23a80-0fc7-4b51-b44c-b9b28b2d83f0",
           "ordinal": 4,
           "name": "DEP11ARR29 (VOR)",
-          "template": "@EBAW @ATIS [ATIS_CODE] \r\n[TIME]\r\n@VOR @ARR @RWY29\r\n@DEP @RWY11\r\n[ARPT_COND]\r\n[TL]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX][CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM [ATIS_CODE]",
+          "template": "@EBAW @ATIS [ATIS_CODE] \r\n[TIME]\r\n@VOR @ARR @RWY29\r\n@DEP @RWY11\r\n[ARPT_COND]\r\n[TL]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -6610,7 +6610,7 @@
           "id": "0042eb56-3f4c-42e7-8bbb-1a87fb3091ea",
           "ordinal": 6,
           "name": "DEP29ARR29 (ILS)",
-          "template": "@EBAW @ATIS [ATIS_CODE] \r\n[TIME]\r\n@ILS @ARR @RWY29\r\n@DEP @RWY29\r\n[ARPT_COND]\r\n[TL]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX][CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM [ATIS_CODE]",
+          "template": "@EBAW @ATIS [ATIS_CODE] \r\n[TIME]\r\n@ILS @ARR @RWY29\r\n@DEP @RWY29\r\n[ARPT_COND]\r\n[TL]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -6625,7 +6625,7 @@
           "id": "4600e706-6357-47da-8685-b8da2facf3b5",
           "ordinal": 7,
           "name": "DEP29ARR29 (RNP)",
-          "template": "@EBAW @ATIS [ATIS_CODE] \r\n[TIME]\r\n@RNP @ARR @RWY29\r\n@DEP @RWY29\r\n[ARPT_COND]\r\n[TL]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX][CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM [ATIS_CODE]",
+          "template": "@EBAW @ATIS [ATIS_CODE] \r\n[TIME]\r\n@RNP @ARR @RWY29\r\n@DEP @RWY29\r\n[ARPT_COND]\r\n[TL]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -6640,7 +6640,7 @@
           "id": "c308b36a-5957-4adb-9825-0bc230f46e70",
           "ordinal": 8,
           "name": "DEP29ARR29 (VOR)",
-          "template": "@EBAW @ATIS [ATIS_CODE] \r\n[TIME]\r\n@VOR @ARR @RWY29\r\n@DEP @RWY29\r\n[ARPT_COND]\r\n[TL]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX][CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM [ATIS_CODE]",
+          "template": "@EBAW @ATIS [ATIS_CODE] \r\n[TIME]\r\n@VOR @ARR @RWY29\r\n@DEP @RWY29\r\n[ARPT_COND]\r\n[TL]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -8670,7 +8670,7 @@
         {
           "id": "fe0a2978-4304-4779-8106-e7e4e2f12752",
           "name": "DEP24ARR24 (ILS)",
-          "template": "@EBCI @ATIS [ATIS_CODE] \r\n[TIME]\r\n@ILS \r\n@ARR @RWY24 @DEP @RWY24\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX][CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
+          "template": "@EBCI @ATIS [ATIS_CODE] \r\n[TIME]\r\n@ILS \r\n@ARR @RWY24 @DEP @RWY24\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -8684,7 +8684,7 @@
         {
           "id": "ab8d0b4c-2c46-456f-91b1-145c094a4076",
           "name": "DEP24ARR24 (RNP)",
-          "template": "@EBCI @ATIS [ATIS_CODE] \r\n[TIME]\r\n@RNP \r\n@ARR @RWY24 @DEP @RWY24\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX][CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
+          "template": "@EBCI @ATIS [ATIS_CODE] \r\n[TIME]\r\n@RNP \r\n@ARR @RWY24 @DEP @RWY24\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -8698,7 +8698,7 @@
         {
           "id": "f89e3527-b75a-4e13-b3a1-1dcd3c0754d6",
           "name": "DEP06ARR06 (RNP)",
-          "template": "@EBCI @ATIS [ATIS_CODE] \r\n[TIME]\r\n@RNP \r\n@ARR @RWY06 @DEP @RWY06\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX][CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
+          "template": "@EBCI @ATIS [ATIS_CODE] \r\n[TIME]\r\n@RNP \r\n@ARR @RWY06 @DEP @RWY06\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -10725,7 +10725,7 @@
           "id": "c60e9a18-90ce-4ae7-b08c-c2b457acf5e6",
           "ordinal": 1,
           "name": "DEP26ARR26 (ILS)",
-          "template": "@EBOS @ATIS [ATIS_CODE] \r\n[TIME]\r\n@ILS \r\n@ARR @RWY26 @DEP @RWY26\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX][CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
+          "template": "@EBOS @ATIS [ATIS_CODE] \r\n[TIME]\r\n@ILS \r\n@ARR @RWY26 @DEP @RWY26\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -10740,7 +10740,7 @@
           "id": "099f8823-2320-49af-a977-3fb6986477b3",
           "ordinal": 2,
           "name": "DEP26ARR26 (RNP)",
-          "template": "@EBOS @ATIS [ATIS_CODE] \r\n[TIME]\r\n@RNP \r\n@ARR @RWY26 @DEP @RWY26\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX][CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
+          "template": "@EBOS @ATIS [ATIS_CODE] \r\n[TIME]\r\n@RNP \r\n@ARR @RWY26 @DEP @RWY26\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -10755,7 +10755,7 @@
           "id": "9a77411f-4aad-4361-bae3-bb32fb72b69a",
           "ordinal": 2,
           "name": "DEP08ARR08 (ILS)",
-          "template": "@EBOS @ATIS [ATIS_CODE] \r\n[TIME]\r\n@ILS \r\n@ARR @RWY08 @DEP @RWY08\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX][CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
+          "template": "@EBOS @ATIS [ATIS_CODE] \r\n[TIME]\r\n@ILS \r\n@ARR @RWY08 @DEP @RWY08\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -10770,7 +10770,7 @@
           "id": "1bf331ab-a280-4f29-9177-0ea419890fe1",
           "ordinal": 4,
           "name": "DEP08ARR08 (RNP)",
-          "template": "@EBOS @ATIS [ATIS_CODE] \r\n[TIME]\r\n@RNP \r\n@ARR @RWY08 @DEP @RWY08\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX][CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
+          "template": "@EBOS @ATIS [ATIS_CODE] \r\n[TIME]\r\n@RNP \r\n@ARR @RWY08 @DEP @RWY08\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -10785,7 +10785,7 @@
           "id": "d28f4f66-a9f4-497a-afa6-e4facb9f90f5",
           "ordinal": 5,
           "name": "DEP26ARR08 (ILS) [PRS at night]",
-          "template": "@EBOS @ATIS [ATIS_CODE] \r\n[TIME]\r\n@ILS \r\n@ARR @RWY08 @DEP @RWY26\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX][CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
+          "template": "@EBOS @ATIS [ATIS_CODE] \r\n[TIME]\r\n@ILS \r\n@ARR @RWY08 @DEP @RWY26\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -10800,7 +10800,7 @@
           "id": "097dea6f-d59d-4fcb-b4c2-24ae597551c0",
           "ordinal": 6,
           "name": "DEP26ARR08 (RNP) [PRS at night]",
-          "template": "@EBOS @ATIS [ATIS_CODE] \r\n[TIME]\r\n@RNP \r\n@ARR @RWY08 @DEP @RWY26\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX][CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
+          "template": "@EBOS @ATIS [ATIS_CODE] \r\n[TIME]\r\n@RNP \r\n@ARR @RWY08 @DEP @RWY26\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -10870,6 +10870,16 @@
         {
           "text": "STOP BAR LGT U/S",
           "ordinal": 1,
+          "enabled": true
+        },
+        {
+          "text": "TWY L CL LIGHTS U/S",
+          "ordinal": 2,
+          "enabled": true
+        },
+        {
+          "text": "TWY E1 EDGE LIGHTS U/S",
+          "ordinal": 3,
           "enabled": true
         }
       ]
@@ -12827,7 +12837,7 @@
           "id": "58f447ed-123f-4fbb-90ff-20853c8c48ec",
           "ordinal": 1,
           "name": "22L (ILS) (via rnav)",
-          "template": "@EBLG @ATIS [ATIS_CODE] \r\n[TIME]\r\n@EXPRNV @ILS @ARR @RWY22L @DEP @RWY22L\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX][CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
+          "template": "@EBLG @ATIS [ATIS_CODE] \r\n[TIME]\r\n@EXPRNV @ILS @ARR @RWY22L @DEP @RWY22L\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -12842,7 +12852,7 @@
           "id": "aef2d752-1681-4b35-be24-4abb4ff8eff7",
           "ordinal": 2,
           "name": "22L (ILS) (via vectors)",
-          "template": "@EBLG @ATIS [ATIS_CODE] \r\n[TIME]\r\n@EXPVECT @ILS @ARR @RWY22L @DEP @RWY22L\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX][CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
+          "template": "@EBLG @ATIS [ATIS_CODE] \r\n[TIME]\r\n@EXPVECT @ILS @ARR @RWY22L @DEP @RWY22L\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -12857,7 +12867,7 @@
           "id": "0d2ba3ef-61d8-47fe-94c5-bd1c98b4bbb0",
           "ordinal": 2,
           "name": "22L (RNP) (via rnav)",
-          "template": "@EBLG @ATIS [ATIS_CODE] \r\n[TIME]\r\n@EXPRNV @RNP @ARR @RWY22L @DEP @RWY22L\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX][CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
+          "template": "@EBLG @ATIS [ATIS_CODE] \r\n[TIME]\r\n@EXPRNV @RNP @ARR @RWY22L @DEP @RWY22L\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -12872,7 +12882,7 @@
           "id": "ee8ad3d9-ca68-4a5b-aaa8-5c842031ec2e",
           "ordinal": 4,
           "name": "04R (ILS) (via rnav)",
-          "template": "@EBLG @ATIS [ATIS_CODE] \r\n[TIME]\r\n@EXPRNV @ILS @ARR @RWY04R @DEP @RWY04R\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX][CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
+          "template": "@EBLG @ATIS [ATIS_CODE] \r\n[TIME]\r\n@EXPRNV @ILS @ARR @RWY04R @DEP @RWY04R\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -12887,7 +12897,7 @@
           "id": "b08fc845-5bec-44bc-a7a7-eea0f7ae61fd",
           "ordinal": 5,
           "name": "04R (ILS) (via vectors)",
-          "template": "@EBLG @ATIS [ATIS_CODE] \r\n[TIME]\r\n@EXPVECT @ILS @ARR @RWY04R @DEP @RWY04R\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX][CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
+          "template": "@EBLG @ATIS [ATIS_CODE] \r\n[TIME]\r\n@EXPVECT @ILS @ARR @RWY04R @DEP @RWY04R\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -12902,7 +12912,7 @@
           "id": "b2a12d89-5d8c-420d-a33d-2995c2c6d3f0",
           "ordinal": 6,
           "name": "04R (RNP) (via rnav)",
-          "template": "@EBLG @ATIS [ATIS_CODE] \r\n[TIME]\r\n@EXPRNV @RNP @ARR @RWY04R @DEP @RWY04R\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX][CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
+          "template": "@EBLG @ATIS [ATIS_CODE] \r\n[TIME]\r\n@EXPRNV @RNP @ARR @RWY04R @DEP @RWY04R\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -12917,7 +12927,7 @@
           "id": "420c35b7-c340-4870-9899-4aebbb225c47",
           "ordinal": 7,
           "name": "22R (ILS) (via rnav)",
-          "template": "@EBLG @ATIS [ATIS_CODE] \r\n[TIME]\r\n@EXPRNV @ILS @ARR @RWY22R @DEP @RWY22R\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX][CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
+          "template": "@EBLG @ATIS [ATIS_CODE] \r\n[TIME]\r\n@EXPRNV @ILS @ARR @RWY22R @DEP @RWY22R\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -12932,7 +12942,7 @@
           "id": "e49dfaa7-844f-4c49-83d2-9bcafe901ab5",
           "ordinal": 8,
           "name": "22R (ILS) (via vectors)",
-          "template": "@EBLG @ATIS [ATIS_CODE] \r\n[TIME]\r\n@EXPVECT @ILS @ARR @RWY22R @DEP @RWY22R\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX][CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
+          "template": "@EBLG @ATIS [ATIS_CODE] \r\n[TIME]\r\n@EXPVECT @ILS @ARR @RWY22R @DEP @RWY22R\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -12947,7 +12957,7 @@
           "id": "94cfd0a9-c1ac-482d-aa8c-5b373fdba764",
           "ordinal": 9,
           "name": "22R (RNP) (via rnav)",
-          "template": "@EBLG @ATIS [ATIS_CODE] \r\n[TIME]\r\n@EXPRNV @RNP @ARR @RWY22R @DEP @RWY22R\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX][CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
+          "template": "@EBLG @ATIS [ATIS_CODE] \r\n[TIME]\r\n@EXPRNV @RNP @ARR @RWY22R @DEP @RWY22R\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -12962,7 +12972,7 @@
           "id": "edc0cf72-f062-4257-9ce9-6746b9753dad",
           "ordinal": 10,
           "name": "04L (RNP) (via rnav)",
-          "template": "@EBLG @ATIS [ATIS_CODE] \r\n[TIME]\r\n@EXPRNV @RNP @ARR @RWY04L @DEP @RWY04L\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX][CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
+          "template": "@EBLG @ATIS [ATIS_CODE] \r\n[TIME]\r\n@EXPRNV @RNP @ARR @RWY04L @DEP @RWY04L\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -13056,7 +13066,7 @@
         }
       ]
     },
-     {
+    {
       "id": "19cd443d-903a-4c4c-a1d9-ad26a5ddafac",
       "ordinal": 0,
       "identifier": "ELLX",
@@ -15041,7 +15051,7 @@
           "name": "24 (ILS)",
           "airportConditions": "",
           "notams": "",
-          "template": "@ELLX @ATIS [ATIS_CODE] [TIME] @RWY24 [TL] [ARPT_COND] @ILS [WIND] [VIS] [RVR] [PRESENT_WX][CLOUDS] [TEMP] [DEW] [PRESSURE] [RECENT_WX] [TREND] [NOTAMS] [CLOSING]",
+          "template": "@ELLX @ATIS [ATIS_CODE] [TIME] @RWY24 [TL] [ARPT_COND] @ILS [WIND] [VIS] [RVR] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [RECENT_WX] [TREND] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -15056,7 +15066,7 @@
           "id": "317e36ba-6b0f-45dc-9e8e-46f048645bc8",
           "ordinal": 3,
           "name": "24 (RNP)",
-          "template": "@ELLX @ATIS [ATIS_CODE] [TIME] @RWY24 [TL] [ARPT_COND] @RNP [WIND] [VIS] [RVR] [PRESENT_WX][CLOUDS] [TEMP] [DEW] [PRESSURE] [RECENT_WX] [TREND] [NOTAMS] [CLOSING]",
+          "template": "@ELLX @ATIS [ATIS_CODE] [TIME] @RWY24 [TL] [ARPT_COND] @RNP [WIND] [VIS] [RVR] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [RECENT_WX] [TREND] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -15071,7 +15081,7 @@
           "id": "b920531a-ab08-473f-87e1-e5c2a32ea919",
           "ordinal": 4,
           "name": "06 (ILS)",
-          "template": "@ELLX @ATIS [ATIS_CODE] [TIME] @RWY06 [TL] [ARPT_COND] @ILS [WIND] [VIS] [RVR] [PRESENT_WX][CLOUDS] [TEMP] [DEW] [PRESSURE] [RECENT_WX] [TREND] [NOTAMS] [CLOSING]",
+          "template": "@ELLX @ATIS [ATIS_CODE] [TIME] @RWY06 [TL] [ARPT_COND] @ILS [WIND] [VIS] [RVR] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [RECENT_WX] [TREND] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -15086,7 +15096,7 @@
           "id": "950a3043-d45e-46b3-9ef4-f316b1cee13e",
           "ordinal": 5,
           "name": "06 (RNP)",
-          "template": "@ELLX @ATIS [ATIS_CODE] [TIME] @RWY06 [TL] [ARPT_COND] @RNP [WIND] [VIS] [RVR] [PRESENT_WX][CLOUDS] [TEMP] [DEW] [PRESSURE] [RECENT_WX] [TREND] [NOTAMS] [CLOSING]",
+          "template": "@ELLX @ATIS [ATIS_CODE] [TIME] @RWY06 [TL] [ARPT_COND] @RNP [WIND] [VIS] [RVR] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [RECENT_WX] [TREND] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -15173,6 +15183,7 @@
   ],
   "version": 4
 }
+
 
 
 
