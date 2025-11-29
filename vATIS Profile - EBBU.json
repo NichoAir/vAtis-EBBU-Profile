@@ -2,7 +2,7 @@
   "name": "EBBU",
   "id": "6e87b213-e74a-4b85-bf17-616b9dbb5129",
   "updateUrl": "https://raw.githubusercontent.com/NichoAir/vAtis-EBBU-Profile/refs/heads/main/vATIS%20Profile%20-%20EBBU.json",
-  "updateSerial": 2025112904,
+  "updateSerial": 2025112905,
   "stations": [
     {
       "id": "5a7b83ed-7c42-4462-b25e-3f8a890434b2",
@@ -2194,6 +2194,11 @@
           "variableName": "RSCD",
           "text": "RSCD",
           "voice": "RUNWAY SURFACE CONDITION"
+        },
+        {
+          "variableName": "XNG",
+          "text": "XNG RWY OPS INPR",
+          "voice": "CROSSING RUNWAY OPERATIONS IN PROGRESS."
         }
       ],
       "airportConditionDefinitions": [
@@ -6738,7 +6743,7 @@
         {
           "text": "RSCD RWY 11 WET, RWYCC 555.",
           "ordinal": 2,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "RSCD RWY 29 DRY, RWYCC 666.",
@@ -15263,9 +15268,4 @@
   ],
   "version": 4
 }
-
-
-
-
-
 
