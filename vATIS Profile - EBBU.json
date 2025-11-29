@@ -13056,7 +13056,7 @@
         }
       ]
     },
-    {
+     {
       "id": "19cd443d-903a-4c4c-a1d9-ad26a5ddafac",
       "ordinal": 0,
       "identifier": "ELLX",
@@ -13070,7 +13070,7 @@
         "observationTime": {
           "template": {
             "text": "{time}",
-            "voice": "{time} ZULU {special}"
+            "voice": "{time} {special}"
           }
         },
         "surfaceWind": {
@@ -14829,8 +14829,8 @@
             }
           },
           "template": {
-            "text": "{weather}",
-            "voice": "{weather}"
+            "text": "Weather {weather}",
+            "voice": "weather {weather}"
           }
         },
         "recentWeather": {
@@ -14930,9 +14930,9 @@
         "trend": {
           "nosigText": "NOSIG",
           "nosigVoice": "No Significant Changes",
-          "becomingText": "BECMG",
+          "becomingText": "Becoming",
           "becomingVoice": "Becoming",
-          "temporaryText": "TEMPO",
+          "temporaryText": "Temporary",
           "temporaryVoice": "Temporary",
           "template": {}
         },
@@ -14983,8 +14983,8 @@
         },
         "notams": {
           "template": {
-            "text": "{notams}.",
-            "voice": "{notams}."
+            "text": "{notams}",
+            "voice": "{notams}"
           }
         },
         "closingStatement": {
@@ -15002,7 +15002,7 @@
       "atisVoice": {
         "useTextToSpeech": true,
         "voice": "UK Male",
-        "speechRate": 180
+        "speechRate": 140
       },
       "presets": [
         {
@@ -15041,7 +15041,7 @@
           "name": "24 (ILS)",
           "airportConditions": "",
           "notams": "",
-          "template": "@ELLX @ATIS [ATIS_CODE] [TIME] @ILS @RWY24 [TL] [ARPT_COND] [WIND] [VIS] [RVR] [PRESENT_WX][CLOUDS] [TEMP] [DEW] [PRESSURE] [RECENT_WX] [TREND] [NOTAMS] [CLOSING]",
+          "template": "@ELLX @ATIS [ATIS_CODE] [TIME] @RWY24 [TL] [ARPT_COND] @ILS [WIND] [VIS] [RVR] [PRESENT_WX][CLOUDS] [TEMP] [DEW] [PRESSURE] [RECENT_WX] [TREND] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -15056,7 +15056,7 @@
           "id": "317e36ba-6b0f-45dc-9e8e-46f048645bc8",
           "ordinal": 3,
           "name": "24 (RNP)",
-          "template": "@ELLX @ATIS [ATIS_CODE] [TIME] @RNP @RWY24 [TL] [ARPT_COND] [WIND] [VIS] [RVR] [PRESENT_WX][CLOUDS] [TEMP] [DEW] [PRESSURE] [RECENT_WX] [TREND] [NOTAMS] [CLOSING]",
+          "template": "@ELLX @ATIS [ATIS_CODE] [TIME] @RWY24 [TL] [ARPT_COND] @RNP [WIND] [VIS] [RVR] [PRESENT_WX][CLOUDS] [TEMP] [DEW] [PRESSURE] [RECENT_WX] [TREND] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -15071,7 +15071,7 @@
           "id": "b920531a-ab08-473f-87e1-e5c2a32ea919",
           "ordinal": 4,
           "name": "06 (ILS)",
-          "template": "@ELLX @ATIS [ATIS_CODE] [TIME] @ILS @RWY06 [TL] [ARPT_COND] [WIND] [VIS] [RVR] [PRESENT_WX][CLOUDS] [TEMP] [DEW] [PRESSURE] [RECENT_WX] [TREND] [NOTAMS] [CLOSING]",
+          "template": "@ELLX @ATIS [ATIS_CODE] [TIME] @RWY06 [TL] [ARPT_COND] @ILS [WIND] [VIS] [RVR] [PRESENT_WX][CLOUDS] [TEMP] [DEW] [PRESSURE] [RECENT_WX] [TREND] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -15086,7 +15086,7 @@
           "id": "950a3043-d45e-46b3-9ef4-f316b1cee13e",
           "ordinal": 5,
           "name": "06 (RNP)",
-          "template": "@ELLX @ATIS [ATIS_CODE] [TIME] @RNP @RWY06 [TL] [ARPT_COND] [WIND] [VIS] [RVR] [PRESENT_WX][CLOUDS] [TEMP] [DEW] [PRESSURE] [RECENT_WX] [TREND] [NOTAMS] [CLOSING]",
+          "template": "@ELLX @ATIS [ATIS_CODE] [TIME] @RWY06 [TL] [ARPT_COND] @RNP [WIND] [VIS] [RVR] [PRESENT_WX][CLOUDS] [TEMP] [DEW] [PRESSURE] [RECENT_WX] [TREND] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -15101,13 +15101,13 @@
       "contractions": [
         {
           "variableName": "ELLX",
-          "text": "LUXEMBOURG",
-          "voice": "LUXEMBURG"
+          "text": "LUXEMBOURG DEPARTURE AND ARRIVAL",
+          "voice": "LUXEMBOURG DEPARTURE AND ARRIVAL"
         },
         {
           "variableName": "ILS",
-          "text": "EXPECT VECTORS FOR ILS APPROACH",
-          "voice": "EXPECT VECTORS FOR ILS APPROACH."
+          "text": "EXPECT ILS Z.",
+          "voice": "EXPECT ILS ZULU."
         },
         {
           "variableName": "RNP",
@@ -15126,25 +15126,25 @@
         },
         {
           "variableName": "ATIS",
-          "text": "ARRIVAL AND DEPARTURE INFORMATION",
-          "voice": "ARRIVAL AND DEPARTURE INFORMATION"
+          "text": "INFORMATION",
+          "voice": "INFORMATION"
         }
       ],
       "airportConditionDefinitions": [
         {
-          "text": "DELIVERY CLOSED.",
+          "text": "LOW VISIBILITY PROCEDURES IN PROGRESS.",
           "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "DELIVERY OPEN.",
-          "ordinal": 2,
           "enabled": true
         },
         {
-          "text": "LOW VISIBILITY PROCEDURES IN OPERATION. DEPARTING AIRCRAFT, USE CAT TWO THREE HOLDING POINTS. ARRIVING AIRCRAFT, LATEST RVR WILL BE GIVEN ON THE ATC FREQUENCY. CHECK YOUR MINIMA.",
-          "ordinal": 3,
+          "text": "DELIVERY CLOSED.",
+          "ordinal": 2,
           "enabled": false
+        },
+        {
+          "text": "DELIVERY 121.855.",
+          "ordinal": 3,
+          "enabled": true
         }
       ],
       "notamDefinitions": [
@@ -15173,4 +15173,5 @@
   ],
   "version": 4
 }
+
 
