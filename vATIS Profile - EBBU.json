@@ -2,7 +2,7 @@
   "name": "EBBU",
   "id": "6e87b213-e74a-4b85-bf17-616b9dbb5129",
   "updateUrl": "https://raw.githubusercontent.com/NichoAir/vAtis-EBBU-Profile/refs/heads/main/vATIS%20Profile%20-%20EBBU.json",
-  "updateSerial": 2025112903,
+  "updateSerial": 2025112904,
   "stations": [
     {
       "id": "5a7b83ed-7c42-4462-b25e-3f8a890434b2",
@@ -2189,12 +2189,22 @@
           "variableName": "EBBR_NAT",
           "text": "EBBR NAT,",
           "voice": "."
+        },
+        {
+          "variableName": "RSCD",
+          "text": "RSCD",
+          "voice": "RUNWAY SURFACE CONDITION"
         }
       ],
       "airportConditionDefinitions": [
         {
-          "text": "LOW VISIBILITY OPERATIONS",
+          "text": "RSCD RWY 25R DRY, RWYCC 666.",
           "ordinal": 1,
+          "enabled": false
+        },
+        {
+          "text": "LOW VISIBILITY OPERATIONS",
+          "ordinal": 2,
           "enabled": false
         }
       ],
@@ -4570,12 +4580,22 @@
           "variableName": "EBBR_NAT",
           "text": "EBBR NAT,",
           "voice": "."
+        },
+        {
+          "variableName": "RSCD",
+          "text": "RSCD",
+          "voice": "RUNWAY SURFACE CONDITION"
         }
       ],
       "airportConditionDefinitions": [
         {
+          "text": "RSCD RWY 25R DRY, RWYCC 666.",
+          "ordinal": 0,
+          "enabled": false
+        },
+        {
           "text": "LOW VISIBILITY OPERATIONS.",
-          "ordinal": 1,
+          "ordinal": 2,
           "enabled": false
         }
       ],
@@ -6515,8 +6535,8 @@
         "closingStatement": {
           "autoIncludeClosingStatement": true,
           "template": {
-            "text": "CFM ATIS {letter}",
-            "voice": "Confirm Infrmation {letter|word}"
+            "text": "",
+            "voice": ""
           }
         }
       },
@@ -6702,17 +6722,42 @@
           "variableName": "EBAW",
           "text": "EBAW",
           "voice": "ANTWERPEN"
+        },
+        {
+          "variableName": "RSCD",
+          "text": "RSCD",
+          "voice": "RUNWAY SURFACE CONDITION"
         }
       ],
       "airportConditionDefinitions": [
         {
-          "text": "OPEN.",
+          "text": "RSCD RWY 11 DRY, RWYCC 666.",
           "ordinal": 1,
+          "enabled": false
+        },
+        {
+          "text": "RSCD RWY 11 WET, RWYCC 555.",
+          "ordinal": 2,
+          "enabled": true
+        },
+        {
+          "text": "RSCD RWY 29 DRY, RWYCC 666.",
+          "ordinal": 3,
+          "enabled": false
+        },
+        {
+          "text": "RSCD RWY 29 WET, RWYCC 555.",
+          "ordinal": 3,
+          "enabled": false
+        },
+        {
+          "text": "OPEN.",
+          "ordinal": 5,
           "enabled": true
         },
         {
           "text": "CLOSED. ",
-          "ordinal": 2,
+          "ordinal": 6,
           "enabled": false
         }
       ],
@@ -8755,12 +8800,22 @@
           "variableName": "EBCI",
           "text": "EBCI",
           "voice": "CHARLEROI"
+        },
+        {
+          "variableName": "RSCD",
+          "text": "RSCD",
+          "voice": "RUNWAY SURFACE CONDITION"
         }
       ],
       "airportConditionDefinitions": [
         {
+          "text": "RSCD RWY 24 DRY, RWYCC 666.",
+          "ordinal": 0,
+          "enabled": true
+        },
+        {
           "text": "LOW VISIBILITY OPERATIONS.",
-          "ordinal": 1,
+          "ordinal": 2,
           "enabled": false
         }
       ],
@@ -10857,12 +10912,22 @@
           "variableName": "EBOS",
           "text": "EBOS",
           "voice": "OSTEND"
+        },
+        {
+          "variableName": "RSCD",
+          "text": "RSCD",
+          "voice": "RUNWAY SURFACE CONDITION"
         }
       ],
       "airportConditionDefinitions": [
         {
+          "text": "RSCD RWY 26 DRY, RWYCC 666.",
+          "ordinal": 0,
+          "enabled": false
+        },
+        {
           "text": "LOW VISIBILITY OPERATIONS.",
-          "ordinal": 1,
+          "ordinal": 2,
           "enabled": false
         }
       ],
@@ -13049,12 +13114,22 @@
           "variableName": "RWY22R",
           "text": "RWY22R",
           "voice": "RWY22R."
+        },
+        {
+          "variableName": "RSCD",
+          "text": "RSCD",
+          "voice": "RUNWAY SURFACE CONDITION"
         }
       ],
       "airportConditionDefinitions": [
         {
+          "text": "RSCD RWY 22L DRY, RWYCC 666.",
+          "ordinal": 0,
+          "enabled": false
+        },
+        {
           "text": "LOW VISIBILITY OPERATIONS.",
-          "ordinal": 1,
+          "ordinal": 2,
           "enabled": false
         }
       ],
@@ -15138,44 +15213,49 @@
           "variableName": "ATIS",
           "text": " DEPARTURE AND ARRIVAL INFORMATION",
           "voice": " DEPARTURE AND ARRIVAL INFORMATION"
+        },
+        {
+          "variableName": "RSCD",
+          "text": "RSCD",
+          "voice": "RUNWAY SURFACE CONDITION"
         }
       ],
       "airportConditionDefinitions": [
         {
-          "text": "LOW VISIBILITY PROCEDURES IN PROGRESS.",
-          "ordinal": 1,
+          "text": "RSCD RWY 24 DRY, RWYCC 666.",
+          "ordinal": 0,
           "enabled": true
         },
         {
-          "text": "DELIVERY CLOSED.",
+          "text": "LOW VISIBILITY OPERATIONS.",
           "ordinal": 2,
           "enabled": false
-        },
-        {
-          "text": "DELIVERY 121.855.",
-          "ordinal": 3,
-          "enabled": true
         }
       ],
       "notamDefinitions": [
         {
+          "text": "RSCD RWY 24 DRY, RWYCC 666.",
+          "ordinal": 0,
+          "enabled": false
+        },
+        {
           "text": "WHEN AIRBORNE MONITOR ADVISORY 122.800",
-          "ordinal": 1,
+          "ordinal": 2,
           "enabled": false
         },
         {
           "text": "WHEN AIRBORNE CONTACT LUXEMBURG RADAR ON 120.885",
-          "ordinal": 2,
+          "ordinal": 3,
           "enabled": true
         },
         {
           "text": "WHEN AIRBORNE CONTACT BRUSSELS CONTROL ON 131.100",
-          "ordinal": 3,
+          "ordinal": 4,
           "enabled": false
         },
         {
           "text": "WHEN AIRBORNE CONTACT BRUSSELS CONTROL ON 129.575",
-          "ordinal": 4,
+          "ordinal": 5,
           "enabled": false
         }
       ]
@@ -15183,6 +15263,7 @@
   ],
   "version": 4
 }
+
 
 
 
