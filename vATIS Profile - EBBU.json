@@ -2,7 +2,7 @@
   "name": "EBBU",
   "id": "6e87b213-e74a-4b85-bf17-616b9dbb5129",
   "updateUrl": "https://raw.githubusercontent.com/NichoAir/vAtis-EBBU-Profile/refs/heads/main/vATIS%20Profile%20-%20EBBU.json",
-  "updateSerial": 2025120101,
+  "updateSerial": 2025120102,
   "stations": [
     {
       "id": "5a7b83ed-7c42-4462-b25e-3f8a890434b2",
@@ -2061,7 +2061,7 @@
         {
           "id": "db949ced-a588-46f8-8e11-d18c9f6346a5",
           "ordinal": 8,
-          "name": "25R 19",
+          "name": "25R19 25R",
           "template": "@EBBR_DEP [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@DEP @RWY25R19 [ARPT_COND]. @ARR @RWY25R\r\n[TL]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_DEP [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
@@ -2074,8 +2074,23 @@
           }
         },
         {
-          "id": "3de8e1e4-781c-45e8-849f-94634c2fc309",
+          "id": "e37ad602-fd0e-45a2-a5e4-87b47a09f56e",
           "ordinal": 8,
+          "name": "25R 19",
+          "template": "@EBBR_DEP [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@DEP @RWY25R [ARPT_COND]. @ARR @RWY19\r\n[TL]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_DEP [ATIS_CODE]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "3de8e1e4-781c-45e8-849f-94634c2fc309",
+          "ordinal": 10,
           "name": "25s 19 XNG",
           "template": "@EBBR_DEP [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@DEP @RWY25R19 [ARPT_COND]. \r\n@ARR @RWY25L25R [TL] @XNG\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_DEP [ATIS_CODE]",
           "externalGenerator": {
@@ -2090,7 +2105,7 @@
         },
         {
           "id": "eccf4148-2245-4181-8dd2-0f6942f4b475",
-          "ordinal": 10,
+          "ordinal": 11,
           "name": "25R SRO",
           "template": "@EBBR_DEP [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@DEP @RWY25R [ARPT_COND]. @ARR @RWY25R\r\n[TL]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_DEP [ATIS_CODE]",
           "externalGenerator": {
@@ -2105,7 +2120,7 @@
         },
         {
           "id": "c0431d32-0d73-4b7b-b18f-3823480c8a7f",
-          "ordinal": 11,
+          "ordinal": 12,
           "name": "25L SRO",
           "template": "@EBBR_DEP [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@DEP @RWY25L [ARPT_COND]. @ARR @RWY25L \r\n[TL]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_DEP [ATIS_CODE]",
           "externalGenerator": {
