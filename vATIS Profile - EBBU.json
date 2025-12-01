@@ -2,7 +2,7 @@
   "name": "EBBU",
   "id": "6e87b213-e74a-4b85-bf17-616b9dbb5129",
   "updateUrl": "https://raw.githubusercontent.com/NichoAir/vAtis-EBBU-Profile/refs/heads/main/vATIS%20Profile%20-%20EBBU.json",
-  "updateSerial": 2025113001,
+  "updateSerial": 2025120101,
   "stations": [
     {
       "id": "5a7b83ed-7c42-4462-b25e-3f8a890434b2",
@@ -6738,7 +6738,7 @@
         {
           "id": "da66b3c5-e5a8-4d7a-85c6-0dfea0703610",
           "ordinal": 1,
-          "name": "--- Normal OPS ---",
+          "name": "--- Standard Approach Procedures ---",
           "template": "DO NOT USE. NOTIFY ATC IF YOU READ THIS.",
           "externalGenerator": {
             "enabled": false,
@@ -6751,11 +6751,10 @@
           }
         },
         {
-          "id": "b8f96dda-e1cc-4225-94c3-78c1f8969d86",
+          "id": "0c4bf607-9496-463e-9e51-66c69fbf8ee5",
           "ordinal": 2,
-          "name": "11 (RNP)",
-          "airportConditions": "",
-          "template": "@EBAW @ATIS [ATIS_CODE] \r\n[TIME]\r\n@EBAWINF\r\n@RNP @ARR @RWY11\r\n@DEP @RWY11\r\n[ARPT_COND]\r\n[TL]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM [ATIS_CODE]",
+          "name": "11 (VOR)",
+          "template": "@EBAW @ATIS [ATIS_CODE] \r\n[TIME]\r\n@EBAWINF\r\n@VOR @ARR @RWY11\r\n@DEP @RWY11\r\n[ARPT_COND]\r\n[TL]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -6783,8 +6782,8 @@
         },
         {
           "id": "753b5d3a-5697-4500-92a6-17e6f204bc36",
-          "ordinal": 3,
-          "name": "--- Non Normal OPS ---",
+          "ordinal": 4,
+          "name": "--- Non Standard Approach Procedures ---",
           "template": "DO NOT USE. NOTIFY ATC IF YOU READ THIS.",
           "externalGenerator": {
             "enabled": false,
@@ -6797,10 +6796,11 @@
           }
         },
         {
-          "id": "0c4bf607-9496-463e-9e51-66c69fbf8ee5",
-          "ordinal": 6,
-          "name": "11 (VOR)",
-          "template": "@EBAW @ATIS [ATIS_CODE] \r\n[TIME]\r\n@EBAWINF\r\n@VOR @ARR @RWY11\r\n@DEP @RWY11\r\n[ARPT_COND]\r\n[TL]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM [ATIS_CODE]",
+          "id": "b8f96dda-e1cc-4225-94c3-78c1f8969d86",
+          "ordinal": 4,
+          "name": "11 (RNP)",
+          "airportConditions": "",
+          "template": "@EBAW @ATIS [ATIS_CODE] \r\n[TIME]\r\n@EBAWINF\r\n@RNP @ARR @RWY11\r\n@DEP @RWY11\r\n[ARPT_COND]\r\n[TL]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -6813,7 +6813,7 @@
         },
         {
           "id": "4600e706-6357-47da-8685-b8da2facf3b5",
-          "ordinal": 7,
+          "ordinal": 6,
           "name": "29 (RNP)",
           "template": "@EBAW @ATIS [ATIS_CODE] \r\n[TIME]\r\n@EBAWINF\r\n@RNP @ARR @RWY29\r\n@DEP @RWY29\r\n[ARPT_COND]\r\n[TL]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM [ATIS_CODE]",
           "externalGenerator": {
@@ -6828,7 +6828,7 @@
         },
         {
           "id": "c308b36a-5957-4adb-9825-0bc230f46e70",
-          "ordinal": 8,
+          "ordinal": 7,
           "name": "29 (VOR)",
           "template": "@EBAW @ATIS [ATIS_CODE] \r\n[TIME]\r\n@EBAWINF\r\n@VOR @ARR @RWY29\r\n@DEP @RWY29\r\n[ARPT_COND]\r\n[TL]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM [ATIS_CODE]",
           "externalGenerator": {
@@ -6865,13 +6865,13 @@
         },
         {
           "variableName": "VOR",
-          "text": "EXP STD VOR APP",
-          "voice": "EXPECT STANDARD VOR APPROACH."
+          "text": "EXP VOR APP",
+          "voice": "EXPECT VOR APPROACH."
         },
         {
           "variableName": "RNP",
-          "text": "EXP STD RNP APP",
-          "voice": "EXPECT STANDARD RNP APPROACH"
+          "text": "EXP RNP APP",
+          "voice": "EXPECT RNP APPROACH"
         },
         {
           "variableName": "RWY11",
@@ -13473,12 +13473,12 @@
         {
           "text": "RSCD RWY 22L DRY, RWYCC 666.",
           "ordinal": 5,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "RSCD RWY 22L WET, RWYCC 555.",
           "ordinal": 6,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "RSCD RWY 22R DRY, RWYCC 666.",
@@ -15641,4 +15641,3 @@
   ],
   "version": 4
 }
-
