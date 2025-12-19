@@ -17,7 +17,7 @@ Documentation: https://vatis.app/docs/
 
 Note: The Profiles are automatically updated, whenever you launch vATIS and an update is available.
 
-The Runway Condition, Notams and Departure Frequency for ELLX can be added manually.
+The Runway Condition, Notams and Departure Frequency for ELLX can be selected as NOTAM, LVO as AIRPORT CONDITION.
 
 In the EBBR Departure Atis you have to select the Runway Condition of the Departure Runway(s).
 In the EBBR Arrival Atis you have to select the Runway Condition of the Arrival Runways(s). 
