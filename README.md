@@ -2,7 +2,7 @@
 
 This project contains the unofficial vATIS Profile of the Belux vACC.  
 To use this profile you need the [vATIS](https://vatis.app/) program.  
-Once you imported the profiles to vATIS, the profiles are automatically updated, whenever you launch vATIS.  
+Once you imported the profile to vATIS, the profile are automatically updated, whenever you launch vATIS.  
 
 ## Getting Started as Controller
 1. Download vATIS from https://vatis.app/  
