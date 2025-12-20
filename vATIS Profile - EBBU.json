@@ -2,7 +2,7 @@
   "name": "EBBU",
   "id": "6e87b213-e74a-4b85-bf17-616b9dbb5129",
   "updateUrl": "https://raw.githubusercontent.com/NichoAir/vAtis-EBBU-Profile/refs/heads/main/vATIS%20Profile%20-%20EBBU.json",
-  "updateSerial": 2025122002,
+  "updateSerial": 2025122101,
   "stations": [
     {
       "id": "5a7b83ed-7c42-4462-b25e-3f8a890434b2",
@@ -1932,7 +1932,7 @@
         "notams": {
           "template": {
             "text": "{notams}",
-            "voice": "Notice to Airmen: {notams}."
+            "voice": "{notams}."
           }
         },
         "closingStatement": {
@@ -4256,7 +4256,7 @@
         "notams": {
           "template": {
             "text": "{notams}",
-            "voice": "Notice to Airmen: {notams}."
+            "voice": "{notams}."
           }
         },
         "closingStatement": {
@@ -6796,7 +6796,7 @@
         "notams": {
           "template": {
             "text": "{notams}",
-            "voice": "Notice to Airmen: {notams}."
+            "voice": "{notams}."
           }
         },
         "closingStatement": {
@@ -8963,7 +8963,7 @@
         "notams": {
           "template": {
             "text": "{notams}",
-            "voice": "Notice to Airmen: {notams}."
+            "voice": "{notams}."
           }
         },
         "closingStatement": {
@@ -11052,7 +11052,7 @@
         "notams": {
           "template": {
             "text": "{notams}",
-            "voice": "Notice to Airmen: {notams}."
+            "voice": "{notams}."
           }
         },
         "closingStatement": {
@@ -11260,7 +11260,7 @@
         {
           "text": "RWY 26 DRY, RWYCC 666.",
           "ordinal": 1,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "RWY 26 WET, RWYCC 555.",
@@ -11275,7 +11275,7 @@
         {
           "text": "RWY 08 WET, RWYCC 555.",
           "ordinal": 4,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "LOW VISIBILITY OPERATIONS.",
@@ -13234,7 +13234,7 @@
         "notams": {
           "template": {
             "text": "{notams}",
-            "voice": "Notice to Airmen: {notams}."
+            "voice": "{notams}."
           }
         },
         "closingStatement": {
@@ -13307,6 +13307,7 @@
           "id": "ee8ad3d9-ca68-4a5b-aaa8-5c842031ec2e",
           "ordinal": 4,
           "name": "04R (ILS) (via rnav)",
+          "airportConditions": "",
           "template": "@EBLG @ATIS [ATIS_CODE] \r\n[TIME]\r\n@EBLGINF\r\n@EXPRNV @ILS\r\n@USE04R\r\n@RSCD04R [ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
@@ -15453,7 +15454,7 @@
           }
         },
         "trend": {
-          "nosigText": "NOSIG",
+          "nosigText": "No Significant Changes",
           "nosigVoice": "No Significant Changes",
           "becomingText": "Becoming",
           "becomingVoice": "Becoming",
@@ -15520,7 +15521,7 @@
           }
         }
       },
-      "notamsBeforeFreeText": false,
+      "notamsBeforeFreeText": true,
       "airportConditionsBeforeFreeText": false,
       "frequency": 134755000,
       "useDecimalTerminology": true,
