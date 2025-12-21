@@ -2,7 +2,7 @@
   "name": "EBBU",
   "id": "6e87b213-e74a-4b85-bf17-616b9dbb5129",
   "updateUrl": "https://raw.githubusercontent.com/NichoAir/vAtis-EBBU-Profile/refs/heads/main/vATIS%20Profile%20-%20EBBU.json",
-  "updateSerial": 2025122103,
+  "updateSerial": 2025122201,
   "stations": [
     {
       "id": "5a7b83ed-7c42-4462-b25e-3f8a890434b2",
@@ -1971,7 +1971,7 @@
         {
           "id": "ccd14d1c-4c34-4ba0-ac79-aa536b5886d5",
           "ordinal": 2,
-          "name": "07L 07R",
+          "name": "07L DEP 07R ARR",
           "airportConditions": "",
           "template": "@EBBR_DEP [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@DEP @RWY07L @RSCD [TIME] [ARPT_COND] @ARR @RWY07R\r\n[TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_DEP [ATIS_CODE]",
           "externalGenerator": {
@@ -2002,7 +2002,7 @@
         {
           "id": "6f38068f-03f9-4e36-a477-2e30ff74188d",
           "ordinal": 4,
-          "name": "07R 01",
+          "name": "07R DEP 01 ARR",
           "template": "@EBBR_DEP [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@DEP @RWY07R @RSCD [TIME] [ARPT_COND] @ARR @RWY01\r\n[TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_DEP [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
@@ -2017,7 +2017,7 @@
         {
           "id": "0a3bd4dc-0430-4ce8-b646-3cff14bb757b",
           "ordinal": 5,
-          "name": "07R 07L",
+          "name": "07R DEP 07L ARR",
           "airportConditions": "",
           "template": "@EBBR_DEP [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@DEP @RWY07R @RSCD [TIME] [ARPT_COND] @ARR @RWY07L\r\n[TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_DEP [ATIS_CODE]",
           "externalGenerator": {
@@ -2063,7 +2063,7 @@
         {
           "id": "c3547bde-7716-4996-bad6-0603316639a2",
           "ordinal": 8,
-          "name": "25",
+          "name": "25R DEP 25L ARR",
           "airportConditions": "",
           "template": "@EBBR_DEP [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@DEP @RWY25R @RSCD [TIME] [ARPT_COND] @ARR @RWY25L\r\n[TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_DEP [ATIS_CODE]",
           "externalGenerator": {
@@ -2079,7 +2079,7 @@
         {
           "id": "0a8a1247-6bac-4377-a35f-7948504ffe96",
           "ordinal": 9,
-          "name": "25s",
+          "name": "25R DEP 25R/L ARR",
           "airportConditions": "",
           "template": "@EBBR_DEP [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@DEP @RWY25R @RSCD [TIME] [ARPT_COND] \r\n@ARR @RWY25L25R\r\n[TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_DEP [ATIS_CODE]",
           "externalGenerator": {
@@ -2095,7 +2095,7 @@
         {
           "id": "db949ced-a588-46f8-8e11-d18c9f6346a5",
           "ordinal": 10,
-          "name": "25R19 25R",
+          "name": "25R19 DEP 25R ARR",
           "template": "@EBBR_DEP [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@DEP @RWY25R @RSCD [TIME] @RWY19 @RSCD [TIME] [ARPT_COND]\r\n@ARR @RWY25R\r\n[TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_DEP [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
@@ -2110,7 +2110,7 @@
         {
           "id": "e37ad602-fd0e-45a2-a5e4-87b47a09f56e",
           "ordinal": 11,
-          "name": "25R 19 XNG",
+          "name": "25R DEP 19 ARR (XNG)",
           "template": "@EBBR_DEP [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@DEP @RWY25R @RSCD [TIME] [ARPT_COND] @ARR @RWY19 @XNG @UNAB3\r\n[TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_DEP [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
@@ -2125,7 +2125,7 @@
         {
           "id": "3de8e1e4-781c-45e8-849f-94634c2fc309",
           "ordinal": 12,
-          "name": "25s 19 XNG",
+          "name": "25R19 DEP 25R/L ARR (XNG)",
           "airportConditions": "",
           "template": "@EBBR_DEP [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@DEP @RWY25R @RSCD [TIME] @RWY19 @RSCD [TIME] [ARPT_COND] \r\n@ARR @RWY25L25R [TL] @XNG\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_DEP [ATIS_CODE]",
           "externalGenerator": {
@@ -4327,7 +4327,7 @@
         {
           "id": "827e62d0-776a-4cab-a3e0-f7fcd3f77c58",
           "ordinal": 3,
-          "name": "07L 07R (VIS)",
+          "name": "07L DEP 07R ARR (VIS)",
           "template": "@EBBR_ARR [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@VISAPP @ARR @RWY07R @RSCD [TIME] [ARPT_COND]\r\n@DEP @RWY07L [TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_ARR [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
@@ -4357,7 +4357,7 @@
         {
           "id": "e3aaee35-bc8b-4479-9064-ce3aabadf3c6",
           "ordinal": 6,
-          "name": "07R 01 (ILS)",
+          "name": "07R DEP 01 ARR (ILS)",
           "template": "@EBBR_ARR [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@ILS @ARR @RWY01 @RSCD [TIME] [ARPT_COND]\r\n@DEP @RWY07R [TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_ARR [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
@@ -4372,7 +4372,7 @@
         {
           "id": "bb5c9185-566a-459f-a0e8-b3c05bcf8b88",
           "ordinal": 7,
-          "name": "07R 07L (RNP)",
+          "name": "07R DEP 07L ARR (RNP)",
           "airportConditions": "",
           "template": "@EBBR_ARR [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@RNP @ARR @RWY07L @RSCD [TIME] [ARPT_COND]\r\n@DEP @RWY07R [TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_ARR [ATIS_CODE]",
           "externalGenerator": {
@@ -4403,7 +4403,7 @@
         {
           "id": "d8e1cfd5-8bd9-484e-b913-881085a8af1f",
           "ordinal": 9,
-          "name": "25 (ILS)",
+          "name": "25R DEP 25L ARR (ILS)",
           "airportConditions": "",
           "template": "@EBBR_ARR [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@ILS @ARR @RWY25L @RSCD [TIME] [ARPT_COND]\r\n@DEP @RWY25R [TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_ARR [ATIS_CODE]",
           "externalGenerator": {
@@ -4419,7 +4419,7 @@
         {
           "id": "f719a772-0495-4e4d-b78a-75e244d2ffc0",
           "ordinal": 10,
-          "name": "25s (SIMINDEP)",
+          "name": "25R DEP 25R/L ARR (SIMINDEP)",
           "airportConditions": "",
           "template": "@EBBR_ARR [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@ILS_INDEP @ARR @RWY25L @RSCD [TIME] @RWY25R @RSCD [TIME] [ARPT_COND]\r\n@DEP @RWY25R [TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_ARR [ATIS_CODE]",
           "externalGenerator": {
@@ -4435,7 +4435,7 @@
         {
           "id": "686b02e7-83d6-489a-b49d-e2fdd140ec32",
           "ordinal": 11,
-          "name": "25s (SIMDEP)",
+          "name": "25R DEP 25R/L ARR (SIMDEP)",
           "template": "@EBBR_ARR [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@ILS_DEP @ARR @RWY25L @RSCD [TIME] @RWY25R @RSCD [TIME] [ARPT_COND]\r\n@DEP @RWY25R [TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_ARR [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
@@ -4450,7 +4450,7 @@
         {
           "id": "f2b75c94-5695-4b5a-833a-fd4b1802ba5a",
           "ordinal": 12,
-          "name": "25s 19 (ILS) XNG",
+          "name": "25R19 DEP 25R/L ARR (ILS) XNG",
           "airportConditions": "",
           "notams": "",
           "template": "@EBBR_ARR [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@ILS @ARR @RWY25L @RSCD [TIME] @RWY25R @RSCD [TIME] [ARPT_COND]\r\n@DEP @RWY25R19 [TL] [NOTAMS] @XNG @25LFORLDG\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_ARR [ATIS_CODE]",
@@ -4467,7 +4467,7 @@
         {
           "id": "5907604a-7576-433c-adb0-7d5e71e82910",
           "ordinal": 13,
-          "name": "25R19 25R (ILS)",
+          "name": "25R19 DEP 25R ARR (ILS)",
           "template": "@EBBR_ARR [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@ILS @ARR @RWY25R @RSCD [TIME] [ARPT_COND]\r\n@DEP @RWY25R19 [TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_ARR [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
@@ -4482,7 +4482,7 @@
         {
           "id": "b78f0f03-9148-4822-9829-4bed6a8f0e22",
           "ordinal": 14,
-          "name": "25R 19 (ILS) XNG",
+          "name": "25R DEP 19 ARR (ILS) XNG",
           "template": "@EBBR_ARR [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@ILS @ARR @RWY19 @RSCD [TIME] [ARPT_COND]\r\n@DEP @RWY25R [TL] [NOTAMS] @XNG\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_ARR [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
@@ -4557,7 +4557,7 @@
         {
           "id": "0d40462f-74ed-4252-8871-5a3a57d5e24f",
           "ordinal": 19,
-          "name": "07R 01 (RNP)",
+          "name": "07R DEP 01 ARR (RNP)",
           "template": "@EBBR_ARR [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@RNP @ARR @RWY01 @RSCD [TIME] [ARPT_COND]\r\n@DEP @RWY07R [TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_ARR [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
@@ -4602,7 +4602,7 @@
         {
           "id": "9cbe5c84-a45c-4c35-95a9-a496c3c8c7a9",
           "ordinal": 22,
-          "name": "25R19 25R (RNP)",
+          "name": "25R19 DEP 25R ARR (RNP)",
           "template": "@EBBR_ARR [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@RNP @ARR @RWY25R @RSCD [TIME] [ARPT_COND]\r\n@DEP @RWY25R19 [TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_ARR [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
@@ -4617,7 +4617,7 @@
         {
           "id": "e28f89cf-46eb-4e46-9ff6-dcad4fc05705",
           "ordinal": 23,
-          "name": "25R 19 (RNP) XNG",
+          "name": "25R DEP 19 ARR (RNP) XNG",
           "template": "@EBBR_ARR [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@RNP @ARR @RWY19 @RSCD [TIME] [ARPT_COND]\r\n@DEP @RWY25R [TL] @XNG\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_ARR [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
