@@ -1949,7 +1949,7 @@
       "useDecimalTerminology": true,
       "atisVoice": {
         "useTextToSpeech": true,
-        "voice": "UK Male",
+        "voice": "UK Female",
         "speechRate": 180
       },
       "presets": [
@@ -1972,6 +1972,7 @@
           "id": "ccd14d1c-4c34-4ba0-ac79-aa536b5886d5",
           "ordinal": 2,
           "name": "07L 07R",
+          "airportConditions": "",
           "template": "@EBBR_DEP [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@DEP @RWY07L @RSCD [TIME] [ARPT_COND] @ARR @RWY07R\r\n[TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_DEP [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
@@ -2017,6 +2018,7 @@
           "id": "0a3bd4dc-0430-4ce8-b646-3cff14bb757b",
           "ordinal": 5,
           "name": "07R 07L",
+          "airportConditions": "",
           "template": "@EBBR_DEP [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@DEP @RWY07R @RSCD [TIME] [ARPT_COND] @ARR @RWY07L\r\n[TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_DEP [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
@@ -2288,12 +2290,12 @@
         {
           "text": "RWY 07R WET, RWYCC 555.",
           "ordinal": 6,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "RWY 25R DRY.",
           "ordinal": 7,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "RWY 25R WET, RWYCC 555.",
@@ -2303,7 +2305,7 @@
         {
           "text": "RWY 19 DRY.",
           "ordinal": 9,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "RWY 19 WET, RWYCC 555.",
@@ -4371,6 +4373,7 @@
           "id": "bb5c9185-566a-459f-a0e8-b3c05bcf8b88",
           "ordinal": 7,
           "name": "07R 07L (RNP)",
+          "airportConditions": "",
           "template": "@EBBR_ARR [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@RNP @ARR @RWY07L @RSCD [TIME] [ARPT_COND]\r\n@DEP @RWY07R [TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_ARR [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
@@ -4808,7 +4811,7 @@
         {
           "text": "RWY 01 WET, RWYCC 555.",
           "ordinal": 2,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "RWY 07L DRY.",
@@ -4853,7 +4856,7 @@
         {
           "text": "RWY 25R DRY.",
           "ordinal": 10,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "RWY 25R WET, RWYCC 555.",
@@ -15454,8 +15457,8 @@
           }
         },
         "trend": {
-          "nosigText": "No Significant Changes",
-          "nosigVoice": "No Significant Changes",
+          "nosigText": "No Significant Change",
+          "nosigVoice": "No Significant Change",
           "becomingText": "Becoming",
           "becomingVoice": "Becoming",
           "temporaryText": "Temporary",
@@ -15528,7 +15531,7 @@
       "atisVoice": {
         "useTextToSpeech": true,
         "voice": "UK Male",
-        "speechRate": 140
+        "speechRate": 120
       },
       "presets": [
         {
@@ -15567,6 +15570,8 @@
           "id": "b920531a-ab08-473f-87e1-e5c2a32ea919",
           "ordinal": 3,
           "name": "06 (ILS)",
+          "airportConditions": "",
+          "notams": "",
           "template": "@ELLX @ATIS [ATIS_CODE] [TIME] @RWY06 [TL] [ARPT_COND] @ILS [WIND] [VIS] [RVR] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [RECENT_WX] [TREND] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
@@ -15642,13 +15647,13 @@
         },
         {
           "variableName": "RWY24",
-          "text": "RWY IN USE 24.",
-          "voice": "RWY IN USE ^24."
+          "text": "RWY 24.",
+          "voice": "RWY ^24."
         },
         {
           "variableName": "RWY06",
-          "text": "RWY IN USE 06.",
-          "voice": "RWY IN USE ^06."
+          "text": "RWY 06.",
+          "voice": "RWY ^06."
         },
         {
           "variableName": "ATIS",
@@ -15675,7 +15680,7 @@
         {
           "text": "DELIVERY 121.855",
           "ordinal": 2,
-          "enabled": true
+          "enabled": false
         }
       ],
       "notamDefinitions": [
@@ -15685,9 +15690,9 @@
           "enabled": false
         },
         {
-          "text": "RWY 24 CONDITION REPORT WET, RUNWAY CONDITION CODE 555.",
+          "text": "RWY 24 CONDITION REPORT, RUNWAY CONDITION CODE 555.",
           "ordinal": 2,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "RWY 06 CONDITION REPORT DRY, RUNWAY CONDITION CODE 666.",
@@ -15695,9 +15700,9 @@
           "enabled": false
         },
         {
-          "text": "RWY 06 CONDITION REPORT WET, RUNWAY CONDITION CODE 555.",
+          "text": "RWY 06 CONDITION REPORT, RUNWAY CONDITION CODE 555.",
           "ordinal": 4,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "WHEN AIRBORNE MONITOR ADVISORY 122.800",
