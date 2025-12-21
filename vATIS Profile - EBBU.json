@@ -2,7 +2,7 @@
   "name": "EBBU",
   "id": "6e87b213-e74a-4b85-bf17-616b9dbb5129",
   "updateUrl": "https://raw.githubusercontent.com/NichoAir/vAtis-EBBU-Profile/refs/heads/main/vATIS%20Profile%20-%20EBBU.json",
-  "updateSerial": 2025122102,
+  "updateSerial": 2025122103,
   "stations": [
     {
       "id": "5a7b83ed-7c42-4462-b25e-3f8a890434b2",
@@ -15555,7 +15555,7 @@
           "name": "24 (ILS)",
           "airportConditions": "",
           "notams": "",
-          "template": "@ELLX @ATIS [ATIS_CODE] [TIME] @RWY24 [TL] [ARPT_COND] @ILS [WIND] [VIS] [RVR] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [RECENT_WX] [TREND] [NOTAMS] [CLOSING]",
+          "template": "@ELLX @ATIS [ATIS_CODE] [TIME] @RWY24 [TL] [ARPT_COND] @ILS [WIND] [VIS] [RVR] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [RECENT_WX] TREND [TREND] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -15572,7 +15572,7 @@
           "name": "06 (ILS)",
           "airportConditions": "",
           "notams": "",
-          "template": "@ELLX @ATIS [ATIS_CODE] [TIME] @RWY06 [TL] [ARPT_COND] @ILS [WIND] [VIS] [RVR] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [RECENT_WX] [TREND] [NOTAMS] [CLOSING]",
+          "template": "@ELLX @ATIS [ATIS_CODE] [TIME] @RWY06 [TL] [ARPT_COND] @ILS [WIND] [VIS] [RVR] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [RECENT_WX] TREND [TREND] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -15602,7 +15602,7 @@
           "id": "317e36ba-6b0f-45dc-9e8e-46f048645bc8",
           "ordinal": 5,
           "name": "24 (RNP)",
-          "template": "@ELLX @ATIS [ATIS_CODE] [TIME] @RWY24 [TL] [ARPT_COND] @RNP [WIND] [VIS] [RVR] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [RECENT_WX] [TREND] [NOTAMS] [CLOSING]",
+          "template": "@ELLX @ATIS [ATIS_CODE] [TIME] @RWY24 [TL] [ARPT_COND] @RNP [WIND] [VIS] [RVR] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [RECENT_WX] TREND [TREND] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -15617,7 +15617,7 @@
           "id": "950a3043-d45e-46b3-9ef4-f316b1cee13e",
           "ordinal": 6,
           "name": "06 (RNP)",
-          "template": "@ELLX @ATIS [ATIS_CODE] [TIME] @RWY06 [TL] [ARPT_COND] @RNP [WIND] [VIS] [RVR] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [RECENT_WX] [TREND] [NOTAMS] [CLOSING]",
+          "template": "@ELLX @ATIS [ATIS_CODE] [TIME] @RWY06 [TL] [ARPT_COND] @RNP [WIND] [VIS] [RVR] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [RECENT_WX] TREND [TREND] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -15690,7 +15690,7 @@
           "enabled": false
         },
         {
-          "text": "RWY 24 CONDITION REPORT, RUNWAY CONDITION CODE 555.",
+          "text": "RWY 24 CONDITION REPORT WET, RUNWAY CONDITION CODE 555.",
           "ordinal": 2,
           "enabled": false
         },
@@ -15700,7 +15700,7 @@
           "enabled": false
         },
         {
-          "text": "RWY 06 CONDITION REPORT, RUNWAY CONDITION CODE 555.",
+          "text": "RWY 06 CONDITION REPORT WET, RUNWAY CONDITION CODE 555",
           "ordinal": 4,
           "enabled": true
         },
@@ -15729,4 +15729,3 @@
   ],
   "version": 4
 }
-
