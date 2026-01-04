@@ -2,7 +2,7 @@
   "name": "EBBU",
   "id": "6e87b213-e74a-4b85-bf17-616b9dbb5129",
   "updateUrl": "https://raw.githubusercontent.com/NichoAir/vAtis-EBBU-Profile/refs/heads/main/vATIS%20Profile%20-%20EBBU.json",
-  "updateSerial": 2025122201,
+  "updateSerial": 2026010401,
   "stations": [
     {
       "id": "5a7b83ed-7c42-4462-b25e-3f8a890434b2",
@@ -2290,7 +2290,7 @@
         {
           "text": "RWY 07R WET, RWYCC 555.",
           "ordinal": 6,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "RWY 25R DRY.",
@@ -2300,7 +2300,7 @@
         {
           "text": "RWY 25R WET, RWYCC 555.",
           "ordinal": 7,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "RWY 19 DRY.",
@@ -4436,6 +4436,7 @@
           "id": "686b02e7-83d6-489a-b49d-e2fdd140ec32",
           "ordinal": 11,
           "name": "25R DEP 25R/L ARR (SIMDEP)",
+          "airportConditions": "",
           "template": "@EBBR_ARR [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@ILS_DEP @ARR @RWY25L @RSCD [TIME] @RWY25R @RSCD [TIME] [ARPT_COND]\r\n@DEP @RWY25R [TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_ARR [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
@@ -4811,7 +4812,7 @@
         {
           "text": "RWY 01 WET, RWYCC 555.",
           "ordinal": 2,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "RWY 07L DRY.",
@@ -4861,7 +4862,7 @@
         {
           "text": "RWY 25R WET, RWYCC 555.",
           "ordinal": 12,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "LOW VISIBILITY OPERATIONS.",
@@ -11300,12 +11301,17 @@
         {
           "text": "TWY E1 EDGE LIGHTS U/S",
           "ordinal": 3,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "EBR17A ACT",
           "ordinal": 4,
           "enabled": false
+        },
+        {
+          "text": "TWY E1 CLOSED",
+          "ordinal": 5,
+          "enabled": true
         }
       ]
     },
@@ -15524,7 +15530,7 @@
           }
         }
       },
-      "notamsBeforeFreeText": true,
+      "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
       "frequency": 134755000,
       "useDecimalTerminology": true,
@@ -15555,7 +15561,7 @@
           "name": "24 (ILS)",
           "airportConditions": "",
           "notams": "",
-          "template": "@ELLX @ATIS [ATIS_CODE] [TIME] @RWY24 [TL] [ARPT_COND] @ILS [WIND] [VIS] [RVR] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [RECENT_WX] TREND [TREND] [NOTAMS] [CLOSING]",
+          "template": "@ELLX @ATIS [ATIS_CODE]. [TIME]. @RWY24 [TL] [ARPT_COND] @ILS [WIND] [VIS] [RVR] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [RECENT_WX] TREND [TREND] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -15572,7 +15578,7 @@
           "name": "06 (ILS)",
           "airportConditions": "",
           "notams": "",
-          "template": "@ELLX @ATIS [ATIS_CODE] [TIME] @RWY06 [TL] [ARPT_COND] @ILS [WIND] [VIS] [RVR] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [RECENT_WX] TREND [TREND] [NOTAMS] [CLOSING]",
+          "template": "@ELLX @ATIS [ATIS_CODE]. [TIME]. @RWY06 [TL] [ARPT_COND] @ILS [WIND] [VIS] [RVR] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [RECENT_WX] TREND [TREND] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -15602,7 +15608,7 @@
           "id": "317e36ba-6b0f-45dc-9e8e-46f048645bc8",
           "ordinal": 5,
           "name": "24 (RNP)",
-          "template": "@ELLX @ATIS [ATIS_CODE] [TIME] @RWY24 [TL] [ARPT_COND] @RNP [WIND] [VIS] [RVR] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [RECENT_WX] TREND [TREND] [NOTAMS] [CLOSING]",
+          "template": "@ELLX @ATIS [ATIS_CODE]. [TIME]. @RWY24 [TL] [ARPT_COND] @RNP [WIND] [VIS] [RVR] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [RECENT_WX] TREND [TREND] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -15617,7 +15623,7 @@
           "id": "950a3043-d45e-46b3-9ef4-f316b1cee13e",
           "ordinal": 6,
           "name": "06 (RNP)",
-          "template": "@ELLX @ATIS [ATIS_CODE] [TIME] @RWY06 [TL] [ARPT_COND] @RNP [WIND] [VIS] [RVR] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [RECENT_WX] TREND [TREND] [NOTAMS] [CLOSING]",
+          "template": "@ELLX @ATIS [ATIS_CODE]. [TIME]. @RWY06 [TL] [ARPT_COND] @RNP [WIND] [VIS] [RVR] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [RECENT_WX] TREND [TREND] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -15673,14 +15679,14 @@
       ],
       "airportConditionDefinitions": [
         {
-          "text": "LOW VISIBILITY OPERATIONS.",
+          "text": "LOW VISIBILITY PROCEDURES IN PROGRESS.",
           "ordinal": 1,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "DELIVERY 121.855",
           "ordinal": 2,
-          "enabled": false
+          "enabled": true
         }
       ],
       "notamDefinitions": [
@@ -15692,7 +15698,7 @@
         {
           "text": "RWY 24 CONDITION REPORT WET, RUNWAY CONDITION CODE 555.",
           "ordinal": 2,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "RWY 06 CONDITION REPORT DRY, RUNWAY CONDITION CODE 666.",
@@ -15702,17 +15708,17 @@
         {
           "text": "RWY 06 CONDITION REPORT WET, RUNWAY CONDITION CODE 555",
           "ordinal": 4,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "WHEN AIRBORNE MONITOR ADVISORY 122.800",
           "ordinal": 5,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "WHEN AIRBORNE CONTACT LUXEMBURG RADAR ON 120.885",
           "ordinal": 6,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "WHEN AIRBORNE CONTACT BRUSSELS CONTROL ON 131.100",
