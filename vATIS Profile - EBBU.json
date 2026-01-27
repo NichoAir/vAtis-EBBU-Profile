@@ -2,7 +2,7 @@
   "name": "EBBU",
   "id": "6e87b213-e74a-4b85-bf17-616b9dbb5129",
   "updateUrl": "https://raw.githubusercontent.com/NichoAir/vAtis-EBBU-Profile/refs/heads/main/vATIS%20Profile%20-%20EBBU.json",
-  "updateSerial": 2026012001,
+  "updateSerial": 2026012701,
   "stations": [
     {
       "id": "5a7b83ed-7c42-4462-b25e-3f8a890434b2",
@@ -2297,12 +2297,12 @@
         {
           "text": "RWY 25R DRY, RWYCC 666.",
           "ordinal": 7,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "RWY 25R WET, RWYCC 555.",
           "ordinal": 8,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "RWY 19 DRY, RWYCC 666.",
@@ -4844,7 +4844,7 @@
         {
           "text": "RWY 19 DRY, RWYCC 666.",
           "ordinal": 7,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "RWY 19 WET, RWYCC 555.",
@@ -4869,7 +4869,7 @@
         {
           "text": "RWY 25R WET, RWYCC 555.",
           "ordinal": 12,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "LOW VISIBILITY OPERATIONS.",
@@ -15729,7 +15729,7 @@
         {
           "text": "LOW VISIBILITY PROCEDURES IN PROGRESS.",
           "ordinal": 1,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "DELIVERY 121.855",
@@ -15746,7 +15746,7 @@
         {
           "text": "RUNWAY 24 CONDITION REPORT WET, RUNWAY CONDITION CODE 555",
           "ordinal": 2,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "RUNWAY 06 CONDITION REPORT DRY, RUNWAY CONDITION CODE 666",
@@ -15756,7 +15756,7 @@
         {
           "text": "RUNWAY 06 CONDITION REPORT WET, RUNWAY CONDITION CODE 555",
           "ordinal": 4,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "WHEN AIRBORNE MONITOR ADVISORY 122.800",
