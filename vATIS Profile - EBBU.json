@@ -2,7 +2,7 @@
   "name": "EBBU",
   "id": "6e87b213-e74a-4b85-bf17-616b9dbb5129",
   "updateUrl": "https://raw.githubusercontent.com/NichoAir/vAtis-EBBU-Profile/refs/heads/main/vATIS%20Profile%20-%20EBBU.json",
-  "updateSerial": 2026012701,
+  "updateSerial": 2026020901,
   "stations": [
     {
       "id": "5a7b83ed-7c42-4462-b25e-3f8a890434b2",
@@ -2098,6 +2098,7 @@
           "id": "db949ced-a588-46f8-8e11-d18c9f6346a5",
           "ordinal": 10,
           "name": "25R19 DEP 25R ARR",
+          "airportConditions": "",
           "template": "@EBBR_DEP [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@DEP @RWY25R @RSCD [TIME] @RWY19 @RSCD [TIME] [ARPT_COND]\r\n@ARR @RWY25R\r\n[TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_DEP [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
@@ -2129,6 +2130,7 @@
           "ordinal": 12,
           "name": "25R19 DEP 25R/L ARR (XNG)",
           "airportConditions": "",
+          "notams": "",
           "template": "@EBBR_DEP [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@DEP @RWY25R @RSCD [TIME] @RWY19 @RSCD [TIME] [ARPT_COND] \r\n@ARR @RWY25L25R [TL] @XNG\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_DEP [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
@@ -2261,6 +2263,21 @@
           "variableName": "UNAB3",
           "text": "ADV DLC IF UNA TO LINEUP VIA B3 , TORA 2760 M",
           "voice": "ADVISE DELIVERY IF UNABLE TO LINEUP VIA B 3 , TAKEOFF RUNWAY AVAILABLE 2760 METERS"
+        },
+        {
+          "variableName": "ACDM",
+          "text": "ACDM",
+          "voice": "A C D M"
+        },
+        {
+          "variableName": "TOBT",
+          "text": "TOBT",
+          "voice": "TARGET OFF BLOCK TIME"
+        },
+        {
+          "variableName": "ACDM_INUSE",
+          "text": "ACDM IN USE. REPORT TOBT ON VATS.IM/VDGS",
+          "voice": "A C D M IN USE. REPORT TARGET OFF BLOCK TIME ONLINE"
         }
       ],
       "airportConditionDefinitions": [
@@ -2330,7 +2347,18 @@
           "enabled": false
         }
       ],
-      "notamDefinitions": []
+      "notamDefinitions": [
+        {
+          "text": "TAIL OPS",
+          "ordinal": 1,
+          "enabled": false
+        },
+        {
+          "text": "ACDM_INUSE",
+          "ordinal": 2,
+          "enabled": true
+        }
+      ]
     },
     {
       "id": "04fb23a2-776a-46d6-a81f-ecbbd7f0b1ae",
@@ -4444,6 +4472,7 @@
           "ordinal": 11,
           "name": "25R DEP 25R/L ARR (SIMDEP)",
           "airportConditions": "",
+          "notams": "",
           "template": "@EBBR_ARR [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@ILS_DEP @ARR @RWY25L @RSCD [TIME] @RWY25R @RSCD [TIME] [ARPT_COND]\r\n@DEP @RWY25R [TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_ARR [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
@@ -4476,6 +4505,7 @@
           "id": "5907604a-7576-433c-adb0-7d5e71e82910",
           "ordinal": 13,
           "name": "25R19 DEP 25R ARR (ILS)",
+          "airportConditions": "",
           "template": "@EBBR_ARR [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@ILS @ARR @RWY25R @RSCD [TIME] [ARPT_COND]\r\n@DEP @RWY25R19 [TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_ARR [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
@@ -4844,7 +4874,7 @@
         {
           "text": "RWY 19 DRY, RWYCC 666.",
           "ordinal": 7,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "RWY 19 WET, RWYCC 555.",
@@ -4854,7 +4884,7 @@
         {
           "text": "RWY 25L DRY, RWYCC 666.",
           "ordinal": 9,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "RWY 25L WET, RWYCC 555.",
@@ -4864,7 +4894,7 @@
         {
           "text": "RWY 25R DRY, RWYCC 666.",
           "ordinal": 11,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "RWY 25R WET, RWYCC 555.",
@@ -4881,6 +4911,11 @@
         {
           "text": "RWY 19 CLSD.",
           "ordinal": 1,
+          "enabled": false
+        },
+        {
+          "text": "TAIL OPS",
+          "ordinal": 2,
           "enabled": false
         }
       ]
@@ -6853,6 +6888,7 @@
           "id": "0c4bf607-9496-463e-9e51-66c69fbf8ee5",
           "ordinal": 2,
           "name": "11 (VOR)",
+          "airportConditions": "",
           "template": "@EBAW @ATIS [ATIS_CODE] \r\n[TIME]\r\n@EBAWINF\r\n@VOR \r\n@USE11\r\n[ARPT_COND] [TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
@@ -7021,18 +7057,23 @@
           "variableName": "USE29",
           "text": "ARR RWY29 DEP RWY29",
           "voice": "RWY29 FOR ARRIVALS AND DEPARTURES.."
+        },
+        {
+          "variableName": "AD",
+          "text": "AD",
+          "voice": "AERODROME"
         }
       ],
       "airportConditionDefinitions": [
         {
           "text": "RWY 11 DRY, RWYCC 666.",
           "ordinal": 1,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "RWY 11 WET, RWYCC 555.",
           "ordinal": 2,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "RWY 29 DRY, RWYCC 666.",
@@ -7050,7 +7091,7 @@
           "enabled": true
         },
         {
-          "text": "CLOSED. ",
+          "text": "AD CLOSED. ",
           "ordinal": 6,
           "enabled": false
         },
