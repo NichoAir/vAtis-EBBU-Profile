@@ -2,7 +2,7 @@
   "name": "EBBU",
   "id": "6e87b213-e74a-4b85-bf17-616b9dbb5129",
   "updateUrl": "https://raw.githubusercontent.com/NichoAir/vAtis-EBBU-Profile/refs/heads/main/vATIS%20Profile%20-%20EBBU.json",
-  "updateSerial": 2026021402,
+  "updateSerial": 2026021601,
   "stations": [
     {
       "id": "5a7b83ed-7c42-4462-b25e-3f8a890434b2",
@@ -2161,6 +2161,7 @@
           "id": "c0431d32-0d73-4b7b-b18f-3823480c8a7f",
           "ordinal": 14,
           "name": "25L SRO",
+          "airportConditions": "",
           "template": "@EBBR_DEP [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@25LDEP @RSCD [TIME] \r\n[ARPT_COND] \r\n@25LARR [TL]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_DEP [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
@@ -2348,6 +2349,16 @@
           "variableName": "25LRARR",
           "text": "ARR RWY25L RWY25R",
           "voice": "RWY25L AND RWY25R FOR ARRIVALS"
+        },
+        {
+          "variableName": "TAIL",
+          "text": "TAIL",
+          "voice": "TAILWIND"
+        },
+        {
+          "variableName": "OPS",
+          "text": "OPS",
+          "voice": "OPERATIONS"
         }
       ],
       "airportConditionDefinitions": [
@@ -2389,7 +2400,7 @@
         {
           "text": "RWY25R WET, RWYCC 555.",
           "ordinal": 8,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "RWY19 DRY, RWYCC 666.",
@@ -2404,7 +2415,7 @@
         {
           "text": "RWY25L DRY, RWYCC 666.",
           "ordinal": 11,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "RWY25L WET, RWYCC 555.",
@@ -4973,66 +4984,76 @@
           "variableName": "25R19DEP",
           "text": "DEP RWY25R RWY19",
           "voice": "RWY25R AND RWY19 FOR DEPARTURES"
+        },
+        {
+          "variableName": "TAIL",
+          "text": "TAIL",
+          "voice": "TAILWIND"
+        },
+        {
+          "variableName": "OPS",
+          "text": "OPS",
+          "voice": "OPERATIONS"
         }
       ],
       "airportConditionDefinitions": [
         {
-          "text": "RWY 01 DRY, RWYCC 666.",
+          "text": "RWY01 DRY, RWYCC 666.",
           "ordinal": 1,
           "enabled": false
         },
         {
-          "text": "RWY 01 WET, RWYCC 555.",
+          "text": "RWY01 WET, RWYCC 555.",
           "ordinal": 2,
           "enabled": false
         },
         {
-          "text": "RWY 07L DRY, RWYCC 666.",
+          "text": "RWY07L DRY, RWYCC 666.",
           "ordinal": 3,
           "enabled": false
         },
         {
-          "text": "RWY 07L WET, RWYCC 555.",
+          "text": "RWY07L WET, RWYCC 555.",
           "ordinal": 4,
           "enabled": false
         },
         {
-          "text": "RWY 07R DRY, RWYCC 666.",
+          "text": "RWY07R DRY, RWYCC 666.",
           "ordinal": 5,
           "enabled": false
         },
         {
-          "text": "RWY 07R WET, RWYCC 555.",
+          "text": "RWY07R WET, RWYCC 555.",
           "ordinal": 6,
           "enabled": false
         },
         {
-          "text": "RWY 19 DRY, RWYCC 666.",
+          "text": "RWY19 DRY, RWYCC 666.",
           "ordinal": 7,
           "enabled": false
         },
         {
-          "text": "RWY 19 WET, RWYCC 555.",
+          "text": "RWY19 WET, RWYCC 555.",
           "ordinal": 8,
           "enabled": false
         },
         {
-          "text": "RWY 25L DRY, RWYCC 666.",
+          "text": "RWY25L DRY, RWYCC 666.",
           "ordinal": 9,
-          "enabled": false
-        },
-        {
-          "text": "RWY 25L WET, RWYCC 555.",
-          "ordinal": 10,
           "enabled": true
         },
         {
-          "text": "RWY 25R DRY, RWYCC 666.",
+          "text": "RWY25L WET, RWYCC 555.",
+          "ordinal": 10,
+          "enabled": false
+        },
+        {
+          "text": "RWY25R DRY, RWYCC 666.",
           "ordinal": 11,
           "enabled": false
         },
         {
-          "text": "RWY 25R WET, RWYCC 555.",
+          "text": "RWY25R WET, RWYCC 555.",
           "ordinal": 12,
           "enabled": false
         },
@@ -7024,6 +7045,7 @@
           "ordinal": 2,
           "name": "11 (VOR)",
           "airportConditions": "",
+          "notams": "",
           "template": "@EBAW @ATIS [ATIS_CODE] \r\n[TIME]\r\n@EBAWINF\r\n@VOR \r\n@USE11\r\n[ARPT_COND] [TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
@@ -7203,12 +7225,12 @@
         {
           "text": "RWY 11 DRY, RWYCC 666.",
           "ordinal": 1,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "RWY 11 WET, RWYCC 555.",
           "ordinal": 2,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "RWY 29 DRY, RWYCC 666.",
@@ -9190,6 +9212,8 @@
         {
           "id": "fe0a2978-4304-4779-8106-e7e4e2f12752",
           "name": "24 (ILS)",
+          "airportConditions": "",
+          "notams": "",
           "template": "@EBCI @ATIS [ATIS_CODE] \r\n[TIME]\r\n@EBCIINF\r\n@ILS \r\n@USE24\r\n@RSCD [TIME] [ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
@@ -13794,12 +13818,12 @@
         {
           "text": "DRY, RWYCC 666.",
           "ordinal": 1,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "WET, RWYCC 555.",
           "ordinal": 2,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "LOW VISIBILITY OPERATIONS.",
