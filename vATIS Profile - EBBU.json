@@ -2,7 +2,7 @@
   "name": "EBBU",
   "id": "6e87b213-e74a-4b85-bf17-616b9dbb5129",
   "updateUrl": "https://raw.githubusercontent.com/NichoAir/vAtis-EBBU-Profile/refs/heads/main/vATIS%20Profile%20-%20EBBU.json",
-  "updateSerial": 2026021601,
+  "updateSerial": 2026022801,
   "stations": [
     {
       "id": "5a7b83ed-7c42-4462-b25e-3f8a890434b2",
@@ -2395,7 +2395,7 @@
         {
           "text": "RWY25R DRY, RWYCC 666.",
           "ordinal": 7,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "RWY25R WET, RWYCC 555.",
@@ -2415,7 +2415,7 @@
         {
           "text": "RWY25L DRY, RWYCC 666.",
           "ordinal": 11,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "RWY25L WET, RWYCC 555.",
@@ -9312,7 +9312,7 @@
         },
         {
           "variableName": "EBCIINF",
-          "text": "EBCI INFO,",
+          "text": "EBCI INFO",
           "voice": "."
         },
         {
@@ -9324,6 +9324,21 @@
           "variableName": "USE06",
           "text": "ARR RWY06 DEP RWY06",
           "voice": "RWY06 FOR ARRIVALS AN DEPARTURES"
+        },
+        {
+          "variableName": "CAT",
+          "text": "CAT",
+          "voice": "CATEGORY"
+        },
+        {
+          "variableName": "AVBL",
+          "text": "AVBL",
+          "voice": "AVAILABLE"
+        },
+        {
+          "variableName": "ONREQ",
+          "text": "O/R",
+          "voice": "ON REQUEST"
         }
       ],
       "airportConditionDefinitions": [
@@ -9358,6 +9373,11 @@
           "text": "VOR U/S",
           "ordinal": 1,
           "enabled": true
+        },
+        {
+          "text": "CAT 2 OR 3 AVBL ONREQ",
+          "ordinal": 2,
+          "enabled": false
         }
       ]
     },
@@ -13818,12 +13838,12 @@
         {
           "text": "DRY, RWYCC 666.",
           "ordinal": 1,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "WET, RWYCC 555.",
           "ordinal": 2,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "LOW VISIBILITY OPERATIONS.",
@@ -15929,7 +15949,7 @@
         {
           "text": "LOW VISIBILITY PROCEDURES IN PROGRESS.",
           "ordinal": 1,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "DELIVERY 121.855",
@@ -15961,12 +15981,12 @@
         {
           "text": "WHEN AIRBORNE MONITOR ADVISORY 122.800",
           "ordinal": 5,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "WHEN AIRBORNE CONTACT LUXEMBURG RADAR ON 120.885",
           "ordinal": 6,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "WHEN AIRBORNE CONTACT BRUSSELS CONTROL ON 131.100",
