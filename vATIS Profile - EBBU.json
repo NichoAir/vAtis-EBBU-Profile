@@ -2,7 +2,7 @@
   "name": "EBBU",
   "id": "6e87b213-e74a-4b85-bf17-616b9dbb5129",
   "updateUrl": "https://raw.githubusercontent.com/NichoAir/vAtis-EBBU-Profile/refs/heads/main/vATIS%20Profile%20-%20EBBU.json",
-  "updateSerial": 2026022801,
+  "updateSerial": 2026030101,
   "stations": [
     {
       "id": "5a7b83ed-7c42-4462-b25e-3f8a890434b2",
@@ -11254,7 +11254,7 @@
         },
         "trend": {
           "nosigText": "NOSIG",
-          "nosigVoice": "No Significant Changes",
+          "nosigVoice": "NOSIG",
           "becomingText": "BECMG",
           "becomingVoice": "Becoming",
           "temporaryText": "TEMPO",
@@ -11349,7 +11349,9 @@
           "id": "c60e9a18-90ce-4ae7-b08c-c2b457acf5e6",
           "ordinal": 2,
           "name": "26 (ILS)",
-          "template": "",
+          "airportConditions": "",
+          "notams": "",
+          "template": "@EBOS @ATIS [ATIS_CODE] \r\n[TIME]\r\n@EBOSINF\r\n@ILS \r\n@USE26\r\n@RSCD [TIME] @RSCD26 [ARPT_COND] [TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -11364,7 +11366,7 @@
           "id": "9a77411f-4aad-4361-bae3-bb32fb72b69a",
           "ordinal": 3,
           "name": "08 (ILS)",
-          "template": "@EBOS @ATIS [ATIS_CODE] \r\n[TIME]\r\n@EBOSINF\r\n@ILS \r\n@USE08\r\n@RSCD [TIME] [ARPT_COND] [TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
+          "template": "@EBOS @ATIS [ATIS_CODE] \r\n[TIME]\r\n@EBOSINF\r\n@ILS \r\n@USE08\r\n@RSCD [TIME] @RSCD08 [ARPT_COND] [TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -11379,7 +11381,7 @@
           "id": "d28f4f66-a9f4-497a-afa6-e4facb9f90f5",
           "ordinal": 4,
           "name": "DEP26ARR08 (ILS) [PRS at night]",
-          "template": "@EBOS @ATIS [ATIS_CODE] \r\n[TIME]\r\n@EBOSINF\r\n@ILS \r\n@ARR @RWY08 @DEP @RWY26\r\n@RSCD [TIME] [ARPT_COND] [TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
+          "template": "@EBOS @ATIS [ATIS_CODE] \r\n[TIME]\r\n@EBOSINF\r\n@ILS \r\n@ARR @RWY08 @DEP @RWY26\r\n@RSCD [TIME] @RSCD08 [ARPT_COND] [TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -11409,7 +11411,7 @@
           "id": "099f8823-2320-49af-a977-3fb6986477b3",
           "ordinal": 6,
           "name": "26 (RNP)",
-          "template": "@EBOS @ATIS [ATIS_CODE] \r\n[TIME]\r\n@EBOSINF\r\n@RNP \r\n@USE26\r\n@RSCD [TIME] [ARPT_COND] [TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
+          "template": "@EBOS @ATIS [ATIS_CODE] \r\n[TIME]\r\n@EBOSINF\r\n@RNP \r\n@USE26\r\n@RSCD [TIME] @RSCD26 [ARPT_COND] [TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -11424,7 +11426,7 @@
           "id": "1bf331ab-a280-4f29-9177-0ea419890fe1",
           "ordinal": 7,
           "name": "08 (RNP)",
-          "template": "@EBOS @ATIS [ATIS_CODE] \r\n[TIME]\r\n@EBOSINF\r\n@RNP \r\n@USE08\r\n@RSCD [TIME] [ARPT_COND] [TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
+          "template": "@EBOS @ATIS [ATIS_CODE] \r\n[TIME]\r\n@EBOSINF\r\n@RNP \r\n@USE08\r\n@RSCD [TIME] @RSCD08 [ARPT_COND] [TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -11439,7 +11441,7 @@
           "id": "097dea6f-d59d-4fcb-b4c2-24ae597551c0",
           "ordinal": 8,
           "name": "DEP26ARR08 (RNP) [PRS at night]",
-          "template": "@EBOS @ATIS [ATIS_CODE] \r\n[TIME]\r\n@EBOSINF\r\n@RNP \r\n@ARR @RWY08 @DEP @RWY26\r\n@RSCD [TIME] [ARPT_COND] [TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
+          "template": "@EBOS @ATIS [ATIS_CODE] \r\n[TIME]\r\n@EBOSINF\r\n@RNP \r\n@ARR @RWY08 @DEP @RWY26\r\n@RSCD [TIME] @RSCD26 [ARPT_COND] [TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -11470,12 +11472,12 @@
         {
           "variableName": "ILS",
           "text": "EXP VECT FOR ILS APP",
-          "voice": "EXPECT VECTORS FOR ILS APPROACH."
+          "voice": "EXPECT VECTORING FOR ILS APPROACH."
         },
         {
           "variableName": "RNP",
           "text": "EXP VECT FOR RNP APP",
-          "voice": "EXPECT VECTORS FOR RNP APPROACH"
+          "voice": "EXPECT VECTORING FOR RNP APPROACH"
         },
         {
           "variableName": "ATIS",
@@ -11515,43 +11517,43 @@
         {
           "variableName": "USE08",
           "text": "ARR RWY08 DEP RWY08",
-          "voice": "ARRIVAL AND DEPARTURE RWY08."
+          "voice": "RWY08 FOR ARRIVALS AND DEPARTURES."
         },
         {
           "variableName": "USE26",
           "text": "ARR RWY26 DEP RWY26",
-          "voice": "ARRIVAL AND DEPARTURE RWY26."
+          "voice": "RWY26 FOR ARRIVALS AND DEPARTURES."
         },
         {
           "variableName": "CL",
           "text": "CL",
           "voice": "CENTERLINE"
+        },
+        {
+          "variableName": "RSCD26",
+          "text": "RWY26",
+          "voice": "."
+        },
+        {
+          "variableName": "RSCD08",
+          "text": "RWY 08",
+          "voice": "."
         }
       ],
       "airportConditionDefinitions": [
         {
-          "text": "RWY 26 DRY, RWYCC 666.",
+          "text": "DRY, RWYCC 666.",
           "ordinal": 1,
           "enabled": true
         },
         {
-          "text": "RWY 26 WET, RWYCC 555.",
+          "text": "WET, RWYCC 555.",
           "ordinal": 2,
           "enabled": false
         },
         {
-          "text": "RWY 08 DRY, RWYCC 666.",
-          "ordinal": 3,
-          "enabled": false
-        },
-        {
-          "text": "RWY 08 WET, RWYCC 555.",
-          "ordinal": 4,
-          "enabled": false
-        },
-        {
           "text": "LOW VISIBILITY OPERATIONS.",
-          "ordinal": 5,
+          "ordinal": 3,
           "enabled": false
         }
       ],
@@ -11579,7 +11581,7 @@
         {
           "text": "TWY E1 CLOSED",
           "ordinal": 5,
-          "enabled": true
+          "enabled": false
         }
       ]
     },
@@ -13838,12 +13840,12 @@
         {
           "text": "DRY, RWYCC 666.",
           "ordinal": 1,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "WET, RWYCC 555.",
           "ordinal": 2,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "LOW VISIBILITY OPERATIONS.",
@@ -15949,7 +15951,7 @@
         {
           "text": "LOW VISIBILITY PROCEDURES IN PROGRESS.",
           "ordinal": 1,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "DELIVERY 121.855",
@@ -15966,7 +15968,7 @@
         {
           "text": "RUNWAY 24 CONDITION REPORT WET, RUNWAY CONDITION CODE 555",
           "ordinal": 2,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "RUNWAY 06 CONDITION REPORT DRY, RUNWAY CONDITION CODE 666",
