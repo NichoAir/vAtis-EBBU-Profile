@@ -2065,7 +2065,7 @@
           "ordinal": 8,
           "name": "25R DEP 25L ARR",
           "airportConditions": "RWY25R DRY",
-          "notams": "TAIL REP AT 1427, ALT 1000FT, 060 DEG/10 KT",
+          "notams": "",
           "template": "@EBBR_DEP [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@25RDEP @RSCD [TIME] \r\n[ARPT_COND] \r\n@25LARR [TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_DEP [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
@@ -16005,3 +16005,4 @@
   ],
   "version": 4
 }
+
