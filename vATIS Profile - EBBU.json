@@ -2,7 +2,7 @@
   "name": "EBBU",
   "id": "6e87b213-e74a-4b85-bf17-616b9dbb5129",
   "updateUrl": "https://raw.githubusercontent.com/NichoAir/vAtis-EBBU-Profile/refs/heads/main/vATIS%20Profile%20-%20EBBU.json",
-  "updateSerial": 2026031201,
+  "updateSerial": 2026031202,
   "stations": [
     {
       "id": "5a7b83ed-7c42-4462-b25e-3f8a890434b2",
@@ -13559,7 +13559,7 @@
         {
           "id": "edc0cf72-f062-4257-9ce9-6746b9753dad",
           "ordinal": 2,
-          "name": "04L (RNP)",
+          "name": "04L",
           "template": "@EBLG @ATIS [ATIS_CODE] \r\n[TIME]\r\n@EBLGINF\r\n@USE04L\r\n@RSCD04L [ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
@@ -13574,7 +13574,7 @@
         {
           "id": "b08fc845-5bec-44bc-a7a7-eea0f7ae61fd",
           "ordinal": 3,
-          "name": "04R (ILS)",
+          "name": "04R",
           "template": "@EBLG @ATIS [ATIS_CODE] \r\n[TIME]\r\n@EBLGINF\r\n@USE04R\r\n@RSCD04R [ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
@@ -13589,7 +13589,7 @@
         {
           "id": "a961b089-1db8-42d3-b21f-d3f1764a5aee",
           "ordinal": 3,
-          "name": "22L (ILS)",
+          "name": "22L",
           "airportConditions": "",
           "template": "@EBLG @ATIS [ATIS_CODE] \r\n[TIME]\r\n@EBLGINF\r\n@USE22L\r\n@RSCD22L [ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
           "externalGenerator": {
@@ -13605,7 +13605,7 @@
         {
           "id": "e49dfaa7-844f-4c49-83d2-9bcafe901ab5",
           "ordinal": 5,
-          "name": "22R (ILS)",
+          "name": "22R",
           "template": "@EBLG @ATIS [ATIS_CODE] \r\n[TIME]\r\n@EBLGINF\r\n@USE22R\r\n@RSCD22R [ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
