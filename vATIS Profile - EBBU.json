@@ -2,7 +2,7 @@
   "name": "EBBU",
   "id": "6e87b213-e74a-4b85-bf17-616b9dbb5129",
   "updateUrl": "https://raw.githubusercontent.com/NichoAir/vAtis-EBBU-Profile/refs/heads/main/vATIS%20Profile%20-%20EBBU.json",
-  "updateSerial": 2026031202,
+  "updateSerial": 2026031901,
   "stations": [
     {
       "id": "5a7b83ed-7c42-4462-b25e-3f8a890434b2",
@@ -2280,7 +2280,7 @@
         },
         {
           "variableName": "ACDM_INUSE",
-          "text": "ACDM IN USE. REPORT TOBT ON VATS.IM/VDGS BEFORE IFR CLEARANCE",
+          "text": "ACDM IN USE. REPORT TOBT ON VATS.IM/VDGS",
           "voice": "A C D M IN USE. REPORT TARGET OFF BLOCK TIME ONLINE"
         },
         {
@@ -9249,7 +9249,7 @@
         {
           "id": "f89e3527-b75a-4e13-b3a1-1dcd3c0754d6",
           "name": "06 (RNP)",
-          "template": "",
+          "template": "@EBCI @ATIS [ATIS_CODE] \r\n[TIME]\r\n@EBCIINF\r\n@RNP \r\n@USE06 \r\n@RSCD [TIME] [ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -13846,12 +13846,12 @@
         {
           "text": "DRY, RWYCC 666.",
           "ordinal": 1,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "WET, RWYCC 555.",
           "ordinal": 2,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "LOW VISIBILITY OPERATIONS.",
