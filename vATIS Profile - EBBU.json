@@ -2,7 +2,7 @@
   "name": "EBBU",
   "id": "6e87b213-e74a-4b85-bf17-616b9dbb5129",
   "updateUrl": "https://raw.githubusercontent.com/NichoAir/vAtis-EBBU-Profile/refs/heads/main/vATIS%20Profile%20-%20EBBU.json",
-  "updateSerial": 2026032401,
+  "updateSerial": 2026033101,
   "stations": [
     {
       "id": "5a7b83ed-7c42-4462-b25e-3f8a890434b2",
@@ -13905,8 +13905,8 @@
           },
           "standardGust": {
             "template": {
-              "text": "WIND {wind_dir} Degress {wind_spd} Knots, Gusting {wind_gust} Knots",
-              "voice": "WIND {wind_dir} Degress {wind_spd} Knots, Gusting {wind_gust} Knots."
+              "text": "WIND {wind_dir} Degrees {wind_spd} Knots, Gusting {wind_gust} Knots",
+              "voice": "WIND {wind_dir} Degrees {wind_spd} Knots, Gusting {wind_gust} Knots."
             }
           },
           "variable": {
