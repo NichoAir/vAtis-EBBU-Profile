@@ -2,7 +2,7 @@
   "name": "EBBU",
   "id": "6e87b213-e74a-4b85-bf17-616b9dbb5129",
   "updateUrl": "https://raw.githubusercontent.com/NichoAir/vAtis-EBBU-Profile/refs/heads/main/vATIS%20Profile%20-%20EBBU.json",
-  "updateSerial": 2026040701,
+  "updateSerial": 2026040901,
   "stations": [
     {
       "id": "5a7b83ed-7c42-4462-b25e-3f8a890434b2",
@@ -2020,6 +2020,7 @@
           "ordinal": 5,
           "name": "07R DEP 07L ARR",
           "airportConditions": "",
+          "notams": "",
           "template": "@EBBR_DEP [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@07RDEP @RSCD [TIME] \r\n[ARPT_COND]\r\n@07LARR [TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_DEP [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
@@ -2440,16 +2441,11 @@
         {
           "text": "ACDM_INUSE",
           "ordinal": 2,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "TWY INNER 5, INNER 6, M CLSD",
           "ordinal": 3,
-          "enabled": true
-        },
-        {
-          "text": "ILS RWY 25R U/S, RNP AVBL",
-          "ordinal": 4,
           "enabled": true
         }
       ]
@@ -4503,6 +4499,7 @@
           "ordinal": 7,
           "name": "07R DEP 07L ARR (RNP)",
           "airportConditions": "",
+          "notams": "",
           "template": "@EBBR_ARR [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@EXPRNP \r\n@07LARR @RSCD [TIME] \r\n[ARPT_COND]\r\n@07RDEP [TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_ARR [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
@@ -5011,6 +5008,11 @@
           "variableName": "OPS",
           "text": "OPS",
           "voice": "OPERATIONS"
+        },
+        {
+          "variableName": "NOTAM_ILS25R_US",
+          "text": "ILS RWY 25R U/S, RNP AVBL",
+          "voice": "ILS RUNWAY 25R UNSERVICEABLE. RNP APPROACH RUNWAY 25R AVAILABLE"
         }
       ],
       "airportConditionDefinitions": [
@@ -5082,23 +5084,18 @@
       ],
       "notamDefinitions": [
         {
-          "text": "RWY 19 CLSD.",
+          "text": "TAIL OPS",
           "ordinal": 1,
           "enabled": false
         },
         {
-          "text": "TAIL OPS",
+          "text": "TWY INNER 5, INNER 6, M CLSD",
           "ordinal": 2,
           "enabled": false
         },
         {
-          "text": "TWY INNER 5, INNER 6, M CLSD",
+          "text": "NOTAM_ILS25R_US",
           "ordinal": 3,
-          "enabled": true
-        },
-        {
-          "text": "ILS RWY 25R U/S, RNP AVBL",
-          "ordinal": 4,
           "enabled": true
         }
       ]
