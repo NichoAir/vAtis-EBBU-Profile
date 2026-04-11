@@ -2,7 +2,7 @@
   "name": "EBBU",
   "id": "6e87b213-e74a-4b85-bf17-616b9dbb5129",
   "updateUrl": "https://raw.githubusercontent.com/NichoAir/vAtis-EBBU-Profile/refs/heads/main/vATIS%20Profile%20-%20EBBU.json",
-  "updateSerial": 2026040901,
+  "updateSerial": 2026041101,
   "stations": [
     {
       "id": "5a7b83ed-7c42-4462-b25e-3f8a890434b2",
@@ -2439,12 +2439,12 @@
           "enabled": false
         },
         {
-          "text": "ACDM_INUSE",
+          "text": "TWY INNER 5, INNER 6, M CLSD",
           "ordinal": 2,
           "enabled": true
         },
         {
-          "text": "TWY INNER 5, INNER 6, M CLSD",
+          "text": "ACDM_INUSE",
           "ordinal": 3,
           "enabled": true
         }
@@ -4812,12 +4812,12 @@
         {
           "variableName": "EBBR_DEP",
           "text": "EBBR DEP ATIS",
-          "voice": "BRUSSELS DEPARTURE INFORMATION"
+          "voice": "BRUSSELS NATIONAL DEPARTURE"
         },
         {
           "variableName": "EBBR_ARR",
           "text": "EBBR ARR ATIS",
-          "voice": "BRUSSEL ARRIVAL INFORMATION"
+          "voice": "BRUSSEL NATIONAL ARRIVAL"
         },
         {
           "variableName": "CFM_DEP",
