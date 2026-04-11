@@ -2,7 +2,7 @@
   "name": "EBBU",
   "id": "6e87b213-e74a-4b85-bf17-616b9dbb5129",
   "updateUrl": "https://raw.githubusercontent.com/NichoAir/vAtis-EBBU-Profile/refs/heads/main/vATIS%20Profile%20-%20EBBU.json",
-  "updateSerial": 2026041101,
+  "updateSerial": 2026041102,
   "stations": [
     {
       "id": "5a7b83ed-7c42-4462-b25e-3f8a890434b2",
@@ -2436,10 +2436,10 @@
         {
           "text": "TAIL OPS",
           "ordinal": 1,
-          "enabled": false
+          "enabled": true
         },
         {
-          "text": "TWY INNER 5, INNER 6, M CLSD",
+          "text": "TWY INNER 6 CLSD",
           "ordinal": 2,
           "enabled": true
         },
@@ -5086,10 +5086,10 @@
         {
           "text": "TAIL OPS",
           "ordinal": 1,
-          "enabled": false
+          "enabled": true
         },
         {
-          "text": "TWY INNER 5, INNER 6, M CLSD",
+          "text": "TWY INNER 6 CLSD",
           "ordinal": 2,
           "enabled": false
         },
@@ -11595,18 +11595,13 @@
           "enabled": true
         },
         {
-          "text": "TWY E1 EDGE LIGHTS U/S",
+          "text": "TWY M CL LIGHTS U/S",
           "ordinal": 3,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "EBR17A ACT",
           "ordinal": 4,
-          "enabled": false
-        },
-        {
-          "text": "TWY E1 CLOSED",
-          "ordinal": 5,
           "enabled": false
         }
       ]
