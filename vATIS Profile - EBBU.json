@@ -2,7 +2,7 @@
   "name": "EBBU",
   "id": "6e87b213-e74a-4b85-bf17-616b9dbb5129",
   "updateUrl": "https://raw.githubusercontent.com/NichoAir/vAtis-EBBU-Profile/refs/heads/main/vATIS%20Profile%20-%20EBBU.json",
-  "updateSerial": 2026041601,
+  "updateSerial": 2026041602,
   "stations": [
     {
       "id": "5a7b83ed-7c42-4462-b25e-3f8a890434b2",
@@ -11433,7 +11433,7 @@
           "id": "d28f4f66-a9f4-497a-afa6-e4facb9f90f5",
           "ordinal": 4,
           "name": "DEP26ARR08 (ILS) [PRS at night]",
-          "template": "@EBOS @ATIS [ATIS_CODE] \r\n[TIME]\r\n@EBOSINF\r\n@EXPILS \r\n@ARR @RWY08 @DEP @RWY26\r\n@RSCD [TIME] @RWY08 [ARPT_COND] [TL]\r\n@PRSINUSE\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
+          "template": "@EBOS @ATIS [ATIS_CODE] \r\n[TIME]\r\n@EBOSINF\r\n@EXPILS \r\n@USEPRS\r\n@RSCD [TIME] @RWY08 [ARPT_COND] [TL]\r\n@PRSINUSE\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -11493,7 +11493,7 @@
           "id": "097dea6f-d59d-4fcb-b4c2-24ae597551c0",
           "ordinal": 8,
           "name": "DEP26ARR08 (RNP) [PRS at night]",
-          "template": "@EBOS @ATIS [ATIS_CODE] \r\n[TIME]\r\n@EBOSINF\r\n@EXPRNP \r\n@ARR @RWY08 @DEP @RWY26\r\n@RSCD [TIME] @RWY26 [ARPT_COND] [TL]\r\n@PRSINUSE\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
+          "template": "@EBOS @ATIS [ATIS_CODE] \r\n[TIME]\r\n@EBOSINF\r\n@EXPRNP \r\n@USEPRS\r\n@RSCD [TIME] @RWY26 [ARPT_COND] [TL]\r\n@PRSINUSE\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -11595,6 +11595,11 @@
           "variableName": "PRSINUSE",
           "text": "PRS IN USE",
           "voice": "PREFERENTIAL RUNWAY SYSTEM IN USE."
+        },
+        {
+          "variableName": "USEPRS",
+          "text": "ARR RWY08 DEP RWY26",
+          "voice": "RWY08 FOR ARRIVALS. RWY 26 FOR DEPARTURES."
         }
       ],
       "airportConditionDefinitions": [
