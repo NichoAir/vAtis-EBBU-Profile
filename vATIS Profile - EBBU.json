@@ -2,7 +2,7 @@
   "name": "EBBU",
   "id": "6e87b213-e74a-4b85-bf17-616b9dbb5129",
   "updateUrl": "https://raw.githubusercontent.com/NichoAir/vAtis-EBBU-Profile/refs/heads/main/vATIS%20Profile%20-%20EBBU.json",
-  "updateSerial": 2026041602,
+  "updateSerial": 20260412501,
   "stations": [
     {
       "id": "5a7b83ed-7c42-4462-b25e-3f8a890434b2",
@@ -2364,6 +2364,11 @@
           "variableName": "OPS",
           "text": "OPS",
           "voice": "OPERATIONS"
+        },
+        {
+          "variableName": "LVO_INPR",
+          "text": "LVO.",
+          "voice": "LOW VISIBILITY PROCEDURES."
         }
       ],
       "airportConditionDefinitions": [
@@ -2426,27 +2431,27 @@
           "text": "RWY25L WET, RWYCC 555.",
           "ordinal": 12,
           "enabled": false
-        },
-        {
-          "text": "LOW VISIBILITY OPERATIONS.",
-          "ordinal": 13,
-          "enabled": false
         }
       ],
       "notamDefinitions": [
         {
-          "text": "TAIL OPS",
-          "ordinal": 1,
+          "text": "LVO_INPR",
+          "ordinal": 0,
           "enabled": false
         },
         {
-          "text": "TWY INNER 6 CLSD",
+          "text": "TAIL OPS",
           "ordinal": 2,
           "enabled": false
         },
         {
-          "text": "ACDM_INUSE",
+          "text": "TWY INNER 6 CLSD",
           "ordinal": 3,
+          "enabled": false
+        },
+        {
+          "text": "ACDM_INUSE",
+          "ordinal": 4,
           "enabled": true
         }
       ]
@@ -5039,6 +5044,16 @@
           "variableName": "25L25RARR",
           "text": "ARR RWY 25L RWY25R",
           "voice": "RWY25L AND RWY25R FOR ARRIVALS"
+        },
+        {
+          "variableName": "NOTAM_ILS25R_US_LVO",
+          "text": "ILS RWY 25R U/S",
+          "voice": "ILS RUNWAY 25R UNSERVICEABLE."
+        },
+        {
+          "variableName": "LVO_INPR",
+          "text": "LVO.",
+          "voice": "LOW VISIBILITY OPERATIONS."
         }
       ],
       "airportConditionDefinitions": [
@@ -5101,27 +5116,27 @@
           "text": "RWY25R WET, RWYCC 555.",
           "ordinal": 12,
           "enabled": true
-        },
-        {
-          "text": "LOW VISIBILITY OPERATIONS.",
-          "ordinal": 13,
-          "enabled": false
         }
       ],
       "notamDefinitions": [
         {
-          "text": "TAIL OPS",
+          "text": "LVO_INPR",
           "ordinal": 1,
-          "enabled": false
+          "enabled": true
         },
         {
-          "text": "TWY INNER 6 CLSD",
+          "text": "TAIL OPS",
           "ordinal": 2,
           "enabled": false
         },
         {
           "text": "NOTAM_ILS25R_US",
           "ordinal": 3,
+          "enabled": false
+        },
+        {
+          "text": "NOTAM_ILS25R_US_LVO",
+          "ordinal": 4,
           "enabled": false
         }
       ]
