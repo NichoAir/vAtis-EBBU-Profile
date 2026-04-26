@@ -2,7 +2,7 @@
   "name": "EBBU",
   "id": "6e87b213-e74a-4b85-bf17-616b9dbb5129",
   "updateUrl": "https://raw.githubusercontent.com/NichoAir/vAtis-EBBU-Profile/refs/heads/main/vATIS%20Profile%20-%20EBBU.json",
-  "updateSerial": 20260412501,
+  "updateSerial": 20260412601,
   "stations": [
     {
       "id": "5a7b83ed-7c42-4462-b25e-3f8a890434b2",
@@ -30,31 +30,31 @@
           "standard": {
             "template": {
               "text": "{wind_dir}/{wind_spd}KT",
-              "voice": "WIND {wind_dir} AT {wind_spd}"
+              "voice": "WIND. . {wind_dir} DEGREES, {wind_spd} KNOTS"
             }
           },
           "standardGust": {
             "template": {
               "text": "{wind_dir}{wind_spd}G{wind_gust}KT",
-              "voice": "WIND {wind_dir} AT {wind_spd} GUSTS {wind_gust}"
+              "voice": "WIND. . {wind_dir} DEGREES, {wind_spd} KNOTS. GUSTING {wind_gust} KNOTS"
             }
           },
           "variable": {
             "template": {
               "text": "VRB{wind_spd}KT",
-              "voice": "WIND VARIABLE AT {wind_spd}"
+              "voice": "WIND VARIABLE, {wind_spd} KNOTS"
             }
           },
           "variableGust": {
             "template": {
               "text": "VRB{wind_spd}G{wind_gust}KT",
-              "voice": "WIND VARIABLE AT {wind_spd} GUSTS {wind_gust}"
+              "voice": "WIND VARIABLE, {wind_spd} KNOTS GUSTING {wind_gust} KNOTS"
             }
           },
           "variableDirection": {
             "template": {
               "text": "{wind_vmin}V{wind_vmax}",
-              "voice": "WIND VARIABLE BETWEEN {wind_vmin} AND {wind_vmax}"
+              "voice": "VARIABLE BETWEEN {wind_vmin} AND {wind_vmax} DEGREES"
             }
           },
           "calm": {
@@ -2482,31 +2482,31 @@
           "standard": {
             "template": {
               "text": "{wind_dir}/{wind_spd}KT",
-              "voice": "WIND {wind_dir} AT {wind_spd}"
+              "voice": "WIND. . {wind_dir} DEGREES, {wind_spd} KNOTS"
             }
           },
           "standardGust": {
             "template": {
               "text": "{wind_dir}{wind_spd}G{wind_gust}KT",
-              "voice": "WIND {wind_dir} AT {wind_spd} GUSTS {wind_gust}"
+              "voice": "WIND. . {wind_dir} DEGREES, {wind_spd} KNOTS. GUSTING {wind_gust} KNOTS"
             }
           },
           "variable": {
             "template": {
               "text": "VRB{wind_spd}KT",
-              "voice": "WIND VARIABLE AT {wind_spd}"
+              "voice": "WIND VARIABLE, {wind_spd} KNOTS"
             }
           },
           "variableGust": {
             "template": {
               "text": "VRB{wind_spd}G{wind_gust}KT",
-              "voice": "WIND VARIABLE AT {wind_spd} GUSTS {wind_gust}"
+              "voice": "WIND VARIABLE, {wind_spd} KNOTS GUSTING {wind_gust} KNOTS"
             }
           },
           "variableDirection": {
             "template": {
               "text": "{wind_vmin}V{wind_vmax}",
-              "voice": "WIND VARIABLE BETWEEN {wind_vmin} AND {wind_vmax}"
+              "voice": "VARIABLE BETWEEN {wind_vmin} AND {wind_vmax} DEGREES"
             }
           },
           "calm": {
@@ -5167,31 +5167,31 @@
           "standard": {
             "template": {
               "text": "{wind_dir}/{wind_spd}KT",
-              "voice": "WIND {wind_dir} AT {wind_spd}"
+              "voice": "WIND. . {wind_dir} DEGREES, {wind_spd} KNOTS"
             }
           },
           "standardGust": {
             "template": {
               "text": "{wind_dir}{wind_spd}G{wind_gust}KT",
-              "voice": "WIND {wind_dir} AT {wind_spd} GUSTS {wind_gust}"
+              "voice": "WIND. . {wind_dir} DEGREES, {wind_spd} KNOTS. GUSTING {wind_gust} KNOTS"
             }
           },
           "variable": {
             "template": {
               "text": "VRB{wind_spd}KT",
-              "voice": "WIND VARIABLE AT {wind_spd}"
+              "voice": "WIND VARIABLE, {wind_spd} KNOTS"
             }
           },
           "variableGust": {
             "template": {
               "text": "VRB{wind_spd}G{wind_gust}KT",
-              "voice": "WIND VARIABLE AT {wind_spd} GUSTS {wind_gust}"
+              "voice": "WIND VARIABLE, {wind_spd} KNOTS GUSTING {wind_gust} KNOTS"
             }
           },
           "variableDirection": {
             "template": {
               "text": "{wind_vmin}V{wind_vmax}",
-              "voice": "WIND VARIABLE BETWEEN {wind_vmin} AND {wind_vmax}"
+              "voice": "VARIABLE BETWEEN {wind_vmin} AND {wind_vmax} DEGREES"
             }
           },
           "calm": {
@@ -7351,31 +7351,31 @@
           "standard": {
             "template": {
               "text": "{wind_dir}/{wind_spd}KT",
-              "voice": "WIND {wind_dir} AT {wind_spd}"
+              "voice": "WIND. . {wind_dir} DEGREES, {wind_spd} KNOTS"
             }
           },
           "standardGust": {
             "template": {
               "text": "{wind_dir}{wind_spd}G{wind_gust}KT",
-              "voice": "WIND {wind_dir} AT {wind_spd} GUSTS {wind_gust}"
+              "voice": "WIND. . {wind_dir} DEGREES, {wind_spd} KNOTS. GUSTING {wind_gust} KNOTS"
             }
           },
           "variable": {
             "template": {
               "text": "VRB{wind_spd}KT",
-              "voice": "WIND VARIABLE AT {wind_spd}"
+              "voice": "WIND VARIABLE, {wind_spd} KNOTS"
             }
           },
           "variableGust": {
             "template": {
               "text": "VRB{wind_spd}G{wind_gust}KT",
-              "voice": "WIND VARIABLE AT {wind_spd} GUSTS {wind_gust}"
+              "voice": "WIND VARIABLE, {wind_spd} KNOTS GUSTING {wind_gust} KNOTS"
             }
           },
           "variableDirection": {
             "template": {
               "text": "{wind_vmin}V{wind_vmax}",
-              "voice": "WIND VARIABLE BETWEEN {wind_vmin} AND {wind_vmax}"
+              "voice": "VARIABLE BETWEEN {wind_vmin} AND {wind_vmax} DEGREES"
             }
           },
           "calm": {
@@ -9474,31 +9474,31 @@
           "standard": {
             "template": {
               "text": "{wind_dir}/{wind_spd}KT",
-              "voice": "WIND {wind_dir} AT {wind_spd}"
+              "voice": "WIND. . {wind_dir} DEGREES, {wind_spd} KNOTS"
             }
           },
           "standardGust": {
             "template": {
               "text": "{wind_dir}{wind_spd}G{wind_gust}KT",
-              "voice": "WIND {wind_dir} AT {wind_spd} GUSTS {wind_gust}"
+              "voice": "WIND. . {wind_dir} DEGREES, {wind_spd} KNOTS. GUSTING {wind_gust} KNOTS"
             }
           },
           "variable": {
             "template": {
               "text": "VRB{wind_spd}KT",
-              "voice": "WIND VARIABLE AT {wind_spd}"
+              "voice": "WIND VARIABLE, {wind_spd} KNOTS"
             }
           },
           "variableGust": {
             "template": {
               "text": "VRB{wind_spd}G{wind_gust}KT",
-              "voice": "WIND VARIABLE AT {wind_spd} GUSTS {wind_gust}"
+              "voice": "WIND VARIABLE, {wind_spd} KNOTS GUSTING {wind_gust} KNOTS"
             }
           },
           "variableDirection": {
             "template": {
               "text": "{wind_vmin}V{wind_vmax}",
-              "voice": "WIND VARIABLE BETWEEN {wind_vmin} AND {wind_vmax}"
+              "voice": "VARIABLE BETWEEN {wind_vmin} AND {wind_vmax} DEGREES"
             }
           },
           "calm": {
@@ -11683,31 +11683,31 @@
           "standard": {
             "template": {
               "text": "{wind_dir}/{wind_spd}KT",
-              "voice": "WIND {wind_dir} AT {wind_spd}"
+              "voice": "WIND. . {wind_dir} DEGREES, {wind_spd} KNOTS"
             }
           },
           "standardGust": {
             "template": {
               "text": "{wind_dir}{wind_spd}G{wind_gust}KT",
-              "voice": "WIND {wind_dir} AT {wind_spd} GUSTS {wind_gust}"
+              "voice": "WIND. . {wind_dir} DEGREES, {wind_spd} KNOTS. GUSTING {wind_gust} KNOTS"
             }
           },
           "variable": {
             "template": {
               "text": "VRB{wind_spd}KT",
-              "voice": "WIND VARIABLE AT {wind_spd}"
+              "voice": "WIND VARIABLE, {wind_spd} KNOTS"
             }
           },
           "variableGust": {
             "template": {
               "text": "VRB{wind_spd}G{wind_gust}KT",
-              "voice": "WIND VARIABLE AT {wind_spd} GUSTS {wind_gust}"
+              "voice": "WIND VARIABLE, {wind_spd} KNOTS GUSTING {wind_gust} KNOTS"
             }
           },
           "variableDirection": {
             "template": {
               "text": "{wind_vmin}V{wind_vmax}",
-              "voice": "WIND VARIABLE BETWEEN {wind_vmin} AND {wind_vmax}"
+              "voice": "VARIABLE BETWEEN {wind_vmin} AND {wind_vmax} DEGREES"
             }
           },
           "calm": {
@@ -13905,6 +13905,11 @@
           "variableName": "RSCD04L",
           "text": "RWY 04L",
           "voice": "."
+        },
+        {
+          "variableName": "REPORT_UNABLE_S2",
+          "text": "ADZ ON GND FREQ IF UNABLE S2",
+          "voice": "ADVISE ON GROUND FREQUENCY IF UNABLE SIERRA 2"
         }
       ],
       "airportConditionDefinitions": [
@@ -13926,13 +13931,8 @@
       ],
       "notamDefinitions": [
         {
-          "text": "STOP BAR LGT U/S",
+          "text": "REPORT_UNABLE_S2",
           "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "ADZ ON GND FREQ IF UNABLE S2",
-          "ordinal": 2,
           "enabled": true
         }
       ]
