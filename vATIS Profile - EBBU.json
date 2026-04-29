@@ -2,7 +2,7 @@
   "name": "EBBU",
   "id": "6e87b213-e74a-4b85-bf17-616b9dbb5129",
   "updateUrl": "https://raw.githubusercontent.com/NichoAir/vAtis-EBBU-Profile/refs/heads/main/vATIS%20Profile%20-%20EBBU.json",
-  "updateSerial": 20260412601,
+  "updateSerial": 20260412901,
   "stations": [
     {
       "id": "5a7b83ed-7c42-4462-b25e-3f8a890434b2",
@@ -2436,7 +2436,7 @@
       "notamDefinitions": [
         {
           "text": "LVO_INPR",
-          "ordinal": 0,
+          "ordinal": 1,
           "enabled": false
         },
         {
@@ -2445,13 +2445,8 @@
           "enabled": false
         },
         {
-          "text": "TWY INNER 6 CLSD",
-          "ordinal": 3,
-          "enabled": false
-        },
-        {
           "text": "ACDM_INUSE",
-          "ordinal": 4,
+          "ordinal": 3,
           "enabled": true
         }
       ]
@@ -7266,7 +7261,7 @@
           "voice": "."
         },
         {
-          "variableName": "LVO",
+          "variableName": "LVO_INPR",
           "text": "LVO",
           "voice": "LOW VISIBILITY OPERATIONS"
         },
@@ -7318,7 +7313,7 @@
           "enabled": false
         },
         {
-          "text": "LVO",
+          "text": "LVO_INPR",
           "ordinal": 7,
           "enabled": false
         }
@@ -9198,7 +9193,7 @@
         },
         "trend": {
           "nosigText": "NOSIG",
-          "nosigVoice": "No Significant Changes",
+          "nosigVoice": "NOSIG",
           "becomingText": "BECMG",
           "becomingVoice": "Becoming",
           "temporaryText": "TEMPO",
@@ -9279,7 +9274,7 @@
           "name": "24 (ILS)",
           "airportConditions": "",
           "notams": "",
-          "template": "@EBCI @ATIS [ATIS_CODE] \r\n[TIME]\r\n@EBCIINF\r\n@EXPILS \r\n@USE24\r\n@RSCD [TIME] [ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
+          "template": "@EBCI @ATIS [ATIS_CODE] \r\n[TIME]\r\n@EBCIINF\r\n@EXPILS \r\n@USE24\r\n@RSCD [TIME] @RSCD \r\n[ARPT_COND] [TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -9293,7 +9288,7 @@
         {
           "id": "ab8d0b4c-2c46-456f-91b1-145c094a4076",
           "name": "24 (RNP)",
-          "template": "@EBCI @ATIS [ATIS_CODE] \r\n[TIME]\r\n@EBCIINF\r\n@EXPRNP \r\n@USE24 \r\n@RSCD [TIME] [ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
+          "template": "@EBCI @ATIS [ATIS_CODE] \r\n[TIME]\r\n@EBCIINF\r\n@EXPRNP \r\n@USE24 \r\n@RSCD [TIME] @RSCD24 \r\n[ARPT_COND] [TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -9309,7 +9304,7 @@
           "name": "06 (RNP)",
           "airportConditions": "",
           "notams": "",
-          "template": "@EBCI @ATIS [ATIS_CODE] \r\n[TIME]\r\n@EBCIINF\r\n@EXPRNP \r\n@USE06 \r\n@RSCD [TIME] [ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
+          "template": "@EBCI @ATIS [ATIS_CODE] \r\n[TIME]\r\n@EBCIINF\r\n@EXPRNP \r\n@USE06 \r\n@RSCD [TIME] @RSCD06 \r\n[ARPT_COND] [TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -9340,12 +9335,12 @@
         {
           "variableName": "EXPILS",
           "text": "EXP VECT FOR ILS APP",
-          "voice": "EXPECT VECTORS FOR ILS APPROACH."
+          "voice": "EXPECT VECTORING FOR ILS APPROACH."
         },
         {
           "variableName": "EXPRNP",
           "text": "EXP VECT FOR RNP APP",
-          "voice": "EXPECT VECTORS FOR RNP APPROACH"
+          "voice": "EXPECT VECTORING FOR RNP APPROACH"
         },
         {
           "variableName": "ATIS",
@@ -9406,44 +9401,44 @@
           "variableName": "ONREQ",
           "text": "O/R",
           "voice": "ON REQUEST"
+        },
+        {
+          "variableName": "RSCD06",
+          "text": "RWY06",
+          "voice": "."
+        },
+        {
+          "variableName": "RSCD24",
+          "text": "RWY24",
+          "voice": "."
+        },
+        {
+          "variableName": "LVO_INPR",
+          "text": "LVO",
+          "voice": "LOW VISIBILITY OPERATIONS IN PROGRESS"
         }
       ],
       "airportConditionDefinitions": [
         {
-          "text": "RWY 24 DRY, RWYCC 666.",
+          "text": "DRY, RWYCC 666.",
           "ordinal": 1,
           "enabled": true
         },
         {
-          "text": "RWY 24 WET, RWYCC 555.",
+          "text": "06 WET, RWYCC 555.",
           "ordinal": 2,
           "enabled": false
         },
         {
-          "text": "RWY 06 DRY, RWYCC 666.",
+          "text": "LVO_INPR",
           "ordinal": 3,
-          "enabled": false
-        },
-        {
-          "text": "RWY 06 WET, RWYCC 555.",
-          "ordinal": 4,
-          "enabled": false
-        },
-        {
-          "text": "LOW VISIBILIY OPERATIONS.",
-          "ordinal": 5,
           "enabled": false
         }
       ],
       "notamDefinitions": [
         {
-          "text": "VOR U/S",
-          "ordinal": 1,
-          "enabled": true
-        },
-        {
           "text": "CAT 2 OR 3 AVBL ONREQ",
-          "ordinal": 2,
+          "ordinal": 1,
           "enabled": false
         }
       ]
@@ -11615,6 +11610,11 @@
           "variableName": "USEPRS",
           "text": "ARR RWY08 DEP RWY26",
           "voice": "RWY08 FOR ARRIVALS. RWY 26 FOR DEPARTURES."
+        },
+        {
+          "variableName": "LVO_INPR",
+          "text": "LVO",
+          "voice": "LOW VISIBILITY OPERATIONS"
         }
       ],
       "airportConditionDefinitions": [
@@ -11629,7 +11629,7 @@
           "enabled": false
         },
         {
-          "text": "LOW VISIBILITY OPERATIONS.",
+          "text": "LVO_INPR",
           "ordinal": 3,
           "enabled": false
         }
@@ -11649,11 +11649,6 @@
           "text": "TWY M CL LIGHTS U/S",
           "ordinal": 3,
           "enabled": true
-        },
-        {
-          "text": "EBR17A ACT",
-          "ordinal": 4,
-          "enabled": false
         }
       ]
     },
@@ -13910,6 +13905,11 @@
           "variableName": "REPORT_UNABLE_S2",
           "text": "ADZ ON GND FREQ IF UNABLE S2",
           "voice": "ADVISE ON GROUND FREQUENCY IF UNABLE SIERRA 2"
+        },
+        {
+          "variableName": "LVO_INPR",
+          "text": "LVO",
+          "voice": "LOW VISIBILITY OPERATIONS IN PROGRESS"
         }
       ],
       "airportConditionDefinitions": [
@@ -13924,7 +13924,7 @@
           "enabled": false
         },
         {
-          "text": "LOW VISIBILITY OPERATIONS.",
+          "text": "LVO_INPR",
           "ordinal": 3,
           "enabled": false
         }
@@ -16059,7 +16059,7 @@
         {
           "text": "WHEN AIRBORNE MONITOR ADVISORY 122.800",
           "ordinal": 5,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "WHEN AIRBORNE CONTACT LUXEMBURG RADAR ON 120.885",
@@ -16069,7 +16069,7 @@
         {
           "text": "WHEN AIRBORNE CONTACT BRUSSELS CONTROL ON 131.100",
           "ordinal": 7,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "WHEN AIRBORNE CONTACT BRUSSELS CONTROL ON 129.575",
