@@ -2,7 +2,7 @@
   "name": "EBBU",
   "id": "6e87b213-e74a-4b85-bf17-616b9dbb5129",
   "updateUrl": "https://raw.githubusercontent.com/NichoAir/vAtis-EBBU-Profile/refs/heads/main/vATIS%20Profile%20-%20EBBU.json",
-  "updateSerial": 2026070201,
+  "updateSerial": 2026071501,
   "stations": [
     {
       "id": "5a7b83ed-7c42-4462-b25e-3f8a890434b2",
@@ -1957,6 +1957,8 @@
           "id": "9dc3f00f-3d2f-44a9-b3f2-643c612631ba",
           "ordinal": 1,
           "name": "01 SRO",
+          "airportConditions": "",
+          "notams": "",
           "template": "@EBBR_DEP [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@01DEP @RSCD [TIME] \r\n[ARPT_COND] \r\n@01ARR [TL]\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_DEP [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
@@ -2381,7 +2383,7 @@
         {
           "text": "RWY01 DRY.",
           "ordinal": 1,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "RWY01 WET, RWYCC 555.",
@@ -2411,7 +2413,7 @@
         {
           "text": "RWY25R DRY.",
           "ordinal": 7,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "RWY25R WET, RWYCC 555.",
@@ -2453,7 +2455,7 @@
         {
           "text": "TWY B3 CLSD",
           "ordinal": 3,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "ACDM_INUSE",
@@ -5044,7 +5046,7 @@
         {
           "variableName": "NOTAM_ILS25R_US",
           "text": "ILS RWY25R U/S, RNP AVBL AT ATC DISCRETION",
-          "voice": "ILS RUNWAY 25R UNSERVICEABLE. RNP APPROACH RUNWAY 25R AVAILABLE AT ATC DISCRETION"
+          "voice": "ILS RUNWAY 25R UNSERVICEABLE. RNP 25R AVAILABLE AT ATC DISCRETION"
         },
         {
           "variableName": "25L25RARR",
@@ -5066,7 +5068,7 @@
         {
           "text": "RWY01 DRY.",
           "ordinal": 1,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "RWY01 WET, RWYCC 555.",
@@ -5111,7 +5113,7 @@
         {
           "text": "RWY25L WET, RWYCC 555.",
           "ordinal": 10,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "RWY25R DRY.",
@@ -5143,7 +5145,7 @@
         {
           "text": "NOTAM_ILS25R_US",
           "ordinal": 4,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "NOTAM_ILS25R_US_LVO",
@@ -16011,6 +16013,23 @@
             "approaches": "",
             "remarks": ""
           }
+        },
+        {
+          "id": "0ca0a49d-5b0b-49e6-bc0e-81bc7262ba0c",
+          "ordinal": 7,
+          "name": "06 (RNP/ ILS U/S)",
+          "airportConditions": "",
+          "notams": "",
+          "template": "@ELLX @ATIS [ATIS_CODE] [TIME] @RWY06 [TL] [ARPT_COND] @EXPRNPILSUS06 [WIND] [VIS] [RVR] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [RECENT_WX] TREND [TREND] [NOTAMS] [CLOSING]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
         }
       ],
       "contractions": [
@@ -16053,6 +16072,11 @@
           "variableName": "RWYCC",
           "text": "RWYCC",
           "voice": "RUNWAY CONDITION CODE"
+        },
+        {
+          "variableName": "EXPRNPILSUS06",
+          "text": "ILS RUNWAY 06 OUT OF SERVICE. EXPECT R N P APPROACH",
+          "voice": "ILS RUNWAY 06 OUT OF SERVICE. EXPECT R N P APPROACH"
         }
       ],
       "airportConditionDefinitions": [
@@ -16064,14 +16088,14 @@
         {
           "text": "DELIVERY 121.855",
           "ordinal": 2,
-          "enabled": true
+          "enabled": false
         }
       ],
       "notamDefinitions": [
         {
           "text": "ILS 06 OUT OF SERVICE. EXPECT R N P APPROACH.",
           "ordinal": 0,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "RUNWAY 24 CONDITION REPORT DRY, RUNWAY CONDITION CODE 666",
@@ -16096,12 +16120,12 @@
         {
           "text": "WHEN AIRBORNE MONITOR ADVISORY 122.800",
           "ordinal": 6,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "WHEN AIRBORNE CONTACT LUXEMBURG RADAR ON 120.885",
           "ordinal": 7,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "WHEN AIRBORNE CONTACT BRUSSELS CONTROL ON 131.100",
