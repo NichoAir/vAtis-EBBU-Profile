@@ -2,7 +2,7 @@
   "name": "EBBU",
   "id": "6e87b213-e74a-4b85-bf17-616b9dbb5129",
   "updateUrl": "https://raw.githubusercontent.com/NichoAir/vAtis-EBBU-Profile/refs/heads/main/vATIS%20Profile%20-%20EBBU.json",
-  "updateSerial": 2026071501,
+  "updateSerial": 2026071901,
   "stations": [
     {
       "id": "5a7b83ed-7c42-4462-b25e-3f8a890434b2",
@@ -2377,13 +2377,23 @@
           "variableName": "REP",
           "text": "REP",
           "voice": "REPORTED"
+        },
+        {
+          "variableName": "UNA",
+          "text": "UNA",
+          "voice": "UNABLE"
+        },
+        {
+          "variableName": "DLC",
+          "text": "DLC",
+          "voice": "DELIVERY CONTROLLER"
         }
       ],
       "airportConditionDefinitions": [
         {
           "text": "RWY01 DRY.",
           "ordinal": 1,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "RWY01 WET, RWYCC 555.",
@@ -2403,7 +2413,7 @@
         {
           "text": "RWY07R DRY.",
           "ordinal": 5,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "RWY07R WET, RWYCC 555.",
@@ -2453,13 +2463,18 @@
           "enabled": false
         },
         {
+          "text": "TWY B1 CLSD. ADV DLC IF UNA TO LINEUP VIA B3, TORA 2760 M",
+          "ordinal": 2,
+          "enabled": true
+        },
+        {
           "text": "TWY B3 CLSD",
-          "ordinal": 3,
+          "ordinal": 4,
           "enabled": false
         },
         {
           "text": "ACDM_INUSE",
-          "ordinal": 4,
+          "ordinal": 5,
           "enabled": true
         }
       ]
@@ -4497,6 +4512,7 @@
           "ordinal": 6,
           "name": "07R DEP 01 ARR (ILS)",
           "airportConditions": "",
+          "notams": "",
           "template": "@EBBR_ARR [ATIS_CODE] \r\n[TIME]\r\n@EBBR_NAT\r\n@EXPILS \r\n@01ARR @RSCD [TIME] \r\n[ARPT_COND]\r\n@07RDEP\r\n[TL] @XNG\r\n[NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_ARR [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
@@ -5140,7 +5156,7 @@
         {
           "text": "TWY C6 CLSD",
           "ordinal": 2,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "NOTAM_ILS25R_US",
@@ -16093,53 +16109,48 @@
       ],
       "notamDefinitions": [
         {
-          "text": "ILS 06 OUT OF SERVICE. EXPECT R N P APPROACH.",
-          "ordinal": 0,
-          "enabled": false
-        },
-        {
           "text": "RUNWAY 24 CONDITION REPORT DRY, RUNWAY CONDITION CODE 666",
-          "ordinal": 2,
+          "ordinal": 1,
           "enabled": false
         },
         {
           "text": "RUNWAY 24 CONDITION REPORT WET, RUNWAY CONDITION CODE 555",
-          "ordinal": 3,
+          "ordinal": 2,
           "enabled": false
         },
         {
           "text": "RUNWAY 06 CONDITION REPORT DRY, RUNWAY CONDITION CODE 666",
-          "ordinal": 4,
+          "ordinal": 3,
           "enabled": false
         },
         {
           "text": "RUNWAY 06 CONDITION REPORT WET, RUNWAY CONDITION CODE 555",
-          "ordinal": 5,
+          "ordinal": 4,
           "enabled": false
         },
         {
           "text": "WHEN AIRBORNE MONITOR ADVISORY 122.800",
-          "ordinal": 6,
+          "ordinal": 5,
           "enabled": false
         },
         {
           "text": "WHEN AIRBORNE CONTACT LUXEMBURG RADAR ON 120.885",
-          "ordinal": 7,
+          "ordinal": 6,
           "enabled": true
         },
         {
           "text": "WHEN AIRBORNE CONTACT BRUSSELS CONTROL ON 131.100",
-          "ordinal": 8,
+          "ordinal": 7,
           "enabled": false
         },
         {
           "text": "WHEN AIRBORNE CONTACT BRUSSELS CONTROL ON 129.575",
-          "ordinal": 9,
+          "ordinal": 8,
           "enabled": false
         },
         {
           "text": "WHEN AIRBORNE CONTACT BRUSSELS CONTROL ON 126.980",
-          "ordinal": 10,
+          "ordinal": 9,
           "enabled": false
         }
       ]
