@@ -2,7 +2,7 @@
   "name": "EBBU",
   "id": "6e87b213-e74a-4b85-bf17-616b9dbb5129",
   "updateUrl": "https://raw.githubusercontent.com/NichoAir/vAtis-EBBU-Profile/refs/heads/main/vATIS%20Profile%20-%20EBBU.json",
-  "updateSerial": 2026071902,
+  "updateSerial": 2026072101,
   "stations": [
     {
       "id": "5a7b83ed-7c42-4462-b25e-3f8a890434b2",
@@ -2386,7 +2386,12 @@
         {
           "variableName": "DLC",
           "text": "DLC",
-          "voice": "DELIVERY CONTROLLER"
+          "voice": "DELIVERY"
+        },
+        {
+          "variableName": "DEL",
+          "text": "DEL",
+          "voice": "DELIVERY"
         }
       ],
       "airportConditionDefinitions": [
@@ -2464,18 +2469,23 @@
         },
         {
           "text": "TWY B1 CLSD. ADV DLC IF UNA TO LINEUP VIA B3, TORA 2760 M",
-          "ordinal": 2,
+          "ordinal": 3,
+          "enabled": false
+        },
+        {
+          "text": "TWY B1 CLSD. ADVISE DEL IF UNABLE TO LINEUP VIA B3, TORA 2760 M",
+          "ordinal": 3,
           "enabled": true
         },
         {
           "text": "TWY B3 CLSD",
-          "ordinal": 4,
+          "ordinal": 5,
           "enabled": false
         },
         {
           "text": "ACDM_INUSE",
-          "ordinal": 5,
-          "enabled": false
+          "ordinal": 6,
+          "enabled": true
         }
       ]
     },
@@ -5124,12 +5134,12 @@
         {
           "text": "RWY25L DRY.",
           "ordinal": 9,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "RWY25L WET, RWYCC 555.",
           "ordinal": 10,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "RWY25R DRY.",
@@ -5139,7 +5149,7 @@
         {
           "text": "RWY25R WET, RWYCC 555.",
           "ordinal": 12,
-          "enabled": true
+          "enabled": false
         }
       ],
       "notamDefinitions": [
@@ -5151,7 +5161,7 @@
         {
           "text": "TAIL OPS",
           "ordinal": 2,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "TWY C6 CLSD",
@@ -5161,7 +5171,7 @@
         {
           "text": "NOTAM_ILS25R_US",
           "ordinal": 4,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "NOTAM_ILS25R_US_LVO",
@@ -7352,7 +7362,13 @@
           "enabled": false
         }
       ],
-      "notamDefinitions": []
+      "notamDefinitions": [
+        {
+          "text": "PAPI RWY 29 U/S",
+          "ordinal": 1,
+          "enabled": true
+        }
+      ]
     },
     {
       "id": "997c41fa-10d7-4fe9-ba12-eac20f2cb013",
