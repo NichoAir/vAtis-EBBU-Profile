@@ -2,7 +2,7 @@
   "name": "EBBU",
   "id": "6e87b213-e74a-4b85-bf17-616b9dbb5129",
   "updateUrl": "https://raw.githubusercontent.com/NichoAir/vAtis-EBBU-Profile/refs/heads/main/vATIS%20Profile%20-%20EBBU.json",
-  "updateSerial": 2026080901,
+  "updateSerial": 2026090801,
   "stations": [
     {
       "id": "5a7b83ed-7c42-4462-b25e-3f8a890434b2",
@@ -2007,7 +2007,7 @@
           "name": "07R DEP 01 ARR",
           "airportConditions": "",
           "notams": "",
-          "template": "@EBBR_DEP [ATIS_CODE] [TIME]\r\n@EBBR_NAT\r\n@07RDEP @RSCD [TIME] \r\n[ARPT_COND] \r\n@01ARR [TL] [NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_DEP [ATIS_CODE]",
+          "template": "@EBBR_DEP [ATIS_CODE] [TIME]\r\n@EBBR_NAT\r\n@07RDEP @RSCD [TIME] \r\n[ARPT_COND] \r\n@01ARR @XNG [TL] [NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_DEP [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -2054,6 +2054,8 @@
           "id": "7f550d04-a0c5-4771-bac7-55075384e18d",
           "ordinal": 7,
           "name": "19 SRO",
+          "airportConditions": "",
+          "notams": "",
           "template": "@EBBR_DEP [ATIS_CODE] [TIME]\r\n@EBBR_NAT\r\n@19DEP @RSCD [TIME] \r\n[ARPT_COND] \r\n@19ARR [TL] [NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_DEP [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
@@ -2468,28 +2470,18 @@
           "enabled": false
         },
         {
-          "text": "TWY B1 CLSD. ADV DLC IF UNA TO LINEUP VIA B3, TORA 2760 M",
-          "ordinal": 3,
-          "enabled": false
-        },
-        {
           "text": "TWY B1 CLSD. ADVISE DEL IF UNABLE TO LINEUP VIA B3, TORA 2760 M",
-          "ordinal": 4,
-          "enabled": false
-        },
-        {
-          "text": "TWY B1 E7 E6 CLSD. ADVISE DEL IF UNABLE TO LINEUP VIA F5, TORA 2163 M",
-          "ordinal": 4,
+          "ordinal": 3,
           "enabled": true
         },
         {
-          "text": "TWY B3 CLSD",
-          "ordinal": 6,
+          "text": "TWY B1 E6 E7 CLSD. ADVISE DEL IF UNABLE TO LINEUP VIA F5, TORA 2163 M",
+          "ordinal": 4,
           "enabled": false
         },
         {
           "text": "ACDM_INUSE",
-          "ordinal": 7,
+          "ordinal": 5,
           "enabled": true
         }
       ]
@@ -5156,7 +5148,7 @@
         {
           "text": "RWY25L DRY.",
           "ordinal": 9,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "RWY25L WET, RWYCC 555.",
@@ -5166,7 +5158,7 @@
         {
           "text": "RWY25R DRY.",
           "ordinal": 11,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "RWY25R WET, RWYCC 555.",
@@ -5186,18 +5178,13 @@
           "enabled": false
         },
         {
-          "text": "TWY C6 CLSD",
-          "ordinal": 3,
-          "enabled": false
-        },
-        {
           "text": "NOTAM_ILS25R_US",
-          "ordinal": 4,
+          "ordinal": 3,
           "enabled": true
         },
         {
           "text": "NOTAM_ILS25R_US_LVO",
-          "ordinal": 5,
+          "ordinal": 4,
           "enabled": false
         }
       ]
@@ -7172,7 +7159,7 @@
           "name": "11 (VOR)",
           "airportConditions": "",
           "notams": "",
-          "template": "@EBAW @ATIS [ATIS_CODE] [TIME]\r\n@EBAWINF\r\n@EXPVOR \r\n@USE11\r\n[ARPT_COND] \r\n[TL] [NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM [ATIS_CODE]",
+          "template": "@EBAW @ATIS [ATIS_CODE] [TIME]\r\n@EBAWINF\r\n@EXPVOR \r\n@USE11\r\n[ARPT_COND] OPEN.\r\n[TL] [NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -7187,7 +7174,7 @@
           "id": "0042eb56-3f4c-42e7-8bbb-1a87fb3091ea",
           "ordinal": 3,
           "name": "29 (ILS)",
-          "template": "@EBAW @ATIS [ATIS_CODE] [TIME]\r\n@EBAWINF\r\n@EXPILS \r\n@USE29\r\n[ARPT_COND] \r\n[TL] [NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM [ATIS_CODE]",
+          "template": "@EBAW @ATIS [ATIS_CODE] [TIME]\r\n@EBAWINF\r\n@EXPILS \r\n@USE29\r\n[ARPT_COND] OPEN.\r\n[TL] [NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -7218,7 +7205,7 @@
           "ordinal": 4,
           "name": "11 (RNP)",
           "airportConditions": "",
-          "template": "@EBAW @ATIS [ATIS_CODE] [TIME]\r\n@EBAWINF\r\n@EXPRNP \r\n@USE11\r\n[ARPT_COND] \r\n[TL] [NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM [ATIS_CODE]",
+          "template": "@EBAW @ATIS [ATIS_CODE] [TIME]\r\n@EBAWINF\r\n@EXPRNP \r\n@USE11\r\n[ARPT_COND] OPEN.\r\n[TL] [NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -7233,7 +7220,7 @@
           "id": "4600e706-6357-47da-8685-b8da2facf3b5",
           "ordinal": 6,
           "name": "29 (RNP)",
-          "template": "@EBAW @ATIS [ATIS_CODE] [TIME]\r\n@EBAWINF\r\n@EXPRNP \r\n@USE29\r\n[ARPT_COND]\r\n[TL] [NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM [ATIS_CODE]",
+          "template": "@EBAW @ATIS [ATIS_CODE] [TIME]\r\n@EBAWINF\r\n@EXPRNP \r\n@USE29\r\n[ARPT_COND] OPEN.\r\n[TL] [NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -7248,7 +7235,7 @@
           "id": "c308b36a-5957-4adb-9825-0bc230f46e70",
           "ordinal": 7,
           "name": "29 (VOR)",
-          "template": "@EBAW @ATIS [ATIS_CODE] [TIME]\r\n@EBAWINF\r\n@EXPVOR \r\n@USE29\r\n[ARPT_COND] \r\n[TL] [NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM [ATIS_CODE]",
+          "template": "@EBAW @ATIS [ATIS_CODE] [TIME]\r\n@EBAWINF\r\n@EXPVOR \r\n@USE29\r\n[ARPT_COND] OPEN.\r\n[TL] [NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -7369,18 +7356,8 @@
           "enabled": false
         },
         {
-          "text": "OPEN.",
-          "ordinal": 5,
-          "enabled": true
-        },
-        {
-          "text": "AD CLOSED. ",
-          "ordinal": 6,
-          "enabled": false
-        },
-        {
           "text": "LVO_INPR",
-          "ordinal": 7,
+          "ordinal": 5,
           "enabled": false
         }
       ],
@@ -9494,12 +9471,12 @@
         {
           "text": "DRY, RWYCC 666.",
           "ordinal": 1,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "WET, RWYCC 555.",
           "ordinal": 2,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "LVO_INPR",
@@ -9512,11 +9489,6 @@
           "text": "CAT 2 OR 3 AVBL ONREQ",
           "ordinal": 1,
           "enabled": false
-        },
-        {
-          "text": "G O S VOR U/S",
-          "ordinal": 2,
-          "enabled": true
         }
       ]
     },
@@ -11713,13 +11685,7 @@
           "enabled": false
         }
       ],
-      "notamDefinitions": [
-        {
-          "text": "TWY G2, K6, K7, K8, F, APN 3 EDGE LIGHTS U/S",
-          "ordinal": 1,
-          "enabled": true
-        }
-      ]
+      "notamDefinitions": []
     },
     {
       "id": "f4fbcab1-18a7-4e0c-bd1d-c95be9ba251b",
@@ -14015,11 +13981,6 @@
           "text": "REPORT_UNABLE_S2",
           "ordinal": 1,
           "enabled": false
-        },
-        {
-          "text": "TWY A4 CLSD",
-          "ordinal": 2,
-          "enabled": true
         }
       ]
     },
@@ -14072,8 +14033,8 @@
           },
           "variableDirection": {
             "template": {
-              "text": "WIND VARIABLE BETWEEN {wind_vmin} AND {wind_vmax} Degrees",
-              "voice": "WIND VARIABLE BETWEEN {wind_vmin} AND {wind_vmax} Degrees."
+              "text": "VARIABLE BETWEEN {wind_vmin} AND {wind_vmax} Degrees",
+              "voice": "VARIABLE BETWEEN {wind_vmin} AND {wind_vmax} Degrees."
             }
           },
           "calm": {
