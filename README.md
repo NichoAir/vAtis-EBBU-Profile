@@ -21,3 +21,9 @@ The Runway Condition, Notams and Departure Frequency for ELLX can be selected as
 
 In the EBBR Departure Atis you have to select the Runway Condition of the Departure Runway(s).
 In the EBBR Arrival Atis you have to select the Runway Condition of the Arrival Runways(s). 
+
+Topic Notams:  
+If there are Notams, they should only be added, if the concerned runway is in use. E.g. ILS25R U/S is only to be used with 25s as Arrivals Runways.  
+Same applies to B1 closed report unable B3 for 25R Departures.  
+In EBLG the Report unable S2 is only used in 04R config but still on ATC discretion.   
+In ELLX the Runway condition is often left out, if it is CAVOK and good weather for a while.  
