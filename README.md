@@ -1,6 +1,6 @@
 # BELUX vACC vATIS Profile
 
-This project contains the unofficial vATIS Profile of the Belux vACC.  
+This project contains the unofficial vATIS Profile for the Belux vACC.  
 To use this profile you need the [vATIS](https://vatis.app/) program.  
 Once you imported the profile to vATIS, the profile are automatically updated, whenever you launch vATIS.  
 
