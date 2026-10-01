@@ -55,7 +55,7 @@ When LVO is in force it can be added to the *AIRPORT CONDITIONS* window with `LV
 - LVO is set through the NOTAMs window.
 - In EBBR the ATIS can display the usage of ACDM through the selection of "ACDM_INUSE"
 - In EBBR in 25 config with Tailwind "TAIL OPS" should be selected. In the <b>Arrival</b> ATIS you can manually add reported Tailwind at an altitude
-  - e.g. `WIND at 1000ft 090/7`
+  - e.g. `TAIL REP AT 1902, ALT 1000FT, 080 DEG/06 KT`
 - The Departure ATIS should only display relevant NOTAMs and RSCD for the Departure Runway and Taxiways and the Arrival ATIS the Arrival Runway and Taxiway RSCD and NOTAMS.
 - In real life, the ATIS designator letter for DEP ATIS and ARR ATIS are usually different.
 
@@ -63,7 +63,7 @@ When LVO is in force it can be added to the *AIRPORT CONDITIONS* window with `LV
 - You may select `CAT 2 OR 3 AVBL ONREQ` as NOTAM, this is used outside of LVO but in worsening weather
 
 ### EBLG
-- In 04R config, you may select `REPORT_UNABLE_S2` as NOTAM. It will say "ADZ ON GND FREQ IF UNABLE S2" (ADVISE ON GROUND FREQUENCY IF UNABLE SIERRA 2).
+- In 04R config, you may select `REPORT_UNABLE_S2` as NOTAM. It will say "ADZ ON GND FREQ IF UNABLE DEP FM S2" (ADVISE ON GROUND FREQUENCY IF UNABLE TO DEPART FROM SIERRA 2).
 - IRL the APP type is added on ATC discretion. In the config, it will give no expected Procedure or APP Type by default. You can select the ILS configs, then it will give the information, that Pilots may expect the Transitions
 
 ### EBOS
