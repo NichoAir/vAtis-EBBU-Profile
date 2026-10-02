@@ -2,7 +2,7 @@
   "name": "EBBU",
   "id": "6e87b213-e74a-4b85-bf17-616b9dbb5129",
   "updateUrl": "https://raw.githubusercontent.com/NichoAir/vAtis-EBBU-Profile/refs/heads/main/vATIS%20Profile%20-%20EBBU.json",
-  "updateSerial": 2026100101,
+  "updateSerial": 2026100201,
   "stations": [
     {
       "id": "5a7b83ed-7c42-4462-b25e-3f8a890434b2",
@@ -16068,65 +16068,65 @@
       ],
       "airportConditionDefinitions": [
         {
-          "text": "RUNWAY 24 CONDITION REPORT. DRY, RUNWAY CONDITION CODE 666",
+          "text": "RUNWAY 24 CONDITION REPORT. DRY, RUNWAY CONDITION CODE 666 .",
           "ordinal": 1,
-          "enabled": true
+          "enabled": false
         },
         {
-          "text": "RUNWAY 24 CONDITION REPORT. WET, RUNWAY CONDITION CODE 555",
+          "text": "RUNWAY 24 CONDITION REPORT. WET, RUNWAY CONDITION CODE 555 .",
           "ordinal": 2,
           "enabled": false
         },
         {
-          "text": "RUNWAY 06 CONDITION REPORT DRY, RUNWAY CONDITION CODE 666",
+          "text": "RUNWAY 06 CONDITION REPORT DRY, RUNWAY CONDITION CODE 666 .",
           "ordinal": 3,
           "enabled": false
         },
         {
-          "text": "RUNWAY 06 CONDITION REPORT WET, RUNWAY CONDITION CODE 555",
+          "text": "RUNWAY 06 CONDITION REPORT WET, RUNWAY CONDITION CODE 555 .",
           "ordinal": 4,
-          "enabled": false
+          "enabled": true
         },
         {
-          "text": "WHEN AIRBORNE MONITOR ADVISORY 122.800",
+          "text": "WHEN AIRBORNE MONITOR ADVISORY 122.800 .",
           "ordinal": 5,
           "enabled": false
         },
         {
-          "text": "WHEN AIRBORNE CONTACT LUXEMBURG RADAR ON 120.885",
+          "text": "WHEN AIRBORNE CONTACT LUXEMBURG RADAR ON 120.885 .",
           "ordinal": 6,
           "enabled": true
         },
         {
-          "text": "WHEN AIRBORNE CONTACT BRUSSELS CONTROL ON 131.100",
+          "text": "WHEN AIRBORNE CONTACT BRUSSELS CONTROL ON 131.100 .",
           "ordinal": 7,
           "enabled": false
         },
         {
-          "text": "WHEN AIRBORNE CONTACT BRUSSELS CONTROL ON 129.575",
+          "text": "WHEN AIRBORNE CONTACT BRUSSELS CONTROL ON 129.575 .",
           "ordinal": 8,
           "enabled": false
         },
         {
-          "text": "WHEN AIRBORNE CONTACT BRUSSELS CONTROL ON 126.980",
+          "text": "WHEN AIRBORNE CONTACT BRUSSELS CONTROL ON 126.980 .",
           "ordinal": 9,
           "enabled": false
         }
       ],
       "notamDefinitions": [
         {
-          "text": "LVO_INPR",
+          "text": "LVO_INPR.",
           "ordinal": 1,
           "enabled": false
         },
         {
-          "text": "PAPI RWY 25L U/S",
+          "text": "STOPBARS IN USE.",
           "ordinal": 2,
           "enabled": false
         },
         {
-          "text": "TAIL OPS",
-          "ordinal": 6,
+          "text": "DELIVERY 121.855 .",
+          "ordinal": 3,
           "enabled": false
         }
       ]
