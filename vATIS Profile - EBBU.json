@@ -2,7 +2,7 @@
   "name": "EBBU",
   "id": "6e87b213-e74a-4b85-bf17-616b9dbb5129",
   "updateUrl": "https://raw.githubusercontent.com/NichoAir/vAtis-EBBU-Profile/refs/heads/main/vATIS%20Profile%20-%20EBBU.json",
-  "updateSerial": 2026100201,
+  "updateSerial": 2026100601,
   "stations": [
     {
       "id": "5a7b83ed-7c42-4462-b25e-3f8a890434b2",
@@ -2465,18 +2465,13 @@
           "enabled": false
         },
         {
-          "text": "EXP RWY 19 FOR EAST AND CIV DEP.",
+          "text": "RWY 25L CLSD.",
           "ordinal": 2,
           "enabled": true
         },
         {
-          "text": "RWY 25L CLSD.",
-          "ordinal": 3,
-          "enabled": true
-        },
-        {
           "text": "TWY A1 CLSD.",
-          "ordinal": 4,
+          "ordinal": 3,
           "enabled": true
         },
         {
@@ -2486,7 +2481,7 @@
         },
         {
           "text": "TAIL OPS",
-          "ordinal": 6,
+          "ordinal": 5,
           "enabled": false
         }
       ]
@@ -16085,7 +16080,7 @@
         {
           "text": "RUNWAY 06 CONDITION REPORT WET, RUNWAY CONDITION CODE 555 .",
           "ordinal": 4,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "WHEN AIRBORNE MONITOR ADVISORY 122.800 .",
