@@ -2,7 +2,7 @@
   "name": "EBBU",
   "id": "6e87b213-e74a-4b85-bf17-616b9dbb5129",
   "updateUrl": "https://raw.githubusercontent.com/NichoAir/vAtis-EBBU-Profile/refs/heads/main/vATIS%20Profile%20-%20EBBU.json",
-  "updateSerial": 2026100801,
+  "updateSerial": 2026101201,
   "stations": [
     {
       "id": "5a7b83ed-7c42-4462-b25e-3f8a890434b2",
@@ -2068,6 +2068,23 @@
           }
         },
         {
+          "id": "e37ad602-fd0e-45a2-a5e4-87b47a09f56e",
+          "ordinal": 7,
+          "name": "25R DEP 19 ARR (XNG)",
+          "airportConditions": "",
+          "notams": "",
+          "template": "@EBBR_DEP [ATIS_CODE] [TIME]\r\n@EBBR_NAT\r\n@25RDEP @RSCD [TIME] \r\n[ARPT_COND] @19ARR @XNG_INPR @UNAB3\r\n[TL] [NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_DEP [ATIS_CODE]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
           "id": "c3547bde-7716-4996-bad6-0603316639a2",
           "ordinal": 9,
           "name": "25R DEP 25L ARR",
@@ -2102,12 +2119,12 @@
           }
         },
         {
-          "id": "db949ced-a588-46f8-8e11-d18c9f6346a5",
+          "id": "b04055f4-d165-461a-939e-28c7214c7156",
           "ordinal": 11,
-          "name": "25R19 DEP 25R ARR",
+          "name": "25R19 DEP 19 ARR",
           "airportConditions": "",
           "notams": "",
-          "template": "@EBBR_DEP [ATIS_CODE] [TIME]\r\n@EBBR_NAT\r\n@DEP @RWY25R @RSCD [TIME] @RWY19\r\n[ARPT_COND] @25RARR [TL] [NOTAMS] @XNG_INPR\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_DEP [ATIS_CODE]",
+          "template": "@EBBR_DEP [ATIS_CODE] [TIME]\r\n@EBBR_NAT\r\n@DEP @RWY25R @RSCD [TIME] @RWY19 @RSCD [TIME]\r\n[ARPT_COND] @19ARR [TL] [NOTAMS] @25R19DEP19ARRNOTAM\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_DEP [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -2119,12 +2136,12 @@
           }
         },
         {
-          "id": "e37ad602-fd0e-45a2-a5e4-87b47a09f56e",
+          "id": "db949ced-a588-46f8-8e11-d18c9f6346a5",
           "ordinal": 12,
-          "name": "25R DEP 19 ARR (XNG)",
+          "name": "25R19 DEP 25R ARR",
           "airportConditions": "",
           "notams": "",
-          "template": "@EBBR_DEP [ATIS_CODE] [TIME]\r\n@EBBR_NAT\r\n@25RDEP @RSCD [TIME] \r\n[ARPT_COND] @19ARR @XNG_INPR @UNAB3\r\n[TL] [NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_DEP [ATIS_CODE]",
+          "template": "@EBBR_DEP [ATIS_CODE] [TIME]\r\n@EBBR_NAT\r\n@DEP @RWY25R @RSCD [TIME] @RWY19 @RSCD [TIME]\r\n[ARPT_COND] @25RARR [TL] [NOTAMS] @XNG_INPR\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_DEP [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -2394,6 +2411,11 @@
           "variableName": "DEL",
           "text": "DEL",
           "voice": "DELIVERY"
+        },
+        {
+          "variableName": "25R19DEP19ARRNOTAM",
+          "text": "RWY 19 FOR EAST DEP. FOR RWY 25R ADVISE IF UNABLE TO LINEUP VIA B3 , TORA 2760 M. FOR RWY 19 ADVISE IF UNABLE TO LINEUP VIA E6 , TORA 2163 M. XNG RWY OPS INPR",
+          "voice": "RWY19 FOR EAST DEPARTURE. FOR RWY25R ADVISE IF UNABLE TO LINEUP VIA B3 , TORA 2760 M. FOR RWY19 ADVISE IF UNABLE TO LINEUP VIA E6 , TORA 2163 M. XNG RWY OPS INPR"
         }
       ],
       "airportConditionDefinitions": [
@@ -2430,22 +2452,22 @@
         {
           "text": "RWY25R DRY.",
           "ordinal": 7,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "RWY25R WET, RWYCC 555.",
           "ordinal": 8,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "RWY19 DRY.",
           "ordinal": 9,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "RWY19 WET, RWYCC 555.",
           "ordinal": 10,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "RWY25L DRY.",
@@ -2465,28 +2487,33 @@
           "enabled": false
         },
         {
-          "text": "EXP RWY 19 FOR EAST AND CIV DEP.",
+          "text": "ACDM_INUSE .",
           "ordinal": 2,
           "enabled": true
         },
         {
-          "text": "RWY 25L CLSD.",
+          "text": "EXP RWY 19 FOR EAST AND CIV DEP.",
           "ordinal": 3,
-          "enabled": true
+          "enabled": false
         },
         {
-          "text": "TWY A1 CLSD.",
+          "text": "RWY 25L CLSD.",
           "ordinal": 4,
           "enabled": true
         },
         {
-          "text": "REP ABLE E6 TORA 2163 M.",
+          "text": "TWY A1 CLSD.",
           "ordinal": 5,
           "enabled": true
         },
         {
-          "text": "TAIL OPS",
+          "text": "ADVISE UNABLE TO LINEUP VIA E6 , TORA 2163 M.",
           "ordinal": 6,
+          "enabled": false
+        },
+        {
+          "text": "TAIL OPS",
+          "ordinal": 7,
           "enabled": false
         }
       ]
@@ -4654,12 +4681,12 @@
           }
         },
         {
-          "id": "f2b75c94-5695-4b5a-833a-fd4b1802ba5a",
+          "id": "2d253433-43fa-4704-8cec-ace207d0b590",
           "ordinal": 14,
-          "name": "25R19 DEP 25R/L ARR (ILS) XNG",
+          "name": "25R19 DEP 19 ARR (ILS)",
           "airportConditions": "",
           "notams": "",
-          "template": "@EBBR_ARR [ATIS_CODE] [TIME]\r\n@EBBR_NAT\r\n@EXPILS \r\n@ARR @RWY25L @RSCD [TIME] @RWY25R @RSCD [TIME] [ARPT_COND]\r\n@25R19DEP [TL] [NOTAMS] @XNG_INPR @25LFORLDG\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_ARR [ATIS_CODE]",
+          "template": "@EBBR_ARR [ATIS_CODE] [TIME]\r\n@EBBR_NAT\r\n@EXPILS @19RARR @RSCD [TIME] \r\n[ARPT_COND] @25R19DEP [TL] [NOTAMS] @XNG_INPR\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_ARR [ATIS_CODE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -4688,8 +4715,25 @@
           }
         },
         {
+          "id": "f2b75c94-5695-4b5a-833a-fd4b1802ba5a",
+          "ordinal": 15,
+          "name": "25R19 DEP 25R/L ARR (ILS) XNG",
+          "airportConditions": "",
+          "notams": "",
+          "template": "@EBBR_ARR [ATIS_CODE] [TIME]\r\n@EBBR_NAT\r\n@EXPILS \r\n@ARR @RWY25L @RSCD [TIME] @RWY25R @RSCD [TIME] [ARPT_COND]\r\n@25R19DEP [TL] [NOTAMS] @XNG_INPR @25LFORLDG\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_ARR [ATIS_CODE]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
           "id": "6738a2eb-b1a0-430b-9515-3c673eaded75",
-          "ordinal": 16,
+          "ordinal": 17,
           "name": "25R (ILS)",
           "template": "@EBBR_ARR [ATIS_CODE] [TIME]\r\n@EBBR_NAT\r\n@EXPILS @25RARR @RSCD [TIME] \r\n[ARPT_COND] @25RDEP [TL] [NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_ARR [ATIS_CODE]",
           "externalGenerator": {
@@ -4704,7 +4748,7 @@
         },
         {
           "id": "e8387592-bc61-4bbb-a698-fb56e4326c02",
-          "ordinal": 17,
+          "ordinal": 18,
           "name": "25L (ILS)",
           "template": "@EBBR_ARR [ATIS_CODE] [TIME]\r\n@EBBR_NAT\r\n@EXPILS @25LARR @RSCD [TIME] \r\n[ARPT_COND] @25LDEP [TL] [NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_ARR [ATIS_CODE]",
           "externalGenerator": {
@@ -4719,7 +4763,7 @@
         },
         {
           "id": "d2da004d-702b-4fa1-a199-a47892961800",
-          "ordinal": 18,
+          "ordinal": 19,
           "name": "--- Non Standard Approach Types ---",
           "template": "DO NOT USE. NOTIFY ATC IF YOU READ THIS.",
           "externalGenerator": {
@@ -4734,7 +4778,7 @@
         },
         {
           "id": "54b41229-9caf-43d8-83eb-ee628bc27b1b",
-          "ordinal": 19,
+          "ordinal": 20,
           "name": "01 (RNP)",
           "template": "@EBBR_ARR [ATIS_CODE] [TIME]\r\n@EBBR_NAT\r\n@EXPRNP @01ARR @RSCD [TIME] \r\n[ARPT_COND] @01DEP [TL] [NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_ARR [ATIS_CODE]",
           "externalGenerator": {
@@ -4749,7 +4793,7 @@
         },
         {
           "id": "0d40462f-74ed-4252-8871-5a3a57d5e24f",
-          "ordinal": 20,
+          "ordinal": 21,
           "name": "07R DEP 01 ARR (RNP)",
           "template": "@EBBR_ARR [ATIS_CODE] [TIME]\r\n@EBBR_NAT\r\n@EXPRNP @01ARR @RSCD [TIME] \r\n[ARPT_COND] @07RDEP [TL] @XNG_INPR [NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_ARR [ATIS_CODE]",
           "externalGenerator": {
@@ -4764,7 +4808,7 @@
         },
         {
           "id": "768d8904-68a1-4319-9e9a-c36cc6baa5e7",
-          "ordinal": 21,
+          "ordinal": 22,
           "name": "19 (RNP)",
           "template": "@EBBR_ARR [ATIS_CODE] [TIME]\r\n@EBBR_NAT\r\n@EXPRNP @19ARR @RSCD [TIME] \r\n[ARPT_COND] @19DEP [TL] [NOTAMS]\r\n[WIND] [VIS]\r\n[RVR]\r\n[PRESENT_WX] [CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[RECENT_WX]\r\n[TREND]\r\n@CFM_ARR [ATIS_CODE]",
           "externalGenerator": {
@@ -5102,6 +5146,11 @@
           "variableName": "REP",
           "text": "REP",
           "voice": "REPORTED"
+        },
+        {
+          "variableName": "25R19DEP19ARRNOTAM",
+          "text": "RWY 19 FOR EAST DEP. FOR RWY 25R ADVISE IF UNABLE TO LINEUP VIA B3 , TORA 2760 M. FOR RWY 19 ADVISE IF UNABLE TO LINEUP VIA E6 , TORA 2163 M. XNG RWY OPS INPR",
+          "voice": "RWY19 FOR EAST DEPARTURE. FOR RWY25R ADVISE IF UNABLE TO LINEUP VIA B3 , TORA 2760 M. FOR RWY19 ADVISE IF UNABLE TO LINEUP VIA E6 , TORA 2163 M. XNG RWY OPS INPR"
         }
       ],
       "airportConditionDefinitions": [
@@ -5143,7 +5192,7 @@
         {
           "text": "RWY19 WET, RWYCC 555.",
           "ordinal": 8,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "RWY25L DRY.",
@@ -5158,7 +5207,7 @@
         {
           "text": "RWY25R DRY.",
           "ordinal": 11,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "RWY25R WET, RWYCC 555.",
@@ -9460,12 +9509,12 @@
         {
           "text": "DRY, RWYCC 666.",
           "ordinal": 1,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "WET, RWYCC 555.",
           "ordinal": 2,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "LVO_INPR",
@@ -9477,7 +9526,7 @@
         {
           "text": "CAT 2 OR 3 AVBL ONREQ",
           "ordinal": 1,
-          "enabled": false
+          "enabled": true
         }
       ]
     },
