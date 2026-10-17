@@ -2,7 +2,7 @@
   "name": "EBBU",
   "id": "6e87b213-e74a-4b85-bf17-616b9dbb5129",
   "updateUrl": "https://raw.githubusercontent.com/NichoAir/vAtis-EBBU-Profile/refs/heads/main/vATIS%20Profile%20-%20EBBU.json",
-  "updateSerial": 2026101201,
+  "updateSerial": 2026101701,
   "stations": [
     {
       "id": "5a7b83ed-7c42-4462-b25e-3f8a890434b2",
@@ -2492,28 +2492,13 @@
           "enabled": true
         },
         {
-          "text": "EXP RWY 19 FOR EAST AND CIV DEP.",
-          "ordinal": 3,
-          "enabled": false
-        },
-        {
-          "text": "RWY 25L CLSD.",
-          "ordinal": 4,
-          "enabled": true
-        },
-        {
           "text": "TWY A1 CLSD.",
-          "ordinal": 5,
+          "ordinal": 3,
           "enabled": true
-        },
-        {
-          "text": "ADVISE UNABLE TO LINEUP VIA E6 , TORA 2163 M.",
-          "ordinal": 6,
-          "enabled": false
         },
         {
           "text": "TAIL OPS",
-          "ordinal": 7,
+          "ordinal": 4,
           "enabled": false
         }
       ]
@@ -5222,13 +5207,8 @@
           "enabled": false
         },
         {
-          "text": "RWY 25L CLSD.",
-          "ordinal": 2,
-          "enabled": true
-        },
-        {
           "text": "TAIL OPS",
-          "ordinal": 6,
+          "ordinal": 2,
           "enabled": false
         }
       ]
