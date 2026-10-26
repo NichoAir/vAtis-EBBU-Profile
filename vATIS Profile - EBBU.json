@@ -2,7 +2,7 @@
   "name": "EBBU",
   "id": "6e87b213-e74a-4b85-bf17-616b9dbb5129",
   "updateUrl": "https://raw.githubusercontent.com/NichoAir/vAtis-EBBU-Profile/refs/heads/main/vATIS%20Profile%20-%20EBBU.json",
-  "updateSerial": 2026102601,
+  "updateSerial": 2026102602,
   "stations": [
     {
       "id": "5a7b83ed-7c42-4462-b25e-3f8a890434b2",
@@ -16113,7 +16113,7 @@
             "7/8SM": "seven eighths."
           },
           "template": {
-            "text": "VISIBILITY {visibility} meters",
+            "text": "VISIBILITY {visibility}",
             "voice": "VISIBILITY {visibility}"
           }
         },
@@ -16123,9 +16123,9 @@
           "goingUpTendency": "Going Up",
           "goingDownTendency": "Going Down",
           "tendencyText": {
-            "N": "N",
-            "U": "U",
-            "D": "D"
+            "N": "NEUTRAL",
+            "U": "IMPROVING",
+            "D": "DECREASING"
           },
           "voicePhrases": {
             "Less than": "less than {value}",
@@ -17854,8 +17854,8 @@
             "voice": "undetermined"
           },
           "automaticCbDetection": {
-            "text": "//////CB",
-            "voice": "RADAR DETECTED C-B CLOUDS"
+            "text": "C-B CLOUDS",
+            "voice": "C-B CLOUDS"
           },
           "types": {
             "FEW": {
@@ -17895,7 +17895,7 @@
               "voice": "sky clear"
             },
             "UND": {
-              "text": "{amount}///{convective}",
+              "text": "{amount} cloud height not available {convective}",
               "voice": "{amount} cloud height not available {convective}"
             }
           },
@@ -17904,8 +17904,8 @@
             "TCU": "towering cumulus"
           },
           "convectiveTypesText": {
-            "CB": "CB",
-            "TCU": "TCU"
+            "CB": "cumulonimbus",
+            "TCU": "towering cumulus"
           },
           "altitudeFormat": {
             "text": {
@@ -18128,7 +18128,7 @@
           "template": {}
         },
         "autoObservation": {
-          "textTemplate": "AUTO",
+          "textTemplate": "Automatic Observation",
           "voiceTemplate": "Automatic Observation",
           "template": {}
         },
